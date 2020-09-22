@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/user/dashboard.aspx" title="Home">
+
+    <siteMapNode url="~/Admin/Default.aspx" title="Administration">
+      <siteMapNode url="~/Admin/ManageLocations.aspx" title="Manage Locations" >
+        <siteMapNode url="~/Admin/ManageSites.aspx" title="Edit Site"/>
+      </siteMapNode>
+      <siteMapNode url="~/Admin/ManageRolesGroups.aspx" title="Manage Groups">
+        <siteMapNode url="~/Admin/CreateGroup.aspx" title="Create Group"/>
+        <siteMapNode url="~/Admin/EditGroup.aspx" title="Edit Group"/>
+      </siteMapNode>
+      <siteMapNode url="~/Admin/SearchUsers.aspx" title="Manage Users">
+        <siteMapNode url="~/Admin/EditUser.aspx" title="Edit User"/>
+        <siteMapNode url="~/Admin/CreateUser.aspx" title="Create User"/>
+      </siteMapNode>
+
+      <siteMapNode url="~/Admin/ManageComm.aspx" title="Manage Communication Block">
+        <siteMapNode url="~/Communication/NewsDetails.aspx" title="Announcement Category Details" />
+      </siteMapNode>
+      <siteMapNode url="~/Admin/ForumDetails.aspx" title="Manage Forum Details"/>
+      <siteMapNode url="~/Admin/ManageDoco.aspx" title="Manage Documents Block">
+        <siteMapNode url="~/Doco/DocoDetails.aspx" title="Document Category Details" />
+      </siteMapNode>
+    </siteMapNode>
+
+    <!--<siteMapNode url="~/Communication/CommsDefault.aspx" title="Communication">-->
+      <siteMapNode url="~/Communication/Default.aspx" title="Communication">
+        <siteMapNode url="~/Communication/NewsViewItem.aspx" title="View Announcement" />
+        <siteMapNode url="~/Communication/NewsEditItem.aspx" title="Edit Announcement" />
+        <siteMapNode url="~/Communication/VersionHistory.aspx" title="Version History"/>
+        <siteMapNode url="~/Communication/UserViewStatus.aspx" title="View Status"/>
+      </siteMapNode>
+      <siteMapNode url="~/Communication/Forum/Default.aspx" title="Forums"/>
+      <siteMapNode url="~/Communication/PrivateMessages/Default.aspx" title="Private Messages"/>
+    <!--</siteMapNode>-->
+
+    <siteMapNode url="~/Doco/Default.aspx" title="Documents">
+      <!--<siteMapNode url="~/Doco/ViewCategory.aspx?" title="Document Category" />-->
+      <siteMapNode url="~/Doco/ViewUploadedDoc.aspx" title="View Document" />
+      <!--<siteMapNode url="~/Doco/ViewCategory.aspx" title="Document Category" >-->
+        <siteMapNode url="~/Doco/NewArticle.aspx" title="New Document" />
+        <siteMapNode url="~/Doco/EditArticle.aspx" title="Edit Document" />
+        <siteMapNode url="~/Doco/ViewArticle2.aspx" title="View Document" >
+          <siteMapNode url="~/Doco/ViewArticleVersions.aspx" title="Versions" />
+        </siteMapNode>
+      <!--</siteMapNode>-->
+    </siteMapNode>
+
+    <siteMapNode url="~/Directory/DirectorySearch.aspx" title="Directory">
+      <siteMapNode url="~/Directory/PersonDetails.aspx" title="User Details"/>
+      <siteMapNode url="~/Directory/SiteDetails.aspx" title="Site Details"/>
+    </siteMapNode>
+
+    <siteMapNode url="~/Forum/Default.aspx" title="Communication">
+      <siteMapNode url="~/Admin/ForumList.aspx" title="Forum List" />
+      <siteMapNode url="~/Forum/ForumDetails.aspx" title="Forum Details" />
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>

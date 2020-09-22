@@ -1,0 +1,457 @@
+﻿/* LAYOUT */
+/*------------------------------------------------------------*/
+/*---- IMPORT DEFAULT STYLESHEET ----*/
+@import "../default/zlayout.css";
+/*---- DO NOT REMOVE! ----*/
+/* STRUCUTRE
+----------------------------------------------------------*/
+html{
+	background: url(images/background.jpg) repeat-x #c3dbf3 top !important; 
+}
+body   {
+}
+.wrapper   
+{
+    color: #333;
+    background-image:none;
+	background-repeat:no-repeat;
+}
+.page{
+    width: 1000px;
+    background-color:transparent;
+}
+.base
+{
+    background-image:none;
+	background-repeat:no-repeat;
+	margin: none;
+    padding: none;
+	height:0px;
+	width:0px;
+}
+td.reContentCell{
+    border:50px ridge lime;
+}
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+#pageContent 
+{
+}
+.header
+{
+}
+.banner{
+	background: url(images/banner_clouds.png) no-repeat center;
+}
+.main{
+    padding: 20px;
+    margin: 0px;
+	background-color:#edf4fa;
+	border:3px solid white;
+	
+}
+.footer{
+	background:url(images/footer.png) no-repeat top center;
+	padding:35px 10px 10px 10px;
+	border:none;
+}
+.section, .sidebar{
+}
+.sectionNoTOC
+{
+}
+/* BANNER 
+----------------------------------------------------------*/
+.header h1
+{
+}
+.logo{
+	background: url(images/logo_banner.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	width:250px;
+	height:97px;
+	margin:0px;
+}
+.loginDisplay 
+{
+    padding:8px 10px 3px 0px;
+}
+.loginDisplay a
+{
+    color:#68b0f5;
+}
+.loginDisplay a:hover
+{
+    color:#9dcdfb;
+}
+.loginDisplay a:visited
+{
+    color:#9dcdfb;
+}
+/* TAB MENU   
+----------------------------------------------------------*/
+.menu{
+	background:url(images/headerGlow.jpg) #333 bottom no-repeat;
+	font-size:12px;
+	/*height:75px;*/
+	height:40px;
+}
+.menu img{
+}
+.menu ul{
+	margin:0px;
+	margin-top:-2px;
+	padding-left:2px;
+	padding-bottom:2px;
+	height:40px;
+	vertical-align:middle;
+	border-left:none;
+}	
+.menu li{
+	margin:0px;
+	height:40px;	
+}
+.menu ul li a, .menu ul li a:visited{
+	background-image:url(images/button_grad.gif);
+	background-repeat:repeat-x;
+    border-right: 3px white solid;
+    color: #DAF0FE;
+    line-height: 3.6em;
+    padding: 15px 10px;
+    margin-left:-2px;
+}
+.menu ul li a:hover{
+    background-image:none; 
+    background-color:transparent;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.menu ul li a:active{
+	background-image:url(images/button_greengrad.gif);
+	background-repeat:repeat-x;
+	color:White;
+}
+/* --- TABLES --- */
+.hideSkiplink{
+	background-image:url(images/button_softgrad.gif);
+	background-repeat:repeat-x;
+	height:40px;
+	border:3px solid white;
+	border-bottom:none;
+	width:994px;
+}
+.hideSkiplink img{
+}
+/* BREADCRUMB 
+----------------------------------------------------------*/
+.breadcrumb{
+	margin:8px 3px 3px 8px;
+	background-color:transparent;
+	padding:0px;
+	border-bottom:none;
+}
+#ctl00_BreadCrumbsMap{
+	font-size:11px;
+	color: #666;
+}
+/*---------------- LINK BUTTONS ------------------*/
+.inlinelist ul{
+	}
+.inlinelist ul li{
+	}
+.inlinelist ul li a
+{
+	background: url("../default/images/btnBG.png") repeat-x scroll center center #D0D0D0;
+    border: 1px solid #ABADB3;
+    color: #505050;
+    font-size: 12px;
+    height: 20px;
+    margin: 5px;
+    padding: 0 10px;
+	}
+.inlinelist ul li a:hover, .inlinelist ul li .current{
+    color: white;
+    background-color:#568bbd;
+    border-color: #7e7e7e;
+    color: #333;
+    }
+a.single{
+	cursor:pointer;
+    color: #333;
+    padding: 3px 6px;
+    background-color: #ccc;
+	}
+a:hover.single {
+	color: white;
+    background-color:#568bbd;
+	}
+/* ARTICLE
+---------------------------------------------------------*/
+.article{
+}
+.articleProperties{
+}
+.articleTitle{
+	font-size:12px;
+	background-color:#555555;
+}
+.articleDescription
+{
+}
+.articleAuthor{
+}
+.articleDate{
+}
+.articleActions{
+}
+.articleBody{
+}
+/* NEWS BOX  
+----------------------------------------------------------*/
+.newsProperties{
+}
+.newsitem{
+}
+.newsitemHeader{
+}
+.newsitemTitle{
+}
+.newsitemProperties{
+}
+.newsitemAuthor{
+}
+.newsitemDate{
+}
+.newsitemUrl{
+}
+.newsitemActions{
+}
+.newsitemDescription{
+}
+.newsBoxTitle{
+}
+.newsBoxTitle img{
+}
+.newsBoxContent{
+}
+.newsBoxDescription{
+}
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+fieldset{
+}
+fieldset p {
+}
+fieldset.login label, fieldset.register label, fieldset.changePassword label{
+}
+fieldset label.inline {
+}
+legend {
+}
+input.textEntry {
+}
+input.passwordEntry {
+}
+div.accountInfo{
+}
+/* SIDEBAR   
+----------------------------------------------------------*/
+/*.sidebar{
+	background-color:#1361a7;
+	border:1px solid #ddd;
+}
+.sidebar ul{
+}
+.sidebar li a{
+}
+.sidebar li li a{
+}
+.sidebar li li a:hover{
+}
+.sidebar li li li a{
+}
+.sidebar li li li li a{
+}
+.sidebar li li li li a:hover{
+}
+.sidebar li{
+	font-size:11pt;
+}
+.sidebar li li{
+	font-size:10pt;
+	background-color:#57907b;
+}
+.sidebar li li li{
+	background-color:#946ba6;
+	padding: 3px 0px 6px 0px;
+}
+.sidebar li li li li {
+	background-color:#946ba6;	
+}
+.sidebar li li li li:hover {
+}
+.sidebar li li li li + li{
+}*/
+
+/* FOOTER   
+----------------------------------------------------------*/
+.subtle{
+	color:#EDF4FA;
+}
+.left, .right{
+}
+.left{
+}
+.right{
+}
+.middle{
+}
+/* SEARCH BOX
+----------------------------------------------------------*/
+/*.searchBox{
+}
+.searchTitle{
+}
+.searchBody{
+}
+.searchFooter{
+	color: #2e8b57;
+}*/
+
+/* DASHBOARD
+----------------------------------------------------------*/
+.box{
+     /*border:3px solid white;*/
+}
+.manbox
+{
+}
+.sideright{
+    margin-top:0px;
+    border: white 3px solid;
+}
+.sideright .splash{
+    height:280px;
+    background-image:url(images/splash.jpg);
+}
+.sideright .advert
+{
+    background-image:url(images/welcome.jpg);
+}
+/* CBT LOGON HELP BUTTON
+----------------------------------------------------------*/
+.splashbutton
+{
+    display:block;
+}
+/*.helpme{
+ margin-left:25px;
+ background: url("images/logon.jpg") no-repeat 0 0 white;
+ border:none;
+}*/
+.helpme:hover{
+}
+.helpme span{
+}
+/* OVERLAY DIV
+----------------------------------------------------------*/
+.overlayDiv  
+{     
+}
+.errorDiv
+{
+}
+/* RADGRID  PAGINATION BANNER
+----------------------------------------------------------*/
+#ctl00_contentPlaceHolder_articleList_ctl00_contentPlaceHolder_articleList_RadGrid1Panel
+{
+    border-color:lime;
+}
+.rgPager{
+    background: #9ac6ed url(images/tablehead.jpg) repeat-x bottom;
+     border:solid 1px #568bbd; 
+}
+.rgPager a{
+}
+.rgPager table{
+}
+.rgPager td{
+}
+.rgPager table tbody td{
+}
+.rgPager table td{
+}
+.rgPager span, .rgPager div{
+}
+.rgHeader a{
+}
+.rgPager div{
+}
+.rgPager div+div+div+div div{
+}
+.rgPager div+div+div+div span{
+}
+.rgPager div+div+div+div+div{
+}
+.rgPager td table{
+}
+.rgNumPart{
+}
+.rgNumPart a{
+}
+.rcbReadOnly{
+}
+.rcbInput{
+    color:#568bbd;
+}
+.rcbArrowCellRight{
+}
+.RadComboBox{
+    border-color:#568bbd;
+}
+.rcbList{
+}
+.rcbSlide .RadComboBoxDropDown{
+    border-color:#568bbd;
+}
+.rcbItem{
+}
+.rcbHovered{
+}
+.RadComboBox .rcbHovered{
+}
+/* RAD GRID COLUMNS AND ROWS
+----------------------------------------------------------*/
+/* --- CREATE ROW --- */
+.createRowTR td, .radGridFilterRow td{
+    background-color:#c3dbf3;
+}
+.createRowTR td a{
+    color:#0b5ba2;
+}
+.createRowTR td a:hover{
+    color:#003366;
+}
+/* --- FILTER COLUMN ---*/
+.radGridFilterRow td{
+    /* BG color defined the same as createRowTR td*/
+}
+.radGridFilterRow td .rgFilterBox{
+}
+/* --- ADMIN COLUMN ---*/
+td.showAdminColumn, td.hideAdminColumn{
+    background: #9ac6ed url(images/tableside.jpg) repeat-x bottom;
+    border:solid 1px #568bbd; 
+    color:White;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.clear{
+    clear: both;
+}
+#extra{
+}
+.failureNotification{
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='3' name='M01P004' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Regulations and Requirements</topicheading>
+          <pageheading >The importance of Occupational Health and Safety</pageheading>
+          <paragraph > It is imperative, therefore, that franchisees and team members, alike, work together to promote good health and safety management within the Groundwork Coffee franchise network. Good health and safety management benefits everyone.  </paragraph>
+          <flash src="media/rollover_image.swf" width="750" height="330" id="M01P004">
+          <list >
+          <point >Team menbers can work in a safer, healthier workplace.</point>
+          <point >Team members sustain fewer injuries and illnesses.</point>
+          <point >Team members have increased job satisfaction that comes from effective teamwork.</point>
+          <point >Groundwork Coffee benefits from lower operating costs, increased productivity, better products and services and an improved competitive position.</point>
+          </list>
+          </flash>
+          <instruction >Rollover the images above to discover how correct Occupational Health and Safety can improve your workplace.</instruction>
+     </content>
+</page>

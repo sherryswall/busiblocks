@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='Text/xsl' href= 'assets/xsl/print.xsl'?>
+<unit modulename="Occupational Health and Safety" modulenumber="01" package="DOHA Induction Course">
+<topic heading='Introduction' objective='' indexed='yes' pid="0">
+     <page>
+          <name>M01P001</name>
+          <pid>0</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+</topic>
+<topic heading='Regulations and Requirements' objective='' indexed='yes' pid="1">
+     <page>
+          <name>M01P002</name>
+          <pid>1</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P003</name>
+          <pid>2</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P004</name>
+          <pid>3</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P005</name>
+          <pid>4</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+</topic>
+<topic heading='Roles' objective='' indexed='yes' pid="5">
+     <page>
+          <name>M01P006</name>
+          <pid>5</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P007</name>
+          <pid>6</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P008</name>
+          <pid>7</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+</topic>
+<topic heading='Safety Regulations' objective='' indexed='yes' pid="8">
+     <page>
+          <name>M01P009</name>
+          <pid>8</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P010</name>
+          <pid>9</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P010</name>
+          <pid>10</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P011</name>
+          <pid>11</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P012</name>
+          <pid>12</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P013</name>
+          <pid>13</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+     <page>
+          <name>M01P014</name>
+          <pid>14</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+</topic>
+<topic heading='Interactive Icons' objective='' indexed='yes' pid="15">
+     <page>
+          <name>M01P015</name>
+          <pid>15</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+</topic>
+<topic heading='Summary' objective='' indexed='yes' pid="16">
+     <page>
+          <name>M01P016</name>
+          <pid>16</pid>
+          <type>screen</type>
+          <subindextitle>null</subindextitle>
+          <subindex>no</subindex>
+     </page>
+ </topic>
+</unit>

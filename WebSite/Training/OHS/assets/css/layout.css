@@ -1,0 +1,33 @@
+/*----------Layout css----------------------------------------------------*/
+/* Basic Layout -- a graphic box left bottom of screen */
+/*----------GRAPHIC BOX----------------------------------------------------*/
+#graphicbox {
+		float:right;
+		padding-left:10px;
+		padding-top:0px;
+		padding-bottom:0px;
+		margin-top:0px;
+		width:260px;
+}
+		
+	/*----------MAINGRAPHIC---------------------------------------------------*/
+	#graphicbox img
+	{
+		margin-left:10px;
+	}
+
+	/*----------LINK BOX---------------------------------------------------*/
+	#linkbox {
+		text-align:left;
+		float:right;
+		width:100%;
+		border:2px solid #4ca4d5; 
+		padding:5px;
+		width:250px;
+		margin-left:10px;
+	}
+	
+	#linkbox ul { margin:0px; padding:0px; }
+
+	#linkbox li { margin-left:25px;}
+

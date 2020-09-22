@@ -1,0 +1,165 @@
+table 
+{
+	font-size:12px;
+	width:935px;
+	margin-top:10px;
+	margin-right:-60px;
+	margin-left:-10px;
+	border-collapse:collapse;
+	/*border:1px solid #8632AB;*/
+}
+
+td, th {
+	line-height:13px;
+	vertical-align:top;
+	text-align:left;
+	padding:5px;
+	color:black;
+	border:1px solid;
+	
+}
+
+th { 
+	font-size:12px;
+	font-weight:bold;
+	border-color:#8632AB;
+	background-color:#E8d4FF;
+}
+
+td {
+	background-color:#f3f3f3;
+	border-color:#333333;
+	
+}
+.boldhead{
+	font-size:13px;
+	border-color: #8632AB;
+	background-color:#c0a1e2;
+	
+}
+
+.null {
+ 	border:none;
+	background-color:#FFFFFF;
+}
+
+
+#questionheading
+{ 
+	color:#000000;
+	font-size:110%;
+}
+
+#questiontext
+{
+	margin-right:15px;
+}
+
+
+#submitbutton {
+	margin-top:20px;
+	text-align:left;
+}
+
+.feedback {
+	border:1px solid;
+	background-color:#FFFF99;
+	color:#000000;
+	padding:5px;
+	display:none;
+	width:360px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+#rollover{
+	margin-bottom:10px;
+	width:500px;
+	display:block;
+	
+}
+
+#rollover .horizontal
+{
+	border:1px solid;
+}
+
+#rollover #rolloverobject
+{
+	/*float:left;*/
+	/*width:150px;*/
+	
+}
+
+#rollover #rollovertarget
+{
+	/**/
+	position:absolute;
+	left:300px;
+	width:650px;
+	margin-top:-60px;
+	/*width:440px;*/
+}
+
+#rollover a
+{
+	color:#0077B9;
+	background-image:url(../images/dotblue.gif);
+	background-repeat:no-repeat;
+	padding-left:20px;
+	text-decoration:none;
+}
+
+#rollover a image
+{
+	border:none;
+}
+
+#rollover img
+{
+	border:1px solid;
+}
+
+#rollover a:hover
+{
+	color:#6088bc;
+	text-decoration:underline;
+}
+
+#rollover .rollovertarget
+{
+	/*---*/
+	margin-left:200px;
+	border:2px solid #093f77;
+	background-color:#eef4f7;
+	color:#000000;
+	font-size:90%;
+	padding:15px;
+	margin-top:30px;
+}
+/*---BLAH---*/
+#rollover .rollovertarget p
+{
+	padding:0px;
+	margin:0px;
+}
+#rollover .rollovertarget ul
+{
+	margin-bottom:0px;
+}
+#rollover .rollovertarget ul  li
+{
+	list-style-image:url(../images/purpledot.gif);
+	color: #104880;
+
+}
+
+/*Click Objects*/
+
+#rollover .click
+{
+	padding:5px;
+	border: 1px solid;
+	margin-left:160px;
+}
+
+

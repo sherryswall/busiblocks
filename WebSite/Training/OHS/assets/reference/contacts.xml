@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='r00' name='modcontacts' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+	<content type='resource'>
+		<moduleheading>Ground Down Coffee Contacts</moduleheading>
+		<topicheading indexed="no">Utilities</topicheading>
+		<pageheading >Contacts</pageheading>
+	     <modcontact>
+			  <name >Dino Cappucino</name>
+			  <position >Public Relations Manager</position>
+			  <number >ext 1234</number>
+			  <email >pr@grounddowncoffee.com.au</email>
+		  </modcontact>
+		  <modcontact>
+			  <name >Lisa Macchiato</name>
+			  <position >Franchise Manager</position>
+			  <number >ext 4258</number>
+			  <email >fm@grounddowncoffee.com.au</email>
+		  </modcontact>
+	</content>
+</page>

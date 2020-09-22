@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{178D9F8D-2E50-4135-89F9-89ED16F814A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusiBlocks.CommsBlock</RootNamespace>
+    <AssemblyName>BusiBlocks.CommsBlock</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\ExternalDLL\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\ExternalDLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\ExternalDLL\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Tool.hbm2net">
+      <HintPath>..\ExternalDLL\NHibernate.Tool.hbm2net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forums\BusiBlocksForumsProvider.cs" />
+    <Compile Include="Forums\Category.cs" />
+    <Compile Include="Forums\CategoryDataStore.cs" />
+    <Compile Include="Forums\Exceptions.cs" />
+    <Compile Include="Forums\ForumsManager.cs" />
+    <Compile Include="Forums\ForumsProvider.cs" />
+    <Compile Include="Forums\ForumsProviderCollection.cs" />
+    <Compile Include="Forums\ForumsProviderConfiguration.cs" />
+    <Compile Include="Forums\Message.cs" />
+    <Compile Include="Forums\MessageDataStore.cs" />
+    <Compile Include="Forums\Topic.cs" />
+    <Compile Include="Forums\TopicDataStore.cs" />
+    <Compile Include="News\BusiBlocksNewsProvider.cs" />
+    <Compile Include="News\Category.cs" />
+    <Compile Include="News\CategoryDataStore.cs" />
+    <Compile Include="News\Exceptions.cs" />
+    <Compile Include="News\Item.cs" />
+    <Compile Include="News\ItemDataStore.cs" />
+    <Compile Include="News\NewsManager.cs" />
+    <Compile Include="News\NewsProvider.cs" />
+    <Compile Include="News\NewsProviderCollection.cs" />
+    <Compile Include="News\NewsProviderConfiguration.cs" />
+    <Compile Include="PrivateMessages\BusiBlocksPrivateMessagesProvider.cs" />
+    <Compile Include="PrivateMessages\PrivateMessage.cs" />
+    <Compile Include="PrivateMessages\Exceptions.cs" />
+    <Compile Include="PrivateMessages\PrivateMessagesManager.cs" />
+    <Compile Include="PrivateMessages\PrivateMessagesProvider.cs" />
+    <Compile Include="PrivateMessages\PrivateMessagesProviderCollection.cs" />
+    <Compile Include="PrivateMessages\PrivateMessagesProviderConfiguration.cs" />
+    <Compile Include="PrivateMessages\PrivateMessageDataStore.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="News\Category.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="News\Item.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusiBlocks\BusiBlocks.csproj">
+      <Project>{762A5424-0516-42D2-B2B2-4625B0786783}</Project>
+      <Name>BusiBlocks</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forums\Category.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forums\Message.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forums\Topic.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PrivateMessages\PrivateMessage.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

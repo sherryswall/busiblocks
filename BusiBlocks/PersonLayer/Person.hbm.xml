@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"  default-lazy="false">
+  <class name="BusiBlocks.PersonLayer.Person, BusiBlocks" table="Person">
+    <id name="Id" column="Id" type="String" length="32" >
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <property name="LastName" column="LastName" type="String" length="100" />
+    <property name="FirstName" column="FirstName" type="String" length="100" />
+    <property name="Email" column="Email" type="String" length="100" />
+    <property name="PhoneNumber" column="PhoneNumber" type="String" length="20" />
+    
+    <property name="Position" column="Position" type="String" length="50" />
+    <property name="WorkPhone" column="WorkPhone" type="String" length="20" />
+    <property name="WorkFax" column="WorkFax" type="String" length="20" />
+    <property name="WorkEmail" column="WorkEmail" type="String" length="100" />
+    <property name="WorkMobile" column="WorkMobile" type="String" length="20" />
+
+    <many-to-one name="Address" column="AddressId" not-null="false" fetch="join" />
+
+    <property name="Deleted" column="Deleted" type="Boolean" />
+    
+  </class>
+</hibernate-mapping>

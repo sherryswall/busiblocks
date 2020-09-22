@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" auto-import="false">
+  <!-- auto-import=false and import element are used because there are 2 class with the name category -->
+
+
+
+  <class name="BusiBlocks.DocoBlock.ChapterVersion, BusiBlocks.DocoBlock" table="ChapterVersion">
+    <id name="Id" column="Id" type="String" length="32">
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <property name="ChapterId" column="ChapterId" type="String" length="300" />
+    <property name="Name" column="Name" type="String" length="300" />
+    <property name="Content" column="Content" type="String" length="1073741823" />
+    <property name="Sequence" column="Sequence" type="Int32" />
+    <property name="Version" column="Version" type="String" length="100" />
+    <property name="Active" column="Active" type="Int32" />
+    <property name="VersionOrder" column="VersionOrder" type="Int32" />
+
+    <property name="Deleted" column="Deleted" type="Boolean" />
+  </class>
+</hibernate-mapping>

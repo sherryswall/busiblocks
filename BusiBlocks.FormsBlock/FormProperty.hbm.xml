@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BusiBlocks.FormsBlock.FormProperty, BusiBlocks.FormsBlock" table="FormProperty">
+    <id name="Id" column="Id" type="String" length="32" >
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <many-to-one name="FormDefinition" fetch="join">
+      <column name="FormDefinitionId" not-null="true" />
+    </many-to-one>
+
+    <property name="Name" column="Name" type="String" not-null="true" length="64" />
+    <property name="Datatype" column="Datatype" type="String" not-null="true" length="8" />
+    <property name="SequenceNo" column="SequenceNo" type="int" />
+
+    <property name="Deleted" column="Deleted" type="Boolean" />
+    
+  </class>
+</hibernate-mapping>

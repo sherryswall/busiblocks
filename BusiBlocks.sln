@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusiBlocks", "BusiBlocks\BusiBlocks.csproj", "{762A5424-0516-42D2-B2B2-4625B0786783}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", "WebSite\", "{111BB8D3-68D8-40E3-BBC9-6D08B9D9FE58}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{762A5424-0516-42D2-B2B2-4625B0786783}|BusiBlocks.dll;{68470437-E62D-4A72-A56E-545E89119952}|BusiBlocks.DocoBlock.dll;{6FC37684-7AD5-4643-B208-24D4006A5783}|BusiBlocks.FormsBlock.dll;{178D9F8D-2E50-4135-89F9-89ED16F814A6}|BusiBlocks.CommsBlock.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/WebSite"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSite"
+		Release.AspNetCompiler.PhysicalPath = "WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49686"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusiBlocks.DocoBlock", "BusiBlocks.DocoBlock\BusiBlocks.DocoBlock.csproj", "{68470437-E62D-4A72-A56E-545E89119952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusiBlocksTest", "BusiBlocksTest\BusiBlocksTest.csproj", "{07CF20E3-3A80-4703-A099-D147D3D7CF5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CAA63DA1-789F-40F5-838B-6048D6376E4D}"
+	ProjectSection(SolutionItems) = preProject
+		BusiBlocks.vsmdi = BusiBlocks.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusiBlocks.FormsBlock", "BusiBlocks.FormsBlock\BusiBlocks.FormsBlock.csproj", "{6FC37684-7AD5-4643-B208-24D4006A5783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusiBlocks.CommsBlock", "BusiBlocks.CommsBlock\BusiBlocks.CommsBlock.csproj", "{178D9F8D-2E50-4135-89F9-89ED16F814A6}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BusiBlocks.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{762A5424-0516-42D2-B2B2-4625B0786783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762A5424-0516-42D2-B2B2-4625B0786783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762A5424-0516-42D2-B2B2-4625B0786783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762A5424-0516-42D2-B2B2-4625B0786783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111BB8D3-68D8-40E3-BBC9-6D08B9D9FE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111BB8D3-68D8-40E3-BBC9-6D08B9D9FE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111BB8D3-68D8-40E3-BBC9-6D08B9D9FE58}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{111BB8D3-68D8-40E3-BBC9-6D08B9D9FE58}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{68470437-E62D-4A72-A56E-545E89119952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68470437-E62D-4A72-A56E-545E89119952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68470437-E62D-4A72-A56E-545E89119952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68470437-E62D-4A72-A56E-545E89119952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07CF20E3-3A80-4703-A099-D147D3D7CF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CF20E3-3A80-4703-A099-D147D3D7CF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CF20E3-3A80-4703-A099-D147D3D7CF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CF20E3-3A80-4703-A099-D147D3D7CF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC37684-7AD5-4643-B208-24D4006A5783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC37684-7AD5-4643-B208-24D4006A5783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC37684-7AD5-4643-B208-24D4006A5783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC37684-7AD5-4643-B208-24D4006A5783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{178D9F8D-2E50-4135-89F9-89ED16F814A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178D9F8D-2E50-4135-89F9-89ED16F814A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178D9F8D-2E50-4135-89F9-89ED16F814A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178D9F8D-2E50-4135-89F9-89ED16F814A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

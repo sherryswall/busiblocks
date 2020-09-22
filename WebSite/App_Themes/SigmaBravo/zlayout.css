@@ -1,0 +1,482 @@
+﻿/* LAYOUT */
+/*------------------------------------------------------------*/
+/*---- IMPORT DEFAULT STYLESHEET ----*/
+@import "../default/zlayout.css";
+/*---- DO NOT REMOVE! ----*/
+/* STRUCUTRE
+----------------------------------------------------------*/
+html{
+	background-color:#696969;
+	background-image:url(images/bg-repeat.gif);
+	background-repeat:repeat;
+}
+body{
+}
+.wrapper{
+}
+.page{
+	background-repeat:no-repeat;
+	background-position:right bottom;
+}
+.base{
+}
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+#pageContent {
+}
+.header{
+}
+.banner{
+	background: url(images/banner.jpg) no-repeat;
+	background-color:#444;
+	background-repeat:no-repeat;
+	background-position:right center;
+}
+.main{
+	margin-top:0px;
+}
+.footer{
+	background-color:#444;
+	border-top:3px solid #333;
+}
+.section, .sidebar{
+}
+.sectionNoTOC{
+}
+/* BANNER 
+----------------------------------------------------------*/
+.header h1{
+}
+.logo{
+	margin-top:5px;
+	margin-right:80px;
+	margin-left:15px;
+	background:url(images/SBLogo.jpg);
+	background-repeat:no-repeat;
+	background-position:right center;
+	width:165px;
+	height:97px;
+}
+.loginDisplay 
+{
+    float:right;
+	padding:8px 10px 3px 0px;
+}
+.loginDisplay a{
+	color:#4d4d4d;
+}
+.loginDisplay a:hover{
+	color:#333;
+}
+.loginDisplay a:visited
+{
+    color:#333;
+}
+/* TAB MENU   
+----------------------------------------------------------*/
+.menu{
+	border-top:3px solid #f1a615;
+	border-bottom:none;
+	background:url(images/headerGlow.jpg) #333 bottom no-repeat;
+	height:100px;
+	background-position:bottom right;
+	clear:both;
+}
+.menu img{
+    display: none;
+}
+.menu ul
+{	
+	margin: 0px;
+    margin-left:12px;
+    margin-top:2px;
+    padding: 0px;
+    width: auto;
+	vertical-align:top;
+	border-bottom:none;
+}
+.menu li{
+	margin:0px;
+	height:5px;
+}
+.menu ul li a, .menu ul li a:visited{
+	background-image:url(images/SBSMallGrey.jpg);
+    border-right: 3px #333333 solid;
+    padding: 5px;
+	padding-left:23px;
+}
+.menu ul li a:hover{
+    padding-left:23px;
+	background-image:url(images/SBSMallOrange.png);
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-color:#6f6f6f;
+}
+.menu ul li a:active{
+    color: white;
+	background-color:#d98328;
+}
+/* --- TABLES --- */
+.hideSkiplink{
+}
+.hideSkiplink img{
+}
+/* BREADCRUMB 
+----------------------------------------------------------*/
+.breadcrumb{
+	border-top:1px solid #555;
+	height:12px;
+}
+.breadcrumb a, .breadcrumb a:visited {
+    color:#e67c00;
+}
+.breadcrumb a:hover {
+    color:#faa61a;
+}
+#ctl00_BreadCrumbsMap{
+}
+/*---------------- LINK BUTTONS ------------------*/
+.inlinelist ul{
+}
+.inlinelist ul li{
+}
+.inlinelist ul li a{
+    border:1px solid #888;
+    font-weight:normal;
+}
+.inlinelist ul li a:hover, .inlinelist ul li .current{
+    background-color:#f1a615;
+    border-color:#e67c00;
+}
+a.single{
+}
+a:hover.single {
+    background-color:#f1a615;
+}
+/* ARTICLE
+---------------------------------------------------------*/
+.article{
+}
+.articleProperties{
+    border: #bbb 1px solid;
+	padding: 2px;
+}
+.articleTitle{
+	font-size:12px;
+	background-color:#555555;
+}
+.articleDescription{
+}
+.articleAuthor{
+}
+.articleDate{
+}
+.articleActions{
+}
+.articleBody{
+}
+.articleVersion{
+}
+/* ANNOUNCEMENTS  
+----------------------------------------------------------*/
+/* --- CREATE / EDIT ANNOUNCEMENT --- */
+.newsProperties{
+	border: #bbb 1px solid;
+}
+.newsTitle{
+}
+.newsAnnouncement .reToolZone{
+}
+.newsAnnouncement .RadEditor {
+}
+.newsTwoRight{
+}
+.newsTwoButtons{
+}
+td.reToolCell {
+}
+.bindingBox h2{
+}
+.newsAnnouncement .whiteBox{
+}
+.whiteBox .toggleTreeLinks{
+}
+/* --- VIEW ANNOUNCEMENT --- */
+.annDetails{
+    margin-top:-10px;
+    border:solid 1px #d47b34;
+    background-color:#ffd990;
+    color:#444;
+    border-top:0px;
+}
+.annDetails span{
+}
+.annDetails img{
+}
+.ackTitle h1{
+}
+.ackText{
+}
+.ackButton{
+}
+.ackButton input{
+}
+.ackButton input:hover{
+}
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+fieldset{
+}
+fieldset p {
+}
+fieldset.login label, fieldset.register label, fieldset.changePassword label{
+}
+fieldset label.inline {
+}
+legend {
+}
+input.textEntry {
+}
+input.passwordEntry {
+}
+div.accountInfo{
+}
+
+/* FOOTER   
+----------------------------------------------------------*/
+.subtle{
+}
+.left, .right{
+}
+.left{
+}
+.right{
+}
+.middle{
+}
+/* DASHBOARD
+----------------------------------------------------------*/
+.box{
+}
+.manbox{
+}
+.sideright{
+}
+.splash{
+    height:320px;
+    width:360px;
+    background-image:url(images/splash.jpg);
+}
+.loginTable{
+}
+.loginTable table{
+}
+.welcome span{
+}
+.advert{
+    background-image:url(images/welcomeSB.jpg);
+}
+/* CBT LOGON HELP BUTTON
+----------------------------------------------------------*/
+.splashbutton{
+    display:none;
+}
+/*.helpme{
+     margin-left:25px;
+     display:block;
+     background: url("images/logon.jpg") no-repeat 0 0 white;
+}*/
+.helpme:hover{
+}
+.helpme span{
+}
+/* OVERLAY DIV
+----------------------------------------------------------*/
+.overlayDiv{  
+}
+.overlayDivTrans{
+}
+.errorDiv{
+}
+/* RADGRID  PAGINATION BANNER
+----------------------------------------------------------*/
+.rgPager{
+    background: #f1a615;
+}
+.rgPager a{
+}
+.rgPager table{
+}
+.rgPager td{
+    border:1px solid #e67c00;
+}
+.rgPager table tbody td{
+}
+.rgPager table td{
+}
+.rgPager span, .rgPager div{
+}
+.rgHeader a{
+}
+.rgPager div{
+}
+.rgPager div+div+div+div div{
+}
+.rgPager div+div+div+div span{
+}
+.rgPager div+div+div+div+div{
+}
+.rgPager td table{
+}
+.rgNumPart{
+}
+.rgNumPart a{
+}
+.rgCurrentPage{
+}
+.rcbReadOnly{
+}
+.rcbInput{
+}
+.rcbArrowCellRight{
+}
+.rcbArrowCellRight a{
+}
+.rcbArrowCell rcbArrowCellRight{
+} 
+.rcbList{
+    background-color:#fac765;
+}
+.rcbSlide .RadComboBoxDropDown{
+    border-color:#e67c00;
+}
+.rcbItem{
+    background-color:#fac765;
+}
+.rcbHovered{
+    background-color:#ffebc4;
+}
+.RadComboBox{
+    background-color:#fac765;
+    border:1px solid #e67c00;
+}
+.RadComboBox .rcbHovered{
+    background-color:#ffebc4;
+}
+/* RAD GRID COLUMNS AND ROWS
+----------------------------------------------------------*/
+/* --- CREATE ROW --- */
+.createRowTR td, .radGridFilterRow td{
+    background-color:#fac765;
+    border:1px solid #e67c00;
+}
+.createRowTR td a{
+    color:#666;
+}
+.createRowTR td a:hover{
+    color:#333;
+}
+.createRowTR td img{
+}
+/* --- FILTER COLUMN ---*/
+.radGridFilterRow td{
+}
+.radGridFilterRow td .rgFilterBox{
+}
+/* --- ADMIN COLUMN ---*/
+td.adminCells{
+}
+td.adminCells a{
+    color:#9D4907;
+}
+.showAdmin span, .hideAdmin span{
+}
+td.showAdminColumn, td.hideAdminColumn{
+    background-color:#F1A615;
+    border: 1px solid #E67C00;
+    color:White;
+}
+td.showAdminColumn{
+}
+td.hideAdminColumn{
+}
+.showAdmin, .hideAdmin{
+}
+.showAdmin{
+}
+.hideAdmin{
+}
+.showAdmin:hover{
+}
+.hideAdmin:hover{
+}
+/* ERROR PAGE
+----------------------------------------------------------*/
+.errorLeft{
+}
+.errorRight{
+}
+/* FEEDBACK BUTTON
+----------------------------------------------------------*/
+.feedbackLink{
+}
+.feedbackLink:hover{
+}
+.feedbackLink span{
+}
+/* HELP BUTTON
+----------------------------------------------------------*/
+.helpLink{
+}
+.helpLink:hover{
+    background-image: url(images/help_hover.png);
+}
+.helpLink span{
+}
+/* HELP BOX 
+----------------------------------------------------------*/
+.helpDialog{
+}
+.helpTitle, .helpPurpose{
+    background-color:#050A68;
+    color:white;
+}
+.helpPurpose{
+}
+.helpWorks, .helpUse{
+}
+.helpUse{
+}
+/* MISC  
+----------------------------------------------------------*/
+.clear{
+}
+.bindingBox{
+}
+.whiteBox{
+}
+#extra{
+}
+.failureNotification{
+}
+.center{
+}
+td.center{
+}
+.divPersonalDetails{
+}
+#divSites{
+}
+#divGroup{
+}
+#divAdmin{
+}
+.divCreate{
+}
+.hideElement{
+}
+/* --- BLANK BORDERS --- */
+td.blankCell{
+}
+td.blankRight {
+}

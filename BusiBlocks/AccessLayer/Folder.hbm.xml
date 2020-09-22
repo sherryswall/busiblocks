@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BusiBlocks.AccessLayer.Folder, BusiBlocks" table="Folder">
+    <id name="Id" column="Id" type="String" length="32">
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <property name="Path" type="String">
+      <column name="Path" unique-key="KeyPath" not-null="true" length="2000" />
+    </property>
+
+  </class>
+</hibernate-mapping>

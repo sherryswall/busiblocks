@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='4' name='M01P005' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Regulations and Requirements</topicheading>
+          <pageheading >The importance of Occupational Health and Safety</pageheading>
+          <image alt='Laws' width='298' height='273' src='media/M01P004_0.jpg'></image>
+          <paragraph >Laws about occupational health and safety are the responsibility of State and Territory governments and may differ around the country.  However, in an effort to promote consistency in those laws across the country, the National Occupational Health and Safety Commission (NOHSC) have developed national standards and codes of practice.  Familiarising yourself with these codes and standards is an excellent starting point for complying with the law in your State or Territory.</paragraph>
+          <paragraph >Occupational health and safety laws are in place for one reason and one reason only - to ensure that all Australian workplaces are safe and healthy work environments.  We, at Groundwork Coffee, are no different!</paragraph>
+     </content>
+</page>

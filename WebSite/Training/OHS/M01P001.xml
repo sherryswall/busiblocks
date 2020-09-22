@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/start.xsl"?>
+<page pid='0' name='M01P001' style='assets/css/layout.css' xsl='assets/xsl/start.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Introduction</topicheading>
+          <paragraph >This module provides you with an overview of what Occupational Health and Safety is and how it relates to your work at Groundwork Coffee.</paragraph>
+          <paragraph >This module will cover the topics listed to the right.</paragraph>
+          <time >10 minutes</time>
+     </content>
+</page>

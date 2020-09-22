@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BusiBlocks.SiteLayer.SiteType, BusiBlocks" table="SiteType">
+    <id name="Id" column="Id" type="String" length="32">
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <property name="Name" type="String">
+      <column name="Name" unique-key="KeyNameApplication" not-null="true" length="100" />
+    </property>
+
+    <property name="Deleted" column="Deleted" type="Boolean" />
+    
+    <!--<bag name="SiteType" inverse="true" lazy="true" cascade="all">
+      <key column="siteTypeId"/>
+      <one-to-many class="BusiBlocks.Site.Site, BusiBlocks"/>
+    </bag>-->
+
+  </class>
+</hibernate-mapping>

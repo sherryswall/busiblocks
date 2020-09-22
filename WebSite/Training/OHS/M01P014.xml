@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='14' name='M01P014' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Safety Regulations</topicheading>
+          <pageheading >Conversation Interaction</pageheading>
+          <paragraph >This interaction creates a conversation between two people. You will need to include 1 image of two people, the two names and include the positions of each text box.</paragraph>
+          <flash src="media/conversation.swf" width="750" height="350" ax="250" ay="100" bx="470" by="120" persona="Ted" personb="Nancy" id="M01P014">
+          <rollover >
+          <rolloverobject >Nancy</rolloverobject>
+          <rollovertarget >Hi Ted</rollovertarget>
+          </rollover>
+          <rollover >
+          <rolloverobject >Ted</rolloverobject>
+          <rollovertarget >Hi Nancy</rollovertarget>
+          </rollover>
+          <rollover >
+          <rolloverobject >Ted</rolloverobject>
+          <rollovertarget >How are you today?</rollovertarget>
+          </rollover>
+          <rollover >
+          <rolloverobject >Nancy</rolloverobject>
+          <rollovertarget >Great, how are you? How is work going?</rollovertarget>
+          </rollover>
+          <rollover >
+          <rolloverobject >Ted</rolloverobject>
+          <rollovertarget >I'm doing well! Work is busy, but it always is. You should come around for dinner one night.</rollovertarget>
+          </rollover>
+          </flash>
+          <instruction >Use the <b>Next</b> and <b>Previous</b> buttons above to cycle through the conversation.</instruction>
+     </content>
+</page>

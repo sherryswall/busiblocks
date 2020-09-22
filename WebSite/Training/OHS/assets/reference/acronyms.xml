@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<acronyms>
+	<acronym>
+		<term>AHP</term>
+		<description>Allied health professional</description>
+	</acronym>
+	<acronym>
+		<term>CDM</term>
+		<description>Chronic disease management</description>
+	</acronym>
+	<acronym>
+		<term>DoHA</term>
+		<description>Department of Health and Ageing</description>
+	</acronym>
+	<acronym>
+		<term>EFT</term>
+		<description>Electronic Funds Transfer</description>
+	</acronym>
+	<acronym>
+		<term>EPC</term>
+		<description>Enhanced Primary Care</description>
+	</acronym>
+	<acronym>
+		<term>GP</term>
+		<description>General Practitioner</description>
+	</acronym>
+	<acronym>
+		<term>MBS</term>
+		<description>Medicare Benefits Schedule</description>
+	</acronym>
+	<acronym>
+		<term>MHP</term>
+		<description>Mental health professionals</description>
+	</acronym>	
+	<acronym>
+		<term>PBS</term>
+		<description>Pharmaceutical Benefits Scheme</description>
+	</acronym>
+	<acronym>
+		<term>REFT</term>
+		<description>Reverse Electronic Funds Transfer</description>
+	</acronym>		
+	<acronym>
+		<term>TCA</term>
+		<description>Team care arrangements</description>
+	</acronym>	
+</acronyms>

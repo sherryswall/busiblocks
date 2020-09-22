@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BusiBlocks.AccessLayer.Access, BusiBlocks" table="Access">
+    <id name="Id" column="Id" type="String" length="32">
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <property name="ItemType" column="ItemType" />
+    <property name="ItemId" column="ItemId" type="String" length="32" />
+    <property name="PersonTypeId" column="PersonTypeId" type="String" length="32" />
+    <property name="SiteId" column="SiteId" type="String" length="32" />
+    <property name="UserId" column="UserId" type="String" length="32" />
+    <property name="AllSites" column="AllSites" type="Boolean" />
+    <property name="AllPersonTypes" column="AllPersonTypes" type="Boolean" />
+    <property name="AllUsers" column="AllUsers" type="Boolean" />
+    <property name="AccessType" column="AccessType" />
+    <property name="Deleted" column="Deleted" type="Boolean" />
+
+  </class>
+</hibernate-mapping>

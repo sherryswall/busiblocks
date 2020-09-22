@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+This is the template used for generating RSS for forum news
+-->
+
+<rss version="2.0">
+  <channel>
+    <title>BusiBlocks Forum News</title>
+    <link>http://www.busiblocks.com/</link>
+    <description>BusiBlocks Forum News</description>
+    <language>en-us</language>
+    <copyright>Copyright 2010 BusiBlocks</copyright>
+    <lastBuildDate>Tue, 28 Nov 2010 12:00:01 GMT</lastBuildDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <generator>BusiBlocks</generator>
+    <managingEditor>webmaster@busiblocks.com</managingEditor>
+    <webMaster>webmaster@busiblocks.com</webMaster>
+    <ttl>5</ttl>
+
+  </channel>
+</rss>

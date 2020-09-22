@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='r00' name='modresources' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+	<content type='resource'>
+		<moduleheading>Welcome to DOHA Essentials</moduleheading>
+		<topicheading indexed="no">Utilities</topicheading>
+		<pageheading >Resources</pageheading>
+	    <paragraph>Achnowledgement: </paragraph>
+		<paragraph>Content for this module has been sourced from the APSC Induction Module (July 2007 -updated July 2008)</paragraph>
+		 <modresource id="M01T03P006">
+			  <name >PS Act</name>
+			  <type >Internet</type>
+			  <url >http://www.comlaw.gov.au/comlaw/Legislation/ActCompilation1.nsf/0/9FB97726419A11C0CA25741A0003D994?OpenDocument</url>
+			  <description >Learn about the PS Act.</description>
+		  </modresource>
+		  <modresource id="M01T04P007">
+			  <name >PS Regs</name>
+			  <type >Internet</type>
+			  <url >http://www.comlaw.gov.au/ComLaw/Legislation/LegislativeInstrumentCompilation1.nsf/current/bytitle/BB9726AB56D4E1ABCA257328000AA4D8?OpenDocument</url>
+			  <description >Learn about the PS Regs.</description>
+		  </modresource>
+		  <modresource id="M01T04P007">
+			  <name >PSC directions</name>
+			  <type >Internet</type>
+			  <url >http://www.apsc.gov.au/publications/directionsConsolidated.htm</url>
+			  <description >Learn about the PSC directions.</description>
+		  </modresource>
+		  <modresource id="M01T05P008">
+			  <name >PS classification rules</name>
+			  <type >Internet</type>
+			  <url >http://www.comlaw.gov.au/ComLaw/Legislation/LegislativeInstrumentCompilation1.nsf/all/search/DEBBB2F9413E404ECA25720F0083CCDE</url>
+			  <description >Learn about the PS classification rules.</description>
+		  </modresource>
+		  <modresource id="M01T07P011">
+			  <name >PMs public service directions</name>
+			  <type >Internet</type>
+			  <url >http://www.comlaw.gov.au/ComLaw/Legislation/LegislativeInstrumentCompilation1.nsf/0/37BDEE0DF480FE84CA257165000E7EA0?OpenDocument</url>
+			  <description >Learn about the PMs public service directions.</description>
+		  </modresource>
+		  <modresource id="M01T08P013">
+			  <name >CA5</name>
+			  <type >Intranet</type>
+			  <url >http://intranet.health.gov.au/intranet/wcms/publishing.nsf/Content/conditionsofemployment-certifiedagreement20042007-agree4</url>
+			  <description >Learn about the CA5.</description>
+		  </modresource>
+		  <modresource id="M01T08P013">
+			  <name >DoHA local job titles</name>
+			  <type >Intranet</type>
+			  <url >http://intranet.health.gov.au/intranet/wcms/publishing.nsf/Content/conditionsofemployment-certifiedagreement20042007-agree4</url>
+			  <description >Learn about DoHA local job titles.</description>
+		  </modresource>
+		  <modresource id="M01T09P014">
+			  <name >Graduates</name>
+			  <type >Intranet</type>
+			  <url >http://intranet.health.gov.au/intranet/wcms/publishing.nsf/Content/developmentprograms-graduateguidelines</url>
+			  <description >Learn about Graduates.</description>
+		  </modresource>
+		  <modresource id="M01T09P014">
+			  <name >National Indigenous Cadetship Program</name>
+			  <type >Internet</type>
+			  <url >http://www.health.gov.au/internet/main/publishing.nsf/Content/health-career-indig_cadet.htm</url>
+			  <description >Learn about the National Indigenous Cadetship Program.</description>
+		  </modresource>
+		  <modresource id="M01T09P014">
+			  <name >APS values</name>
+			  <type >Internet</type>
+			  <url >http://www.apsc.gov.au/values/index.html</url>
+			  <description >Learn about APS values.</description>
+		  </modresource>
+		  <modresource id="M01T09P014">
+			  <name >Embedding APS values</name>
+			  <type >Internet</type>
+			  <url >http://www.apsc.gov.au/values/values5.htm</url>
+			  <description >Learn about embedding APS values.</description>
+		  </modresource>
+		  <modresource id="M01T09P014">
+			  <name >APS code of conduct</name>
+			  <type >Internet</type>
+			  <url >http://www.apsc.gov.au/conduct/index.html</url>
+			  <description >Learn about the APS code of conduct.</description>
+		  </modresource>
+	</content>
+</page>

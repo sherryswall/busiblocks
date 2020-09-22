@@ -1,0 +1,199 @@
+﻿/* LAYOUT */
+/*------------------------------------------------------------*/
+/*---- IMPORT DEFAULT STYLESHEET ----*/
+@import "../default/zlayout.css";
+/*---- DO NOT REMOVE! ----*/
+/* STRUCUTRE
+----------------------------------------------------------*/
+html{
+}
+body{
+}
+.wrapper{
+}
+.page{
+}
+.base{
+}
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+#pageContent {
+}
+.header{
+}
+.banner{
+}
+.main{
+}
+.footer{
+}
+.section, .sidebar{
+}
+.sectionNoTOC{
+}
+/* BANNER 
+----------------------------------------------------------*/
+.header h1{
+}
+.logo{
+}
+.loginDisplay {
+}
+.loginDisplay a{
+}
+.loginDisplay a:hover{
+}
+.loginDisplay a:visited{
+}
+/* TAB MENU   
+----------------------------------------------------------*/
+.menu{
+}
+.menu img{
+}
+.menu ul{	
+}
+.menu li{
+}
+.menu ul li a, .menu ul li a:visited{
+}
+.menu ul li a:hover{
+}
+.menu ul li a:active{
+}
+/* --- TABLES --- */
+.hideSkiplink{
+}
+.hideSkiplink img{
+}
+/* BREADCRUMB 
+----------------------------------------------------------*/
+.breadcrumb{
+}
+#ctl00_BreadCrumbsMap{
+}
+/*---------------- LINK BUTTONS ------------------*/
+.inlinelist ul{
+}
+.inlinelist ul li{
+}
+.inlinelist ul li a{
+}
+.inlinelist ul li a:hover, .inlinelist ul li .current{
+}
+a.single{
+}
+a:hover.single {
+}
+/* ARTICLE
+---------------------------------------------------------*/
+.article{
+}
+.articleProperties{
+}
+.articleTitle{
+}
+.articleAuthor{
+}
+.articleDate{
+}
+.articleActions{
+}
+.articleBody{
+}
+/* NEWS BOX  
+----------------------------------------------------------*/
+.newsProperties{
+}
+.newsitem{
+}
+.newsitemHeader{
+}
+.newsitemTitle{
+}
+.newsitemProperties{
+}
+.newsitemAuthor{
+}
+.newsitemDate{
+}
+.newsitemUrl{
+}
+.newsitemActions{
+}
+.newsitemDescription{
+}
+.newsBoxTitle{
+}
+.newsBoxTitle img{
+}
+.newsBoxContent{
+}
+.newsBoxDescription{
+}
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+fieldset{
+}
+fieldset p {
+}
+fieldset.login label, fieldset.register label, fieldset.changePassword label{
+}
+fieldset label.inline {
+}
+legend {
+}
+input.textEntry {
+}
+input.passwordEntry {
+}
+div.accountInfo{
+}
+/* FOOTER   
+----------------------------------------------------------*/
+.subtle{
+}
+.left, .right{
+}
+.left{
+}
+.right{
+}
+.middle{
+}
+/* DASHBOARD
+----------------------------------------------------------*/
+.box{
+}
+.manbox{
+}
+.sideright{
+}
+.sideright .splash{
+}
+.sideright .advert{
+}
+/* CBT LOGON HELP BUTTON
+----------------------------------------------------------*/
+.splashbutton{
+}
+.helpme{
+}
+.helpme:hover{
+}
+.helpme span{
+}
+/* OVERLAY DIV
+----------------------------------------------------------*/
+.overlayDiv{  
+}
+.errorDiv{
+}
+/* MISC  
+----------------------------------------------------------*/
+.clear{
+}
+#extra{
+}
+.failureNotification{
+}

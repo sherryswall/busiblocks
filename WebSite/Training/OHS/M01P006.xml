@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='5' name='M01P006' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Roles</topicheading>
+          <pageheading >The Role of the Franchisor</pageheading>
+          <image alt='Franchisor' width='298' height='273' src='media/M01P004_0.jpg'></image>
+          <paragraph >Groundwork Coffee will strive to assist franchisees and team members to adhere to all applicable State and National Occupational Health and Safety guidelines. Groundwork Coffee will provide and maintain work practices that help to ensure the creation of a safe environment. </paragraph>
+          <paragraph >These practices will include:</paragraph>
+          <list >
+          <point >Ensuring that all Franchisees are adequately trained in Occupational Health and Safety best practices</point>
+          <point >Engaging in regular consultation with Franchisees to adapt to any new changes in the relevant laws</point>
+          <point >Ensuring that adequate resources are devoted to safety initiatives</point>
+          <point >Co-operating with Occupational Health and Safety investigators</point>
+          <point >Documenting and updating all Groundwork Coffee policies and practices</point>
+          </list>
+     </content>
+</page>

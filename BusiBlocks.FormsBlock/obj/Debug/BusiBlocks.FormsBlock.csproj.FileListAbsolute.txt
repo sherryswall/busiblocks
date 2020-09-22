@@ -1,0 +1,11 @@
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\bin\Debug\BusiBlocks.FormsBlock.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\bin\Debug\BusiBlocks.FormsBlock.pdb
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\bin\Debug\BusiBlocks.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\bin\Debug\Iesi.Collections.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\bin\Debug\log4net.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\bin\Debug\NHibernate.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\bin\Debug\NHibernate.Tool.hbm2net.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\bin\Debug\BusiBlocks.pdb
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\obj\Debug\ResolveAssemblyReference.cache
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\obj\Debug\BusiBlocks.FormsBlock.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.FormsBlock\obj\Debug\BusiBlocks.FormsBlock.pdb

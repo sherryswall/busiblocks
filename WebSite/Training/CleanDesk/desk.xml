@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='26' name='M10T06P027' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Security</moduleheading>
+          <topicheading > Physical Security</topicheading>
+          <pageheading >The "Clear Desk" principle</pageheading>
+          <flash src="media/desk_clean.swf" width="964" height="400">
+          <objects >
+          <object tg = "0">Commercial-in-confidence file cover</object>
+          <object tg = "2">Filing cabinet key</object>
+          <object tg="3">Incorrect draft summary notes for tender assessment</object>
+          <object tg="0">In-confidence' CD</object>
+          <object tg="0">USB drive</object>
+          <object tg="5">Waste paper</object>
+          <object tg="4">Aluminium drink can</object>
+          <object fb="Classified documents must be closed, and you PC should be turned off when you leave for the day.">Tender docuement (Commercial in-confidence)</object>
+          <object fb="Passwords should never be displayed!">Password written on a post-it note</object>
+          </objects>
+          <targets >
+          <target >Lockable filing cabinet</target>
+          <target >Desk drawer</target>
+          <target >You</target>
+          <target >Shredder</target>
+          <target >Commingled waste bin</target>
+          <target >Paper recycle bin</target>
+          <target >Waste bin</target>
+          </targets>
+          <messages >
+          <message num="4">Going well so far and there are still some to go.</message>
+          <message num="6">Almost there!</message>
+		  <message num="9">Now I just have to switch off the lights, then I can go.</message>
+          </messages>
+          <startmessage >Looks like I'm the last one to leave. But, before I head home, I must make sure my desk is clear.</startmessage>
+          <finalmessage >Well done! You have successfully cleaned Kylie's desk.</finalmessage>
+          <incorrect >My desk is not properly cleared. Help me drag security and recycling objects to the correct place.</incorrect>
+          <instructiontext >Help Kylie clear her desk by dragging items from her desk to the correct place.</instructiontext>
+          </flash>
+     </content>
+</page>

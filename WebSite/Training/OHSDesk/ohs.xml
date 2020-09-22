@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='17' name='M04T08P018' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Working Arrangements</moduleheading>
+          <topicheading > Your OH&#38;S Responsibilities</topicheading>
+          <flash src="media/seat_interaction.swf" width="964" height="475" title="OH+S Guidelines" id="M04T08P018">
+          <rollover >
+          <heading >OH&#38;S Responsibilities</heading>
+          <subheading >Welcome</subheading>
+          <text >Welcome to the OH&#38;S Guidelines on working comfortably with screen based equipment.
+One area of your responsibility where you can have a significant impact is in the correct setting up of your workstation. This interaction will guide you through the correct working position as set by the OH&#38;S guidelines. You will be guided step by step through the process of correcting an incorrect working position.
+Use the orange targets as a guide for what to move with each step of the process. 
+To begin this interaction, click on the chair. Please do this now.</text>
+          <hint ></hint>
+          </rollover>
+          <rollover >
+          <heading >Adjusting the Chair</heading>
+          <subheading >Step 1</subheading>
+          <text >Roll your chair away from the workstation and identify how the controls operate.</text>
+          <hint ></hint>
+          </rollover>
+          <rollover >
+          <heading >Adjusting the Chair</heading>
+          <subheading >Step 2</subheading>
+          <text >Adjust the chair height so your feet are flat on the floor. </text>
+          <hint ></hint>
+          </rollover>
+          <rollover >
+          <heading >Adjusting the Chair</heading>
+          <subheading >Step 3</subheading>
+          <text >Sometimes the seat angle is also adjustable. The seat should remain horizontal unless there is particular reason to slope it backwards or forwards.</text>
+          <hint >Adjust the chair backrest straight up and down (or leaning back slightly) for comfort, then adjust the lumbar support height so that it fits into your lower back and the chair back supports the natural curve of your spine;</hint>
+          </rollover>
+          <rollover >
+          <heading >Adjusting the Worksurface and Computer</heading>
+          <subheading >Step 4</subheading>
+          <text >Now roll the chair into position at your workstation - as close as practical.</text>
+          <hint ></hint>
+          </rollover>
+          <rollover >
+          <heading >Adjusting the Worksurface and Computer</heading>
+          <subheading >Step 5</subheading>
+          <text >Check that the screen is at a comfortable distance from the eye - at least one arm length away. Carefully push the screen away or bring it closer as necessary.</text>
+          <hint >You may need someone to assist you with this.</hint>
+          </rollover>
+          <rollover >
+          <heading >Adjusting the Worksurface and Computer</heading>
+          <subheading >Step 6</subheading>
+          <text >Hold your fingers over the "home keys" and adjust the desktop height (or keypad section of the desk) so that your elbows are at an angle of 90 degrees or greater. Generally this means the keyboard is nearly in your lap. This, and keeping your elbows close to the body while typing, will help relax the shoulders.</text>
+          <hint ></hint>
+          </rollover>
+          <rollover >
+          <heading >Adjusting the Worksurface and Computer</heading>
+          <subheading >Step 7</subheading>
+          <text >Now the tricky bit! Your eye level should be at the top of the screen. If there is screen height adjustment available (ie adjustable screen arm, VDU rack etc) you should use it. Otherwise:
+
+- to raise the screen: as a short term solution put a phone book or similar under the screen (get help for this), or
+- to lower the screen: to this by raising yourself (ie chair height and keyboard height) until your eye is in the correct position. You may need a footstool if your feet will no longer sit comfortably on the floor.</text>
+          <hint ></hint>
+          </rollover>
+          <rollover >
+          <heading >Adjusting the Worksurface and Computer</heading>
+          <subheading >Step 8</subheading>
+          <text >Check the screen for glare by turning it off and looking for reflections from windows or overhead lights. Adjust screen angle and window blinds etc to minimise this glare.</text>
+          <hint ></hint>
+          </rollover>
+          <rollover >
+          <heading >Congratulations</heading>
+          <subheading >You have setup your workstation</subheading>
+          <text >You have completed this interaction on comfortable working. You should now check to see if you are using the correct working position as taught in this interaction.</text>
+          <hint ></hint>
+          </rollover>
+          </flash>
+     </content>
+</page>

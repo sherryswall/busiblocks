@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='1' name='M01P002' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Regulations and Requirements</topicheading>
+          <pageheading >Introduction</pageheading>
+          <image alt='Introduction' width='250' height='300' src='media/M01P002.jpg'></image>
+          <paragraph >At Groundwork Coffee we strive to achieve high standards of health and safety in all our operations.  It is our goal to provide a safe and healthy working environment for all Groundwork Coffee franchisees, team members, customers and suppliers.</paragraph>
+          <paragraph >The standards that follow are only guidelines and are the minimum in order to achieve a safe and healthy workplace environment.  The success of the implementation of these guidelines rests with you.  It is YOUR responsibility that all team members are educated and trained in these guidelines to ensure that the appropriate steps are taken that actively prevent hazards and accidents occurring.  </paragraph>
+          <quote >Remember safety is everyone's responsibility, BUT first it starts with YOU!</quote>
+     </content>
+</page>

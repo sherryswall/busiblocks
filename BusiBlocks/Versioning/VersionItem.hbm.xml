@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BusiBlocks.Versioning.VersionItem, BusiBlocks" table="VersionItem">
+    <id name="Id" column="Id" type="String" length="32">
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <property name="GroupId" column="GroupId" type="String" length="32" />
+    <property name="ItemId" column="ItemId" type="String" length="32" />
+    <property name="TypeId" column="TypeId" type="String" length="32" />
+    <property name="VersionTypeId" column="VersionTypeId" type="String" length="32" />
+    <property name="VersionNumber" column="VersionNumber" type="String" length="50" />
+    <property name="ModifiedBy" column="ModifiedBy" type="String" length="1073741823" />
+    <property name="DateCreated" column="DateCreated" type="DateTime" not-null="true" />
+    <property name="Comments" column="Comments" type="String" length="1073741823" />
+    <property name="UserName" column="UserName" type="String" length="100" />
+    <property name="Deleted" column="Deleted" type="Boolean" />
+    <property name="EditSeverity" column="EditSeverity" type="String" length="32" />
+  </class>
+</hibernate-mapping>

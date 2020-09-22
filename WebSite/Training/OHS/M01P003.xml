@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='2' name='M01P003' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Regulations and Requirements</topicheading>
+          <pageheading >The importance of Occupational Health and Safety</pageheading>
+          <paragraph >Work-related illness and injury are expensive - damage bills, fines, lost production, higher insurance premiums and low morale among team members.  The cost of work-related injury and disease in Australia is estimated at between $16 and $40 billion (Source: National Occupational Health and Safety Centre) each year. </paragraph>
+     </content>
+</page>

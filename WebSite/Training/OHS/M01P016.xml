@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='16' name='M01P016' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Summary</topicheading>
+          <pageheading >Summary</pageheading>
+          <image alt='Summary' width='298' height='273' src='assets/images/summary.jpg'></image>
+          <paragraph >Congratulations, you have now completed this module.</paragraph>
+          <paragraph >In this module you were provided with an overview of Occupational Health and Safety within Ground Work Coffee. These policies are .</paragraph>
+          <paragraph >You should now have an understanding of:</paragraph>
+          <list >
+          <point >Medicare Australia's new look and feel</point>
+          <point >Medicare Australia's eLearning template</point>
+          <point >Medicare Australia's re-usable Flash assets</point>
+          </list>
+          <instruction >You have now completed this module. To exit this module, click the <b>EXIT</b> button above.</instruction>
+     </content>
+</page>

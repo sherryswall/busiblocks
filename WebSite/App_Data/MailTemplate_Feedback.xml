@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<feedback> 
+  <body>
+    <![CDATA[
+    You have received new feedback.
+    Feedback: $type
+    Subject: $subject
+    Comments: $comments
+    Time: $time
+    ----------------------------------
+    Theme: $theme
+    Page: $page
+    Browser:$browser
+    ----------------------------------
+    User: $username
+    Email: $email
+    Phone: $phonenumber
+    
+    Support
+    BusiBlocks
+    ]]>
+  </body>
+</feedback>

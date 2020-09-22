@@ -1,0 +1,386 @@
+﻿
+/* STYLES */
+/*------------------------------------------------------------*/
+body   {
+    font-size: .80em;
+    font-family:Calibri, Tahoma, Geneva, sans-serif;
+}
+
+label{
+	font-weight: bold;
+}
+pre{
+	font-family: "Courier New" , Courier, mono;
+	background-color: #c0c0c0;
+	border: #000000 thin solid;
+}
+code{
+	color: #b22222;
+	font-family: "Courier New" , Courier, mono;
+}
+input{
+	font-size: 10pt;
+	font-family: Verdana, Tahoma, Arial;
+}
+
+textarea{
+	font-size: 10pt;
+	font-family: Verdana, Tahoma, Arial;
+}
+/* PARAGRAPH TEXT
+--------------------------------------------------------*/
+p{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+p.errorBox{
+	background: url(res/error.png) no-repeat;
+	padding: 0 0 0px 20px;
+	color: #ff0000;
+	font-weight: bold;
+}
+.bold{
+   font-weight: bold;
+}
+.plainText{
+	white-space: pre-wrap;       /* css-3 should we be so lucky... */
+	/*white-space: -moz-pre-wrap;*/  /* Mozilla, since 1999 */
+	/*white-space: -pre-wrap;*/      /* Opera 4-6 ?? */
+	/*white-space: -o-pre-wrap;*/    /* Opera 7 ?? */
+	/*word-wrap: break-word;*/       /* Internet Explorer 5.5+ */
+	/*_white-space: pre;*/   /* IE only hack to re-specify in addition to word-wrap  */
+}
+/* LISTS   
+----------------------------------------------------------*/
+ul, ol{
+	color:#b80000;
+}
+ul li{
+	margin:0px;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6{
+	font-family: "Myriad Pro", "Arial Narrow", Arial;
+    text-transform: none;
+}
+h1{
+	color:#762014;
+	font-weight:bold;
+	border-bottom:2px solid #762014;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	font-size:1.8em;
+}
+h2{
+	color:#994321;
+	font-weight:bold;
+	border-bottom:2px solid #994321;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	font-size:1.6em;
+}
+h3{
+	color:#b46628;
+	font-weight:normal;
+	margin-bottom:5px;
+	font-size:1.6em;
+	border-bottom:1px solid #b46628;
+}
+h4{
+	color:#faa61b;
+	font-weight:bold;
+	margin-bottom:5px;
+	font-size:1.4em;
+}
+h5, h6{
+    font-size: 1.2em;
+}
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2{
+    margin-top: 0px;
+}
+/*Main Section h1's*/
+h1.sectionhead{
+	background-position:top left;
+	padding-left:55px;
+	padding-top:10px;
+	padding-bottom:15px;
+	background-repeat:no-repeat;
+	border-bottom:solid #ccc;
+}
+h1#dashboard{
+}
+h1#docoblock{
+}
+h1#training{
+}
+h1#comms{
+}
+h1#announce{
+}
+h1#forums{
+}
+h1#messages{
+}
+h1#management{
+}
+h1#training{
+}
+h1#user{
+}
+h1#admin{
+}
+/* A TAGS - LINK BUTTONS
+----------------------------------------------------------*/
+a{
+       color:#e67c00;
+}
+a:hover{
+       color:#faa61a;
+}
+a:visited{
+       color:#e67c00;
+}
+
+a.additem{
+    padding: 8px 0 8px 20px;
+}
+a.rss{
+	background: url(res/feed.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+}
+a.newitem{
+	background: url(res/document_new.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+}
+a.edit{
+	background: url(res/edit.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+	
+}
+a.ackitem{
+	background: url(images/cube_thumb.png) no-repeat left center;
+	padding: 8px 0 8px 30px;
+	color: #b80000;
+}
+
+a.printitem{
+	background: url(res/print.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+	
+}
+a.deleteitem{
+	background: url(res/delete.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+	
+}
+a.downloaditem{
+	background: url(res/attachment.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+}
+a.search{
+	background: url(res/search.png) no-repeat left center;
+	padding: 11px 0 11px 22px;
+}
+a.mailreply{
+	background: url(res/mail_reply.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+}
+a.attachment{
+	background: url(res/attachment.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+}
+a.user{
+	background: url(res/card.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+}
+a.next{
+	background: url(res/move_next.png) no-repeat right center;
+	padding: 8px 20px 8px 0px;
+}
+a.previous{
+	background: url(res/move_previous.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+}
+a.urlitem{
+	background: url(res/world.png) no-repeat left center;
+	padding: 8px 0 8px 20px;
+}
+.actionButton a{	
+	text-align:right;
+	padding-right:10px;
+	text-decoration:none;
+	font-style:italic;
+}
+.actionButton a:hover{
+	color:#b80000;
+}
+
+/* IMAGES 
+----------------------------------------------------------*/
+img{
+	border: 0px;
+}
+a img {
+	border:none;
+	text-decoration:none;
+}
+.centerImage{
+    margin-top: 3px;
+}
+/* TABLES
+----------------------------------------------------------*/
+table{
+	border:#888 solid 1px;
+	margin:10px 0px;
+}
+td{
+	border:#dcdcdc solid 1px;
+	border-collapse:collapse;
+	background-color: #efefef;
+}
+.formtable{
+}
+.formtable tr td{
+	vertical-align: top;
+}
+.datatable{
+	border: 1px solid #484848;
+	border-collapse: collapse;
+	color: #000000;
+}
+.datatable thead{
+	text-align: center;
+	font-size: 100% !important;
+	font-weight: bold;
+}
+.datatable thead tr th{
+	border: 1px solid #484848;
+	padding: 3px;
+}
+.datatable tbody tr td{
+	border: 1px solid #484848;
+	padding: 3px;
+}
+/* MESSAGE - FORUMS
+----------------------------------------------------------*/
+.message{
+	border: 1px solid #484848;
+	color: #555;
+	margin-top: 2px;
+	margin-bottom: 8px;
+}
+.messageHeader{
+	background: #FCFDFE;
+	padding: 0px;
+}
+.messageAuthor{
+	font-size: smaller;
+}
+.messageDate{
+	font-size: smaller;
+}
+.messageAttach{
+}
+.messageSubject{
+	margin: 0px;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.messageBody{
+	border-top: 1px solid #484848;
+	border-bottom: 1px solid #484848;
+	padding: 4px;
+}
+.messageActions{
+	padding: 3px;
+}
+.boxTitle{
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #484848;
+	font-weight: bold;
+	padding:5px;
+	margin: 0px;
+	height:18px;
+	border-bottom:1px solid #484848;
+}
+.boxTitle img{
+	float:right;
+	position:relative;
+	top:-12px;
+	left:-12px;
+	
+}
+#commsblock .boxTitle{
+	background-color:#F28F00;
+	color:#333;
+}
+#docoblock .boxTitle{
+	background-color:#993333;
+}
+#trainingblock .boxTitle{
+	background-color:#009444;
+}
+
+#messageblock .boxTitle{
+	background-color:#00AEEF;
+}
+.boxContent{
+	padding-left: 10px;
+	background-color: #FCFDFE;
+}
+.pageNavigation{
+	border: 1px solid #484848;
+	margin-bottom: 10px;
+	padding: 2px;
+}
+/* SECTION   
+----------------------------------------------------------*/
+.section p{
+	padding:0px 10px 0px 10px;
+	line-height:1.2em;
+}
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+fieldset p {
+    margin: 2px 12px 10px 10px;
+
+}fieldset.login label, fieldset.register label, fieldset.changePassword label{
+    display: block;
+}
+fieldset label.inline {
+    display: inline;
+}
+legend {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+input.textEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+input.passwordEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+div.accountInfo{
+    width: 42%;
+}
+
+.submitButton{
+    text-align: right;
+    padding-right: 10px;
+}
+.chapterReorderList ul
+{
+    list-style-type:none;
+}

@@ -1,0 +1,1547 @@
+﻿
+/* STYLES.CSS */
+/*------------------------------------------------------------*/
+/* FONTS */
+/*------------------------------------------------------------*/
+@font-face {
+    font-family: MyriadPro;
+    src: url(fonts/MyriadPro-Regular.otf);
+    font-weight:normal;
+}
+/* STANDARD STYLES */
+/*------------------------------------------------------------*/
+body  {
+    font-size: .80em;
+    font-family: Calibri, Tahoma, Arial, sans-serif;
+}
+label{
+	font-weight: bold;
+}
+pre{
+	font-family: "Courier New" , Courier, mono;
+	background-color: #c0c0c0;
+	border: #000000 thin solid;
+}
+code{
+	color: #b22222;
+	font-family: "Courier New" , Courier, mono;
+}
+input{
+	font-size: 10pt;
+	font-family: Calibri, Tahoma, Arial, sans-serif;
+}
+textarea{
+	font-size: 10pt;
+	font-family: Calibri, Tahoma, Arial, sans-serif;
+}
+/* PARAGRAPH TEXT
+--------------------------------------------------------*/
+p{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+p.errorBox{
+	background: url(icons/error.png) no-repeat;
+	padding: 0 0 0px 20px;
+	color: #ff0000;
+	font-weight: bold;
+}
+.bold{
+   font-weight: bold;
+}
+.plainText{
+	white-space: pre-wrap;       /* css-3 should we be so lucky... */
+	/*white-space: -moz-pre-wrap;*/  /* Mozilla, since 1999 */
+	/*white-space: -pre-wrap;*/      /* Opera 4-6 ?? */
+	/*white-space: -o-pre-wrap;*/    /* Opera 7 ?? */
+	/*word-wrap: break-word;*/       /* Internet Explorer 5.5+ */
+	/*_white-space: pre;*/   /* IE only hack to re-specify in addition to word-wrap  */
+}
+address{
+    color:red;
+}
+important{
+    color:blue;
+}
+quote{
+    color:#777;
+}
+reference{
+    color:purple;
+}
+caption{
+    color:green;
+}
+/* LISTS   
+----------------------------------------------------------*/
+ul, ol{
+	color:#336699;
+}
+ul li{
+	margin:0px;
+	padding-bottom: 7px;
+}
+#browser ul{
+    background-color:inherit;
+}
+.browser ul{
+    background-color:inherit;
+}
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6{
+	font-family: MyriadPro, "Myriad Pro", "Arial Narrow", Arial, Sans-Serif;
+    text-transform: none;
+    clear:both;
+}
+h1{
+	color:#333;
+	border-bottom:2px solid #333;
+	margin-bottom:10px;
+	padding-top:20px;
+	padding-bottom:5px;
+	font-size:1.8em;
+}
+h2{
+	color:#666;
+	border-bottom:2px solid #666;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	font-size:1.6em;
+}
+h3{
+	color:#999;
+	border-bottom:1px solid #999;
+	margin-bottom:5px;
+	font-size:1.6em;
+}
+h4{
+	color:#000;
+	margin-bottom:5px;
+	font-size:1.4em;
+}
+h5, h6{
+    font-size: 1.2em;
+}
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2{
+    margin-top: 0px;
+}
+/* --- MAIN SECTION HEADING 1's --- */
+h1.sectionhead{
+	background-position:bottom left;
+	padding-left:60px;
+	padding-bottom:15px;
+	background-repeat:no-repeat;
+}
+h1#dashboard{
+	background-image:url(icons/icon_bulletin_48.png);
+}
+h1#directory{
+	background-image:url(icons/icon_directory_48.png);
+}
+h1#docoblock{
+	background-image:url(icons/icon_doco_48.png);
+}
+h1#training{
+	background-image:url(icons/icon_training_48.png);
+}
+h1#comms{
+	background-image:url(icons/icon_comms_48.png);
+}
+h1#announce{
+	background-image:url(icons/icon_message_48.png);
+}
+h1#forums{
+    background-image: url(icons/icon_forums_48.png);
+}
+h1#messages{
+    background-image: url(icons/mail.png);
+}
+h1#management{
+	background-image:url(icons/icon_management._48.png);
+}
+h1#training{
+	background-image:url(icons/icon_training_48.png);
+}
+h1#user{
+	background-image:url(icons/users_48.png);
+}
+h1#editUser{
+	background-image:url(icons/adminFunc.png);
+}
+h1#admin{
+	background-image:url(icons/gear_48.png);
+}
+h1#adminLocPeop{
+	background-image:url(icons/locationPeople.png);
+}
+h1#adminBlocks{
+    background-image: url(icons/block_48.png);
+}
+h1#sites{
+    background-image: url(icons/sites_48.png);
+}
+h1#rolesgroups{
+    background-image: url(icons/rolesgroups_48.png);
+}
+h1#managedoco{
+    background-image: url(icons/managedoco_48.png);
+}
+h1#managereg{
+    background-image: url(icons/managereg_48.png);
+}
+h1#manageGroup{
+    background-image: url(icons/rolesgroups_48.png);
+}
+
+/* --- TITLE --- */
+.title{
+    margin:0px;
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+}
+.title h1{
+    margin: 0px;
+    padding: 0px;
+    color:white;
+    border: none;
+    font-size: 260%;
+	padding-top:5px;
+}
+/* A TAGS - LINK BUTTONS
+----------------------------------------------------------*/
+a{
+       color:#99ccff;
+}
+a:hover{
+       color:#333;
+}
+a:visited{
+       color:#99ccff;
+}
+a.viewStatus, a.newDoc, a.checkIn, a.new, a.newAnnounce, a.edit, a.approve, a.additem, a.rss, a.newitem, a.addCategory, a.addSite, a.viewitem, a.ackitem, a.printitem, 
+a.deleteitem, a.addRegion, a.downloaditem, a.search, a.mailreply, a.attachment, a.user, a.next, a.previous, a.urlitem{
+   	padding: 3px 0 3px 20px;
+	margin-right:5px;
+   	color:#050a68;
+   	line-height:16px;
+}
+a.viewStatus:hover, a.newDoc:hover, a.checkIn:hover, a.new:hover, a.newAnnounce:hover, a.edit:hover, a.approve:hover, a.additem:hover, a.rss:hover, a.newitem:hover, a.addCategory:hover, a.addSite:hover, a.viewitem:hover, a.ackitem:hover, a.printitem:hover, 
+a.deleteitem:hover, a.addRegion:hover, a.downloaditem:hover, a.search:hover, a.mailreply:hover, a.attachment:hover, a.user:hover, a.next:hover, a.previous:hover, a.urlitem:hover{
+   	color:#333;   	
+}
+a.viewStatus
+{
+   	background: url(icons/viewStatus16.png) no-repeat left center;
+}    
+a.checkIn{
+   	background: url(icons/checkIn_16.png) no-repeat left center;
+}
+a.approve{
+   	background: url(icons/approve_16.png) no-repeat left center;
+}
+a.newAnnounce{
+   	background: url(icons/add.png) no-repeat left center;
+}
+a.additem{
+    background: url(icons/add.png) no-repeat left center;
+}
+a.rss{
+	background: url(icons/feed.png) no-repeat left center;
+}
+a.newDoc{
+	background: url(icons/add.png) no-repeat left center;
+}
+a.edit{
+	background: url(icons/edit.png) no-repeat left center;
+}
+a.addCategory{
+	background: url(icons/add.png) no-repeat left center;
+}
+a.addSite{
+	background: url(icons/add.png) no-repeat left center;
+}
+a.viewitem{
+	background: url(icons/viewitem.png) no-repeat left center;
+}
+a.ackitem{
+	background: url(icons/cube_thumb.png) no-repeat left center;
+	color: #b80000;
+}
+a.printitem{
+	background: url(icons/print.png) no-repeat left center;
+}
+a.deleteitem{
+	background: url(icons/delete.png) no-repeat left center;
+}
+a.addRegion{
+    background: url(icons/managereg_16.png) no-repeat left center;
+}
+a.downloaditem{
+	background: url(icons/attachment.png) no-repeat left center;
+}
+a.search{
+	background: url(icons/search.png) no-repeat left center;
+}
+a.mailreply{
+	background: url(icons/mail_reply.png) no-repeat left center;
+}
+a.attachment{
+	background: url(icons/attachment.png) no-repeat left center;
+}
+a.user{
+	background: url(icons/card.png) no-repeat left center;
+}
+a.next{
+	background: url(icons/move_next.png) no-repeat right center;
+}
+a.previous{
+	background: url(icons/move_previous.png) no-repeat left center;
+}
+a.urlitem{
+	background: url(icons/world.png) no-repeat left center;
+}
+/* IMAGES 
+----------------------------------------------------------*/
+img{
+	border: 0px;
+}
+a img{
+	border:none;
+	text-decoration:none;
+}
+.centerImage{
+    margin-top: 3px;
+}
+img.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* TABLES
+----------------------------------------------------------*/
+table{
+    font-size: 12px;
+	border:#888 solid 1px;
+	margin:0px 0px 10px 0px;
+	padding:0px;	
+	font-family:Tahoma, Arial, Sans-Serif;
+}
+td{
+}
+td.details{
+    font-weight:lighter;
+}
+th.headfirst{
+    background-color: #444;
+}
+td.datafirst{
+    background: #c2c2c2;
+    padding: 10px 10px 6px 12px;
+    color: #333;
+    text-align: left;
+}
+td.nobackground{
+    background: transparent;
+}
+/* --- FORM TABLE --- */
+.formTable{
+    padding: 6px 10px 6px 0px;
+    color: #585858;
+}
+table.formTable{
+    border:none;
+	margin:0px;
+}
+.formTable td{
+    border: #dcdcdc solid 1px;
+    border-collapse: collapse;
+    background-color: #ededed;
+    padding: 1px;
+    font-weight:bold;
+    width:auto;
+    padding:2px 5px;
+}
+.formTable tr td {
+	vertical-align: top;
+}
+.formTable th {
+    border: #333 solid 1px;
+    background-color: #666;
+    color:White;
+    padding:5px 7px;
+}
+.formTable img{
+    vertical-align:middle;
+}
+.formTable label{
+    margin:0px 2px 0px 2px;
+}
+.formTable table{
+    border:none;
+    margin:0px;
+}
+/* --- REGIONS / SITES --- */
+.accessSite td.accessTitle, .accessRegion td.accessTitle{
+    background:url(icons/site.png) no-repeat 7px 5px;
+    padding-left:30px;
+}
+.accessRegion td.accessTitle{
+    background-image:url(icons/region.png);
+}
+tr.accessSite td, .accessSite td.accessTitle{
+    background-color:#ccc;
+}
+tr.accessRegion td, .accessRegion td.accessTitle{
+    background-color:#aaa;
+}
+/* --- STANDARD TABLE --- */
+.standardTable{
+    font-size:12px;
+    background:white;
+    border:none;
+    margin-top:10px;
+    border-spacing:2px;
+    border-collapse:separate;
+    width:100%;
+}
+.standardTable td{
+    background-color: #dbdbdb;
+    padding: 4px;
+    padding-left:8px;
+    color: #585858;
+    text-align: left; 
+    border:none;
+    width:auto;
+}
+.standardTable th{
+    font-weight: bold;
+    color: white;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 6px;
+    padding-left:12px;
+    background-color:#666;
+    border:1px solid #333;
+}
+.standardTable .primary td{
+    background-color:#666;
+    color:White;
+    font-size:14pt;
+    font-weight:normal;
+}
+.standardTable .primary td.details{
+    background-color:#777;
+}
+.standardTable td.details{
+    font-weight:normal;
+    background-color:#efefef;
+}
+
+.standardTable tr td a
+{
+}
+.standardTable a:hover{
+}
+.standardTable th a{
+    color:#fff;
+    text-decoration:underline;
+    cursor:pointer;
+}
+.standardTable th a:hover{
+    color:#888888;
+    text-decoration:underline;
+    cursor:pointer;
+}
+.standardTable img.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.minimum{
+    border:none;
+    width:auto;
+    background-color:transparent;
+    padding:0;
+    margin:0;
+}
+/* --- PERMISSIONS TABLE --- */
+.permissionsTable{
+    font-size: 12px;
+    background: #DBDBDB;
+    border: solid 1px #696969;
+    margin-bottom:10px;
+    width:100%;
+}
+.permissionsTable td{
+    padding:3px 5px 3px 5px;
+    vertical-align:top;
+}
+.permissionsTable th{
+    text-align:left;
+    padding:3px 5px 3px 5px;
+    color:#dbdbdb;
+    background: #696969;
+}
+.permissionsTable .primary td, .permissionsTable .primary th{
+    background-color:#555;
+    color:White;
+    font-size:14px;
+}
+/* --- LOGIN TABLE --- */
+.loginTable td{
+    border-collapse: collapse;
+    background-color: #ededed;
+    border:none;
+    padding: 1px;
+    font-weight:bold;
+    width:auto;
+    padding:2px 5px;
+}
+.loginTable table{
+    border: none;
+}
+/* --- DATA TABLE --- */
+.datatable{
+	border: 1px solid #484848;
+	border-collapse: collapse;
+	color: #000000;
+}
+.datatable thead{
+	text-align: center;
+	font-size: 100% !important;
+	font-weight: bold;
+}
+.datatable thead tr th{
+	border: 1px solid #484848;
+	padding: 3px;
+}
+.datatable tbody tr td{
+	border: 1px solid #484848;
+	padding: 3px;
+}
+/* --- OTHER TABLES --- */
+.roles td{
+    background-color: #dbdbdb;
+    padding: 4px 10px 4px 12px;
+    color: #585858;
+    text-align: center;
+}
+#ctl00_contentPlaceHolder_LoginView1_Login1{
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #9f9f9f;
+    padding: 6px 10px 6px 0px;
+    color: #585858;
+}
+#ctl00_contentPlaceHolder_LoginView1_Login1 td{
+    border: #dcdcdc solid 1px;
+    border-collapse: collapse;
+    background-color: #efefef;
+}
+.bindingBox table{
+    border:none;
+}
+.editTable{
+    background-color:#bcbcbc;
+    border:1px solid #666666 !important;
+    margin:0;
+    padding:5px;
+    width:435px;
+}
+.newsTable{
+    background-color:transparent;
+    border:none;
+}
+.newsTable td{
+    padding:3px 0 15px 0;
+    max-width:300px;
+}
+.editCommentsField{
+    width:290px !important;
+    height:100px !important;
+}
+.newsTwoLeft{
+}
+.newsTwoRight{
+    margin-left:10px;
+}
+ /*  EDIT ANNOUNCEMENT/DOCUMENT
+----------------------------------------------------------*/
+.small{
+    font-size:7pt;
+    font-weight:normal;
+}
+.newsTwoButtons
+{
+    float:left;
+}
+.functionButtons{
+    float:left;
+    padding-right:30px;
+}
+.functionButtons h3{
+    background: url(icons/block.png) no-repeat left center;
+    padding-left:35px;
+}
+.saveFunctions h3{
+    background: url(icons/save_32.png) no-repeat left center;
+    padding-top: 6px \9;
+    padding-bottom: 6px \9;
+}
+.actionFunctions h3{
+    background: url(icons/gear_32.png) no-repeat left center;
+    padding-top: 6px \9;
+    padding-bottom: 6px \9;
+}
+.approveFunctions h3{
+    background-image: url(icons/check_32.png);
+}  
+.approveFooter{
+    clear:both;
+    height:90px;
+    background-color:#efefef;
+    border:solid 1px #aaa;
+    padding:0px 15px;
+    margin-top:50px;
+}
+.approveFooter h3{
+    margin-top:10px;
+}
+.lessPad td{
+    padding-bottom:5px;
+} 
+.statusBox{
+    background-color:white;
+    border:1px solid #666666 !important;
+    padding:5px;
+    font-style:italic;
+    font-weight:bold;
+}
+.ack, .view, .notAck, .notView{
+    padding:3px 0 2px 20px;
+    font-style:normal;
+    font-weight:normal;
+}
+.ack, .view{
+    background: transparent url(icons/cube_green.png) no-repeat left;
+    margin-left:5px;
+}
+.notView{
+    background: transparent url(icons/cube_yellow.png) no-repeat left;
+    margin-top:5px;
+}
+.notAck{
+    background: transparent url(icons/cube_red.png) no-repeat left;
+}
+#ackNotReqd, #ackReqd{
+        margin-top:5px;
+        height:16px;
+}
+.editCommentsLabel{
+    vertical-align:top;
+    width: 130px;
+}
+.versionNumber{
+    font-family: "Helvetica 45 Light" , MyriadPro, "Myriad Pro" , "Arial Narrow" , Arial, Sans-Serif;
+    float:right;
+    padding-top:10px;
+    font-size:14pt;
+}
+.versionNumber a, .versionNumber a:visited{
+    color:#999;
+}
+.versionNumber a:hover{
+    color:#777;
+}
+#ctl00_contentPlaceHolder_lblTitle 
+{
+    width: 300px;
+    word-wrap: break-word;
+}
+#ctl00_contentPlaceHolder_txtDescription_contentDiv
+{
+    max-width: 910px;
+    word-wrap: break-word;
+}
+/* VERSION HISTORY
+----------------------------------------------------------*/
+.versionListDetails{
+    font-weight:bold;
+}
+.lblTitle, .lblAuthor, .lblCategory{
+    margin-right:15px;
+    font-weight:normal;
+}
+.published td{
+    background-color:#ccc;
+}
+.publishedCurrent td{
+    background-color:#aaa;
+}
+/* EDIT USERS
+----------------------------------------------------------*/
+.RadTabStrip {
+    margin-top:30px !important;
+    margin-bottom:-1px !important;
+}
+/* CREATE USERS
+----------------------------------------------------------*/
+.rtsLevel{
+    margin-top:-10px;
+} 
+.userTabs{
+    border:1px solid #666;
+    padding:10px;
+    background-color: white;
+    margin-bottom:10px;
+}
+.userTabs .formTable{
+    margin-top:20px;
+}
+/* --- PROGRESS BAR --- */
+.progressBar{
+    padding-top:30px !important;
+    /*border:lime 3px solid;*/
+}
+.progressBar .rtsOut, .progressBar .rtsIn, .progressBar .rtsLink{
+    background-image:none !important;
+    height:30px;
+    padding:0px !important;
+}
+.progressBar li.rtsLI{
+}
+/* --- Normal Buttons ---*/
+.progressBar .rtsUL a{
+    margin-right:0px !important;
+    position:relative;
+    z-index:1;
+    color:#000 !important;
+    padding:0px 20px 0px 0px !important;
+    border-top:5px solid #999;
+}
+.progressBar .rtsUL a:hover{
+    color:#333;
+    border-color:#666;
+}
+/* --- Disabled Buttons ---*/
+.progressBar .rtsUL a.rtsDisabled{
+    color:#999 !important;
+    border-color:#ddd;
+}
+/* --- Selected Buttons ---*/
+.progressBar .rtsUL a.rtsSelected{
+    font-weight:bold;
+    border-color:black;
+}
+/* --- CREATE  USERS NEW--- */
+.createUser{
+    
+}
+.createUser .standardTable, .createUser .formTable{
+    margin-top:20px;
+}
+/* CREATE GROUPS 
+----------------------------------------------------------*/
+.editGroup{
+    width:100%;
+    background-color:#efefef;
+    border:solid 1px #ccc;
+    margin:20px 0px;
+}
+.editGroup h3{
+    clear:none;
+    border-bottom:#999 solid 1px;
+}
+.editGroup textarea, .editGroup select, .groupDetails input{
+    width:100%;
+    min-width:100%;
+    max-width:100%;
+}
+.editGroup table{
+    background-color:transparent;
+    border:none;
+    width:100%;
+}
+.editGroup td{
+    border-bottom:1px solid #ddd;
+    padding-bottom:5px;
+}
+.groupLabel{
+    vertical-align:top;
+    width:100px;
+}
+.groupUsers
+{
+    float:right;
+}
+.groupDetails, .groupUsers{
+    width:430px;
+    margin:0px 15px;
+    border:1px solid transparent;
+}
+#divUsers{
+    padding:10px;
+    padding-top:0px;
+}
+/* MESSAGE - FORUMS
+----------------------------------------------------------*/
+.message{
+	border: 1px solid #484848;
+	color: #555;
+	margin-top: 2px;
+	margin-bottom: 8px;
+}
+.messageHeader{
+	background: #9f9f9f;
+	padding: 0px;
+}
+.messageAuthor{
+	font-size: smaller;
+}
+.messageDate{
+	font-size: smaller;
+}
+.messageAttach{
+}
+.messageSubject{
+	margin: 0px;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.messageBody{
+	border-top: 1px solid #484848;
+	border-bottom: 1px solid #484848;
+	padding: 4px;
+}
+.messageActions{
+	padding: 3px;
+}
+/* BOX TITLES
+----------------------------------------------------------*/
+.boxTitle{
+	font-size: 14px;
+	color: white;
+	background-color: #484848;
+	font-weight: bold;
+	padding:5px;
+	margin: 0px;
+	height:18px;
+	border-bottom:1px solid #484848;
+}
+.boxTitle img{
+	float:right;
+	position:relative;
+	top:-12px;
+	left:-12px;
+}
+#commsblock .boxTitle{
+	background-color:#999;
+}
+#docoblock .boxTitle{
+	background-color:#777;
+}
+#trainingblock .boxTitle{
+	background-color:#555;
+}
+#messageblock .boxTitle{
+	background-color:#333;
+}
+.boxContent{
+	padding-left: 10px;
+	background-color: #FCFDFE;
+}
+.pageNavigation{
+	border: 1px solid #484848;
+	margin-bottom: 10px;
+	padding: 2px;
+}
+/* SECTION   
+----------------------------------------------------------*/
+.section p{
+	padding:0px 10px 0px 10px;
+	line-height:1.2em;
+}
+/* BUTTONS   
+----------------------------------------------------------*/
+.btn{
+    height: 20px;
+    background: url(images/btnBG.png) #d0d0d0 repeat-x center;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+    color: #505050;
+    font-size: 12px;
+    border: 1px solid #abadb3;
+    margin: 5px 5px 5px 0px;
+}
+.btn:hover{
+    border: 1px #7e7e7e solid;
+}
+.btn:focus{
+    border: 1px #7e7e7e solid;
+}
+.btnYes:hover{
+    background: url(icons/yes24over.png) no-repeat center;
+}
+.btnNo:hover{
+    background: url(icons/no24over.png) no-repeat center;
+}
+.submitButton{
+    text-align: right;
+    padding-right: 10px;
+}
+.ruButton ruBrowse, .RadUpload_Default .ruButton, .RadUploadProgressArea_Default .ruButton{
+    height: 20px !important;
+    background: url(images/btnBG.png) #d0d0d0 repeat-x center !important;
+    padding: 0px 10px 0px 10px !important;
+    cursor: pointer !important;
+    color: #505050 !important;
+    font-size: 12px !important;
+    border: 1px solid #abadb3 !important;
+    margin: 1px 5px 0px 5px !important;
+}
+div.RadUpload_Default .ruInputs .ruButtonHover, div.RadUpload_Default .ruActions .ruButtonHover, div.RadUploadProgressArea_Default .ruActions .ruButtonHover{
+    border: 1px #7e7e7e solid !important;
+}
+/* --- ACTION BUTTON --- */
+.actionButton{
+	float:right;
+	position:relative;
+	font-size:0.8em;
+	font-weight:bold;
+}
+.actionButton a{	
+	text-align:right;
+	padding-right:10px;
+	color:white;
+	text-decoration:none;
+	font-style:italic;
+}
+.actionButton a:hover{
+	color:#3399FF;
+}
+/*BUTTON IDs
+-----------------------------------------------------------*/
+.btn#btnAddGroup, .btn#btnAddGroup:hover{
+    background-image: url(icons/addgroup.png);
+    background-repeat: no-repeat;
+}
+.btn#btnDeleteGroup, .btn#btnDeleteGroup:hover{
+    background-image: url(icons/deletegroup.png);
+    background-repeat: no-repeat;
+}
+.dropdownlist{
+    margin: 0px;
+    padding: 0px;
+}
+.subheading{
+}
+/*TREEVIEW
+-----------------------------------------------------------*/
+.toggleTreeLinks{
+    margin-top:15px;
+    margin-bottom:10px;
+    margin-left:-3px;
+}
+.toggleTreeLinks a{
+    padding: 0 0 0 20px;
+    font-size: 8pt;
+}
+.toggleTreeLinks a:hover{
+    color:#3399FF;
+}
+.expandAll{
+    background: transparent url(icons/tvExpand.png) no-repeat left;
+}
+.collapseAll{
+    background: transparent url(icons/tvCollapse.png) no-repeat left;
+}
+.expandAll:hover{
+    background-image: url(icons/tvExpandHov.png);
+}
+.collapseAll:hover{
+    background-image: url(icons/tvCollapseHov.png);
+}
+.RadTreeView_Default .rtPlus, .RadTreeView_Default .rtMinus{
+    width:24px !important;
+    height:24px !important;
+    background-image:url('icons/tvExpand.png') !important;
+    background-position: 0 0 !important;
+    margin:0px !important;
+    margin-left:-23px !important;
+}    
+.rtLI .rtUL{
+    background:none !important;
+}
+.RadTreeView_Default .rtMinus{
+    background-image:url('icons/tvCollapse.png') !important;
+}
+.RadTreeView_Default .rtPlus:hover{
+    background-image:url('icons/tvExpandHov.png') !important;
+}    
+.RadTreeView_Default .rtMinus:hover{
+    background-image:url('icons/tvCollapseHov.png') !important;
+}  
+ .rtIn{
+    padding:0px 5px;
+    background: transparent none !important;
+    border:none;
+    vertical-align:top;
+}
+.rtSelected .tvContext
+{
+    display:inline-block !important;
+}
+.rtIn:hover{
+    border:solid 1px #999 !important;
+    background-color:#CCC !important;
+}
+.rtSelected .rtIn{
+    border:solid 1px #666 !important;
+    background-color:#AAA !important;
+}
+.rtIn a{
+    color:White;
+    margin:0px 5px;
+}
+.rtIn a:hover{
+    color:#99CCFF;
+}
+.rtLI{
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+.rtLI:hover
+{
+    padding:0px;
+}
+/*.rtHover{
+    margin-top:1px;
+    margin-bottom:1px;
+}*/
+.tvNode{
+}
+.tvNode:hover{
+    margin:0px !important;
+    padding:0px !important;
+}
+/*ONLINE DOC
+----------------------------------------*/
+.articleHeaderLeft{
+    width: auto;
+}
+.articleHeaderRight{
+    clear:both;
+    text-align:right;
+    float: right;
+    color: #3399FF;
+    margin-top:5px;
+    font-size:10pt;
+    margin-right:10px;
+    font-style:italic;
+}
+.tocHeader{
+    float:left;
+    display:inline;
+}
+.editorHeader{
+    float:right;
+    display:inline;
+    width:auto;
+}
+.popup{
+    position: relative;
+    border: 1px solid gray;
+}
+.dragHandle{
+    width: 16px;
+    height: 16px;    
+    background: #dbdbdb url(icons/arrow_out.png) no-repeat;
+    cursor: move;
+    margin-left: -5px;
+    position: relative;
+}
+.reorderList ul li{
+    background-color:#EDEDED;
+}
+.reorderListPrev ul li{
+    border-color:#bbb;
+    background-color:#ededed;
+}
+.reorderListPrev a{
+}
+.reContentCell table{
+    min-width:150px;
+}
+.alignLeftSubmitBtn{
+    text-align:right;
+    margin-bottom:-5px;
+}
+/* --- EDITOR PANE ---*/
+.divEditor{
+    margin-left: 316px;
+    background-color:#dcdcdc;
+    padding: 5px;
+    border: solid 1px #666;
+    width:auto;
+}
+.divEditor .header{
+    font-weight:normal;
+}
+.divEditor .chapName{
+    float:right;
+    margin-left:100px;
+    font-style:italic;
+    font-weight:normal;
+    border:none;
+    margin-bottom:4px;
+    text-align:right;
+    word-wrap: break-word;
+}
+.RadEditor{
+    border:none !important;
+    margin:0px !important;
+    padding:0px !important;
+}
+.docTitle{
+    margin:0px !important;
+    padding:0px !important;
+    height:40px;
+}
+.divPrev{
+    margin:0px;
+    background-color:transparent;
+    padding: 5px;
+    border: none;
+    height:auto;
+    width:auto;
+    margin-left: 310px;
+}
+.divPrev .header{
+    font-weight:normal;
+    border:none;
+    float:left;
+}
+.divEditor h1, .divEditor h2, .divPrev h1, .divPrev h2{
+    margin: 0px;
+    padding:0px;
+    border:none;
+}
+.divEditor h3{
+    margin-top: 0px;
+    padding-top:0px;
+}
+.reModule{
+    display:none;
+}
+.reToolZone{
+    background:#dcdcdc;
+}
+.docFeedback{
+    
+}
+/*TABLE OF CONTENTS
+----------------------------------------*/
+/* --- TOC DIV ---*/
+.tocDiv  {
+    position:absolute;
+    float: left;
+    background-color:#444;
+    padding: 0px;
+    border: solid 1px #333;
+    height:auto;
+}
+.tocDiv a{
+    color:#99ccff;
+    text-decoration:none;
+}
+.tocDiv a:hover, .tocDiv a:visited{
+    color:#33ccff;
+}
+.tocDiv.fixed{
+    position:fixed;
+    top:10px;
+}
+.tocDivPrev{
+    float:left;
+    border:none;
+    height:495px;
+}
+.tocDiv .header{
+}
+.tocItems{
+    margin-top:14px;
+    height:auto;
+    background-color:#565656;
+    /*border:1px solid #333;*/
+    clear:both;    
+}
+.tocItems input{
+    vertical-align:middle;
+}
+.tocItemsPrev{
+    margin-top:10px;
+    height:auto;
+    background-color:transparent;
+    padding:0px;    
+    border:none;    
+    clear:both;
+}
+.tocItemsPrevContent{
+    margin-top:28px;
+    padding:4px;
+    background-color:transparent;
+    border:none;
+    height:auto;
+    overflow:auto;
+}
+.tocDiv ul{
+    margin: 0px;
+    padding:0px;
+}
+.tocDiv ul li{
+    padding-top:3px;
+}
+.tocDiv h2{
+    padding-top:5px;
+    margin:2px;
+    margin-left:5px;
+    color:White;
+    border-bottom:none;
+    width:auto;
+    float:left;
+}
+.tocDiv td{
+    padding: 4px 0px 4px 10px;
+    color: #585858;
+    text-align: left;
+}
+.tocDiv .reorderList ul li{
+    width:300px;
+}
+/* --- SUBCHAPTER ---*/
+.subChapList{
+    background-color:#777;
+    border-top:1px solid #333;
+    display:none;
+    padding-left:10px;
+}
+.subChapList a{
+    color:white;
+    margin-left:10px;
+}
+.subChapList a:hover{
+    color:#66ccff;
+}
+.subChapList span{
+    font-size:small;
+    padding-left:5px;
+}
+/* --- TOC BUTTON ---*/
+.btnTOC{
+    position:relative;
+    float:right;
+    right:7px; 
+}
+.btnTOCPrev{
+    position:relative;
+    float:right;
+    right:7px;    
+}
+/*--- TOC REORDER ---*/
+.reorderList ul li{
+    width:275px;
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    background-color:#565656;
+    float:none;
+    height:auto;
+}
+.reorderList ul li table{
+    margin:0px;
+    padding:0px;
+}
+.reorderListPrev ul li{
+    width:275px;
+    list-style-type: none;
+    padding: 0px;
+    float:none; 
+    background-color: #565656;
+    border-top:#333 solid 1px;
+    border-bottom:none;
+}
+.reorderListPrev a{
+}
+.reorderItemsDiv{
+    overflow:hidden;
+    /*height:300px;*/
+    width: 300px;
+}
+.reorderItemsDivPrev{
+    overflow:hidden;   
+}
+.reorderItemsDiv li{
+   background: #565656;
+    border-bottom: 1px solid #333;
+   margin-top: 0px;
+}
+.reorderItemsDivPrev li{
+   margin-top: 0px;
+}
+.reorderList .chapterReorderList{
+    width:90%;
+    padding:0px;
+    margin:0px;
+    float:left;   
+}
+.chapterReorderList{
+}
+.chapterReorderList span{
+    padding-left:5px;
+}
+.chapterReorderList a{
+    padding-left:5px;
+    padding-right:5px;
+}
+/*--- ICONS ---*/
+.delChapIcon{
+    background-color: transparent;
+    margin-left:247px;
+    vertical-align:middle;
+}
+.delChapIcon a{
+    width:16px;
+    height:16px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.dragTemplate{
+    width: 280px;
+    height: 23px;
+    border: dotted 2px #336699;
+    list-style-type: none;
+}
+.defaultTextBoxValue{
+    color: #cdcdcd;
+    font-style: italic;
+}
+.overlayInsertChapter{
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    background-color: #3399FF;
+    opacity: 1.0;
+    position: fixed;
+    color: #000;
+    z-index: 10001;
+    height: 300px;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+}
+.overlayInsertDraft{
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    background-color: #3399FF;
+    opacity: 0.8;
+    position: fixed;
+    color: #000;
+    z-index: 10001;
+    height: 423px;
+    width: 430px;
+    top: 50%;
+    left: 50%;
+}
+.overlayInsertYesNo{
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    background-color: #3399FF;
+    opacity: 0.8;
+    position: fixed;
+    color: #000;
+    z-index: 10001;
+    height: 223px;
+    width: 430px;
+    top: 50%;
+    left: 50%;
+}
+.radTabSwitchModeView{
+    width:100px;
+    background-image:url(icons/viewdoc_24.png);
+    width:50px;
+}
+.radTabSwitchModeEdit{
+    font-size:small;
+    background-image:url(icons/editdoc_24.png);
+}
+.tabStripSmall{
+   vertical-align:text-bottom;   
+   float:right;
+   font-size:smaller;
+}
+.litViewContnt{
+    word-wrap: break-word; 
+}
+.reTool .customInsertLink{
+    background-image:url(icons/linkdocchap.gif);
+}
+.chapSection{
+    margin-left:20px;
+    padding-left:3px;
+    margin-top:-10px;
+    background-color:Gray;
+}
+/*FEEDBACK ALERTS
+----------------------------------------*/
+.feedbackText{
+    color:#666;
+    font-style:italic;
+}
+.feedbackError{
+    color:#bc0000;
+    font-style:italic;
+    font-weight:bold;
+}
+/* --- NOTIFICATION ---*/
+.positive, .negative{
+    height:56px;
+    width: 950px;
+    padding:0;
+    margin: 0px 10px 0px -10px;
+}
+.positive .feedbackmiddle, .negative .feedbackmiddle{
+    width: 875px;
+    display:block;
+    height:56px;
+    line-height:56px;
+    background: transparent url(images/default.png) repeat-x;
+    float:left;
+}
+.positive .feedbackmiddle{
+    background-image:url(images/posMiddle.png);
+}
+.negative .feedbackmiddle{
+    background-image:url(images/negMiddle.png);
+}
+.positive .feedbackright, .negative .feedbackright{
+    width: 16px;
+    height:56px;
+    background: transparent url(images/default.png) no-repeat;
+    float:left;
+}
+.positive .feedbackright{
+    background-image:url(images/posRight.png);
+}
+.negative .feedbackright{
+    background-image:url(images/negRight.png);
+}   
+.saved, .added, .acknowledged, .created, .sent, .deleted, .error, .exception, .publish{
+    padding:0;
+    margin:0;
+    width:49px;
+    height:56px;
+    background: transparent url(images/default.png) no-repeat left;
+    float:left;
+}  
+.saved{
+    background-image:url(images/posSave.png);
+} 
+.publish{
+    background-image:url(images/posSave.png);
+} 
+.added{
+    background-image:url(images/posAdd.png);
+} 
+.acknowledged{
+    background-image:url(images/posAcknowledge.png);
+} 
+.created{
+    background-image:url(images/posCreate.png);
+}
+.sent{
+    background-image:url(images/posSent.png);
+}
+.deleted{
+    background-image:url(images/posDelete.png); 
+}
+.error, .exception{
+    background-image: url(images/negError.png);
+}
+/* --- MODAL FEEDBACK --- */
+.TelerikModalOverlay{
+    background-color: #333 !important;
+    opacity: 0.7 !important;
+}
+.RadWindow{
+    position:fixed !important;
+    background:none !important;
+    height:10px !important;
+    left:0px !important;
+    right:0px !important;
+    top:100px !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+.rwCorner, .rwTitlebar, .rwTopResize, .rwIcon, .rwFooterCenter, .RadWindow table{
+    background: transparent none !important;
+}
+.rwWindowContent{
+    background-color:#d8d8d8 !important;
+    border: solid 1px #555 !important;
+    padding:15px;
+    min-width:300px !important;
+    
+    height:auto !important;
+    max-height:80% !important;
+}
+.rwWindowContent div{
+    height:auto !important;
+    width:auto !important;
+
+}
+.rwWindowContent .standardTable{
+    width:800px;
+}
+.rwControlButtons a{
+    background-image:url(icons/popupClose.png) !important;
+}
+.rwControlButtons a:hover{
+    background-image:url(icons/popupClose_hover.png) !important;
+    cursor:pointer !important;
+}
+.rwCloseButton{
+    position:absolute;
+    margin-left:-20px;
+    margin-top:20px;
+    background-position: 0 0 !important;
+    height:30px !important;
+    width:30px !important;
+    float:right;
+}
+.rwCloseButton span{
+    display:none !important;
+    width:0 !important;
+}
+.popupModalTitle{
+    font-family: MyriadPro, "Myriad Pro", "Arial Narrow", Arial, Sans-Serif;
+    color:#666;
+	border-bottom:2px solid #666;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	font-size:1.6em;
+}
+.popupModalCustom span, .popupModalInput span{
+    display:inline-block;
+    width:130px;
+    font-weight:bold;
+}
+.popupModalCustom input, .popupModalInput input{
+    width:150px;
+}
+

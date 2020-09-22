@@ -1,0 +1,767 @@
+﻿/* STYLES.CSS */
+/*---- IMPORT DEFAULT STYLESHEET ----*/
+@import "../default/styles.css";
+/*---- DO NOT REMOVE! ----*/
+/* FONTS */
+/*------------------------------------------------------------*/
+@font-face {
+    font-family: Helvetica45;
+    src: url(fonts/HLL.PFM);
+    font-weight:normal;
+}
+/* STANDARD STYLES */
+/*------------------------------------------------------------*/
+body{
+    font-family:Tahoma, Arial, Sans-Serif;
+}
+label{
+}
+pre{
+}
+code{
+}
+input{
+}
+textarea{
+}
+/* PARAGRAPH TEXT
+--------------------------------------------------------*/
+p{
+}
+p.errorBox{
+}
+.bold{
+}
+.plainText  {
+}
+address{
+}
+important{
+}
+quote{
+}
+reference{
+}
+caption{
+}
+/* LISTS   
+----------------------------------------------------------*/
+ul, ol {
+    color: #050a68;
+}
+ul li {
+}
+#browser ul{
+}
+.browser ul{
+}
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6{
+    font-family: Helvetica45, "Helvetica 45 Light" , "Myriad Pro" , "Arial Narrow" , Arial, Sans-Serif;
+    font-weight: normal;
+}
+h1 {
+	color:#050a68;
+    font-size: 18pt;
+    font-weight:bold;
+	text-transform:uppercase;
+	border-bottom:2px solid #959595;
+	margin-top:0px;
+	margin-left:-20px;
+	margin-right:-20px;
+	padding-top:0px;
+	padding-bottom:5px;
+	padding-left:20px;
+}
+h2 {
+	color:#050a68;
+	font-size:18pt;
+    padding-bottom: 7px;
+	border-bottom:2px solid #959595;
+}
+h3 {
+    font-size: 16pt;
+    color: #959595;
+    padding-bottom: 7px;
+    border-bottom:none;
+}
+h4 {
+    font-size: 14pt;
+    color: #4b86ae;
+}
+h5 {
+    font-size: 13pt;
+    color: #96bf44;
+}
+h6 {
+    font-size: 12pt;
+}
+/* --- MAIN SECTION HEADING 1's --- */
+h1.sectionhead{
+    position:relative;
+    color:#444;
+    background-color:#ffd500;
+	background-repeat:no-repeat;
+	background-position:center left;
+	border:none;
+    margin-right:0px;
+	padding-left:80px;
+	padding-top:7px;
+	padding-bottom:3px;
+}
+h1#dashboard, h1#directory, h1#docoblock, h1#training, h1#comms, h1#announce, h1#messages, h1#forums, h1#management, h1#training, h1#user, h1#admin, h1#adminLocPeop, h1#adminBlocks, h1#sites, h1#rolesgroups, h1#managedoco, h1#managereg, h1#manageGroup, h1#editUser{
+    background-image:none;
+    z-index:1;
+    position:relative;
+}
+h1#dashboard:before, h1#directory:before, h1#docoblock:before, h1#training:before, h1#comms:before, h1#announce:before, h1#messages:before, h1#forums:before, h1#management:before, h1#training:before, h1#user:before, h1#admin:before, h1#adminLocPeop:before, h1#adminBlocks:before, h1#sites:before, h1#rolesgroups:before, h1#managedoco:before, h1#managereg:before, h1#manageGroup:before, h1#editUser:before,
+h1#dashboard:after, h1#directory:after, h1#docoblock:after, h1#training:after, h1#comms:after, h1#announce:after, h1#messages:after, h1#forums:after, h1#management:after, h1#training:after, h1#user:after, h1#admin:after, h1#adminLocPeop:after, h1#adminBlocks:after, h1#sites:after, h1#rolesgroups:after, h1#managedoco:after, h1#managereg:after, h1#manageGroup:after, h1#editUser:after{
+    position:absolute;
+    z-index:-1;
+    top:-10;
+    left:0;
+    right:0;
+    bottom:0;
+}
+h1#dashboard:before, h1#directory:before, h1#docoblock:before, h1#training:before, h1#comms:before, h1#announce:before, h1#messages:before, h1#forums:before, h1#management:before, h1#training:before, h1#user:before, h1#admin:before, h1#adminLocPeop:before, h1#adminBlocks:before, h1#sites:before, h1#rolesgroups:before, h1#managedoco:before, h1#managereg:before, h1#manageGroup:before, h1#editUser:before{
+    padding: 0 0 3px 20px;
+    text-align:left;
+}
+h1#dashboard:after, h1#directory:after, h1#docoblock:after, h1#training:after, h1#comms:after, h1#announce:after, h1#messages:after, h1#forums:after, h1#management:after, h1#training:after, h1#user:after, h1#admin:after, h1#adminLocPeop:after, h1#adminBlocks:after, h1#sites:after, h1#rolesgroups:after, h1#managedoco:after, h1#managereg:after, h1#manageGroup:after, h1#editUser:after{
+    text-align:right;
+    content:url(images/white_corner.png);
+    top:0px;
+}
+h1#dashboard:before{
+	content:url(../default/icons/icon_bulletin_48.png);
+}
+h1#directory:before{
+	content:url(../default/icons/icon_directory_48.png);
+}
+h1#docoblock:before{
+	content:url(../default/icons/icon_doco_48.png);
+}
+h1#training:before{
+	content:url(../default/icons/icon_training_48.png);
+}
+h1#comms:before{
+	content:url(../default/icons/icon_comms_48.png);
+}
+h1#announce:before{
+	content:url(../default/icons/icon_message_48.png);
+}
+h1#forums:before{
+    content: url(../default/icons/icon_forums_48.png);
+}
+h1#messages:before{
+    content: url(../default/icons/mail.png);
+}
+h1#management:before{
+	content:url(../default/icons/icon_management._48.png);
+}
+h1#training:before{
+	content:url(../default/icons/icon_training_48.png);
+}
+h1#user:before{
+	content:url(../default/icons/pawn_48.png);
+}
+h1#admin:before{
+	content:url(../default/icons/gear_48.png);
+}
+h1#adminLocPeop:before{
+	content:url(../default/icons/locationPeople.png);
+}
+h1#adminBlocks:before{
+    content: url(../default/icons/block_48.png);
+}
+h1#sites:before{
+    content: url(../default/icons/sites_48.png);
+}
+h1#rolesgroups:before{
+    content: url(../default/icons/rolesgroups_48.png);
+}
+h1#managedoco:before{
+    content: url(../default/icons/managedoco_48.png);
+}
+h1#managereg:before{
+    content: url(../default/icons/managereg_48.png);
+}
+h1#manageGroup:before{
+    content:url(../default/icons/rolesgroups_48.png);
+}
+h1#editUser:before{
+    content:url(../default/icons/adminFunc.png);
+}
+/* --- TITLE --- */
+.title{
+	margin:15px 0px 0px 0px;
+}
+.title h1{
+}
+/* A TAGS - LINK BUTTONS
+----------------------------------------------------------*/
+a {
+    color: #0008a6;
+}
+a:hover {
+    color: #000acf;
+}
+a:visited {
+    color: #0008a6;
+}
+a.checkIn, a.new, a.newAnnounce, a.edit, a.approve, a.additem, a.rss, a.newitem, a.addCategory, a.addSite, a.viewitem, a.ackitem, a.printitem, 
+a.deleteitem, a.addRegion, a.downloaditem, a.search, a.mailreply, a.attachment, a.user, a.next, a.previous, a.urlitem{
+   	color:#0008a6;
+}
+a.checkIn:hover, a.new:hover, a.newAnnounce:hover, a.edit:hover, a.approve:hover, a.additem:hover, a.rss:hover, a.newitem:hover, a.addCategory:hover, a.addSite:hover, a.viewitem:hover, a.ackitem:hover, a.printitem:hover, 
+a.deleteitem:hover, a.addRegion:hover, a.downloaditem:hover, a.search:hover, a.mailreply:hover, a.attachment:hover, a.user:hover, a.next:hover, a.previous:hover, a.urlitem:hover{
+   color: #000acf;
+}
+a.checkIn{
+}
+a.approve{
+}
+a.newAnnounce{
+}
+a.additem {
+}
+a.rss {
+}
+a.newitem {
+}
+a.edit {
+}
+a.ackitem {
+}
+a.printitem {
+}
+a.deleteitem {
+}
+a.downloaditem {
+}
+a.search {
+}
+a.mailreply {
+}
+a.attachment {
+}
+a.user {
+}
+a.next {
+}
+a.previous {
+}
+a.urlitem {
+}
+/* IMAGES 
+----------------------------------------------------------*/
+img {
+}
+a img {
+}
+.centerImage {
+}
+img.center{
+}
+/* TABLES
+----------------------------------------------------------*/
+table{
+}
+.alternate td{
+    background-color:#ededed !important;
+}
+td{
+}
+td.details {
+}
+th.headfirst {
+    background: #a5a5a5;
+}
+td.datafirst{
+}
+td.nobackground{
+}
+/* --- FORM TABLE --- */
+.formTable {
+    padding:0px;
+    margin:0px;
+    font: bold 12px;
+    border: 1px solid #959595;
+    background-color:white;
+    margin-bottom:5px;
+}
+.formTable table{
+}
+.formTable td {
+     padding:3px;
+     border:none;
+     background-color:#dbdbdb;
+     /*border:solid 1px #959595;*/
+}
+.formtable tr td{
+}
+.formtable th{
+}
+.formTable img{
+}
+.formTable label{
+}
+.formTable table{
+}
+/* --- REGIONS / SITES --- */
+.accessSite td.accessTitle, .accessRegion td.accessTitle{
+}
+.accessRegion td.accessTitle{
+}
+tr.accessSite td, .accessSite td.accessTitle{
+    background-color:#ffe560;
+}
+tr.accessRegion td, .accessRegion td.accessTitle{
+    background-color:#FFD500;
+}
+/* --- STANDARD TABLE --- */
+.standardTable .primary td {
+    padding:3px 5px;
+    /*border:solid 1px #568bbd;*/ 
+    background: #888;
+    font-family: Helvetica45, "Helvetica 45 Light" , "Myriad Pro" , "Arial Narrow" , Arial, Sans-Serif;
+}
+.standardTable .primary td.details{
+    padding:3px 5px;
+    background: #050a68;
+    /*color:#00529b;*/
+}
+.standardTable td.details{
+    font-weight:normal;
+    background-color:#efefef;
+}
+.standardTable{
+   margin:0px;
+   font-family:Tahoma , Arial, Sans-Serif;
+}
+.standardTable a{
+    color:#0008a6;
+}
+.standardTable a:hover{
+    color:#333;
+}
+.standardTable td
+{
+    color: #444444;
+    border: solid 1px #888;
+}
+.standardTable th{
+    font-family: Helvetica45, "Helvetica 45 Light" , "Myriad Pro" , "Arial Narrow" , Arial, Sans-Serif;
+    background: #050a68;
+    border:none; 
+}
+.standardTable th a{
+}
+.standardTable th a:hover{
+    color:#ccc;
+}
+.minimum{
+    /*border: 3px solid lime;*/
+    width:auto;
+    background-color:transparent;
+    padding:0;
+    margin:0;
+}
+/* --- PERMISSIONS TABLE --- */
+.permissionsTable {
+    font-family: Tahoma, Arial, Sans-Serif;
+    background-color:#efefef;
+}
+.permissionsTable td{
+    background-color:#ccc;
+    color:#333;
+}
+.permissionsTable th{
+}
+.permissionsTable .primary td, .permissionsTable .primary th{
+    background-color:#050a68;
+}
+/* --- DATA TABLE --- */
+.datatable{
+}
+.datatable thead{
+}
+.datatable thead tr th{
+}
+.datatable tbody tr td{
+}
+/* --- OTHER TABLES --- */
+.roles td {
+    font-family:Tahoma , Arial, Sans-Serif;
+}
+#ctl00_contentPlaceHolder_LoginView1_Login1 {
+    font-family:Tahoma , Arial, Sans-Serif;
+    background-color: #edf4fa;
+}
+#ctl00_contentPlaceHolder_LoginView1_Login1 td {
+}
+/* VERSION HISTORY
+----------------------------------------------------------*/
+.versionListDetails{
+}
+.lblTitle, .lblAuthor, .lblCategory{
+}
+.published td{
+    background-color:#fff6c7;
+}
+.publishedCurrent td{
+    background-color:#ffe663;
+}
+/* EDIT USERS
+----------------------------------------------------------*/
+.rtsLevel{
+    margin-right:15px;
+    margin-top:3px;
+    /*border: 3px solid lime;*/
+} 
+.userTabs{
+}
+/* --- PROGRESS BAR --- */
+.progressBar{
+}
+.progressBar .rtsOut, .progressBar .rtsIn, .progressBar .rtsLink{
+}
+.progressBar li.rtsLI{
+}
+/* --- Normal Buttons ---*/
+.progressBar .rtsUL a{
+    color:#050A68 !important;
+    border-top:5px solid #7c81d7;
+}
+.progressBar .rtsUL a:hover{
+    color:#050A68;
+    border-color:#050A68;
+}
+/* --- Disabled Buttons ---*/
+.progressBar .rtsUL a.rtsDisabled{
+    color:#999 !important;
+    border-color:#ddd;
+}
+/* --- Selected Buttons ---*/
+.progressBar .rtsUL a.rtsSelected{
+    color:#000;
+    border-color:#FFD500;
+}
+/* --- CREATE  USERS NEW--- */
+.createUser{
+}
+.createUser .standardTable, .createUser .formTable{
+}
+/* --- BLANK BORDERS --- */
+td.blankCell{
+}
+td.blankRight {
+}
+/* MESSAGE - FORUMS
+----------------------------------------------------------*/
+.message {
+}
+.messageHeader {
+    background: #FCFDFE;
+}
+.messageAuthor {
+}
+.messageDate {
+}
+.messageAttach {
+}
+.messageSubject {
+}
+.messageBody {
+}
+.messageActions {
+}
+/* BOX TITLES
+----------------------------------------------------------*/
+.boxTitle {
+     /*border-bottom:3px solid white;*/
+}
+.boxTitle img {
+}
+#commsblock .boxTitle {
+    background-color: #BBBE30;
+    color: #333;
+}
+#docoblock .boxTitle {
+    background-color: #62247F;
+}
+#trainingblock .boxTitle {
+    background-color: #6ca3d9;
+}
+#messageblock .boxTitle {
+    background-color: #e49f4f;
+}
+.boxContent {
+    background-color: #FCFDFE;
+}
+.pageNavigation {
+}
+/* SECTION   
+----------------------------------------------------------*/
+.section p {
+}
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+fieldset {
+}
+fieldset p {
+}
+fieldset.login label, fieldset.register label, fieldset.changePassword label {
+}
+fieldset label.inline {
+}
+legend {
+}
+input.textEntry {
+}
+input.passwordEntry {
+}
+div.accountInfo {
+}
+/* BUTTONS   
+----------------------------------------------------------*/
+.btn {
+    font-family:Helvetica45, "Helvetica 45 Light" , "Myriad Pro" , "Arial Narrow" , Arial, Sans-Serif;
+}
+.btn:hover {
+}
+.btn:focus
+ {
+}
+.btnYes:hover
+ {
+}
+.btnNo:hover
+ {
+}
+.submitButton
+ {
+}
+/* --- ACTION BUTTON --- */
+.actionButton{
+	font-size:12px;
+}
+.actionButton a{
+}
+.actionButton a:hover{
+	color:#68b0f5;
+}
+/*BUTTON IDs
+-----------------------------------------------------------*/
+.btn#btnAddGroup, .btn#btnAddGroup:hover {
+}
+.btn#btnDeleteGroup, .btn#btnDeleteGroup:hover {
+}
+.dropdownlist {
+}
+.subheading {
+}
+/*TREEVIEW
+-----------------------------------------------------------*/
+.toggleTreeLinks a{
+}
+.expandAll{
+}
+.collapseAll{
+}
+.RadTreeView_Default .rtPlus{
+}    
+.RadTreeView_Default .rtMinus{
+}
+.RadTreeView_Default .rtPlus:hover{
+}    
+.RadTreeView_Default .rtMinus:hover{
+}   
+.rtIn {
+     color:#050a68 !important;
+}
+.rtIn:hover{
+    border:solid 1px #777 !important;
+    background-color:#DBDBDB !important;
+}
+.rtSelected .rtIn{
+    border:solid 1px #00529B !important;
+    background-color:#C3DBF3 !important;
+    color:#00529B !important;
+}
+.rtIn a{
+    color:#00529B;
+    margin:0px 5px;
+}
+.rtIn a:hover{
+    color:#00529B;
+}
+.rtLI{
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+/*ONLINE DOC
+----------------------------------------*/
+.articleHeaderLeft {
+}
+.articleHeaderRight 
+{
+    margin-top:-3px;
+    color: #050A68;
+}
+.tocHeader {
+}
+.editorHeader {
+}
+.popup {
+}
+.dragHandle {
+}
+.reorderList ul li {  
+     border:none;
+     border-top:1px solid white;
+     background-color:#dbdbdb;
+}
+.reorderListPrev ul li {
+     border-top:1px solid white;
+     background-color:#dbdbdb;
+}
+.reorderListPrev a{
+}
+/* --- TABLE OF CONTENTS ---*/
+.tocDiv   {  
+     border: solid 1px #050A68;
+     background: #050A68;
+}
+.tocDiv a{
+    color:#00529b;
+}
+.tocDiv a:hover{
+    color:#568bbd;
+}
+.tocDiv a:visited{
+    color:white;
+}
+.tocDivPrev {
+    background-color: transparent;
+}
+.tocItems {
+    border:none;
+    background-color: #efefef;
+}
+.tocItemsPrev {
+}
+.tocItemsPrevContent {
+}
+.tocDiv ul {
+}
+.tocDiv td {
+}
+/* --- SUBCHAPTER ---*/
+.subChapList{
+    background-color:#efefef;
+    border-top:1px solid white;
+}
+.subChapList a{
+    color:#568bbd;
+}
+.subChapList a:hover{
+    color:#68b0f5;
+}
+.subChapList a:visited{
+    color:#68b0f5;
+}
+/* --- TOC BUTTON ---*/
+.btnTOC {
+}
+.btnTOCPrev {
+}
+.divEditor .header { 
+}
+.divEditor .chapName {
+}
+.divEditor {
+}
+.divPrev {
+}
+.divPrev .header {
+}
+.divEditor h3 {
+}
+.reorderItemsDiv {
+}
+.reorderItemsDivPrev { 
+}
+.reorderItemsDiv li {
+}
+.reorderItemsDivPrev li {
+}
+.chapterReorderList { 
+}
+.delChapIcon {
+}
+.delChapIcon a {
+}
+.dragTemplate {
+    border: dotted 2px #b6c260;
+}
+.defaultTextBoxValue {
+}
+.overlayInsertChapter {
+    background-color: #68b0f5;
+}
+.overlayInsertDraft {
+    background-color: #68b0f5;
+}
+.overlayInsertYesNo {
+    background-color: #68b0f5;
+}
+.radTabSwitchModeView {
+}
+.radTabSwitchModeEdit{
+}
+.tabStripSmall {
+}
+.clear {
+}
+.litViewContnt {
+}
+.reTool .customInsertLink {
+}
+.subChapList {
+}
+.chapSection {
+}
+/* --- NOTIFICATION ---*/
+.positive, .negative{
+    margin:-30px 0 30px -10px;
+}
+.positive .feedbackmiddle, .negative .feedbackmiddle{
+}
+.positive .feedbackmiddle{
+}
+.negative .feedbackmiddle{
+}
+.positive .feedbackright, .negative .feedbackright{
+}
+.positive .feedbackright{
+}
+.negative .feedbackright{
+}   
+.saved, .added, .acknowledged, .created, .sent, .deleted, .error, .exception{
+}  
+.saved{
+} 
+.added{
+} 
+.acknowledged{
+} 
+.created{
+}
+.sent{
+}
+.deleted{
+}
+.error, .exception{
+}

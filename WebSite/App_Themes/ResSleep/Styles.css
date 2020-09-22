@@ -1,0 +1,609 @@
+﻿/* STYLES.CSS */
+/*---- IMPORT DEFAULT STYLESHEET ----*/
+@import "../default/styles.css";
+/*---- DO NOT REMOVE! ----*/
+/* STANDARD STYLES */
+/*------------------------------------------------------------*/
+body{
+    font-family:Tahoma, Arial, Sans-Serif;
+}
+label{
+}
+pre{
+}
+code{
+}
+input{
+}
+textarea{
+}
+/* PARAGRAPH TEXT
+--------------------------------------------------------*/
+p{
+}
+p.errorBox{
+}
+.bold{
+}
+.plainText  {
+}
+/* LISTS   
+----------------------------------------------------------*/
+ul, ol {
+    color: #00529b;
+}
+ul li {
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica 45 Light" , "Myriad Pro" , "Arial Narrow" , Arial, Sans-Serif;
+    font-weight: normal;
+}
+h1 {
+    color: #00529b;
+    font-size: 20pt;
+    padding-top: 0px;
+    padding-bottom: 7px;
+    border-bottom: #00529b 1px solid;
+}
+h2 {
+    font-size: 18pt;
+    color: #3d7862;
+    padding-bottom: 7px;
+    border-bottom: #3d7862 1px solid;
+}
+h3 {
+    font-size: 16pt;
+    color: #886398;
+    padding-bottom: 7px;
+    border-bottom: #886398 1px solid;
+}
+h4 {
+    font-size: 14pt;
+    color: #4b86ae;
+}
+h5 {
+    font-size: 13pt;
+    color: #96bf44;
+}
+h6 {
+    font-size: 12pt;
+}
+/* --- MAIN SECTION HEADING 1's --- */
+h1.sectionhead {
+    background-position:top left;
+    padding-top:10px;
+    border-bottom: 2px solid #ccc;
+}
+h1#dashboard {
+}
+h1#directory {
+}
+h1#docoblock {
+}
+h1#training {
+}
+h1#comms{
+}
+h1#announce{
+}
+h1#forums{
+}
+h1#messages{
+}
+h1#management {
+}
+h1#training {
+}
+h1#user {
+}
+h1#admin {
+}
+h1#admin1 {
+}
+h1#sites {
+}
+h1#rolesgroups {
+}
+h1#managedoco {
+}
+h1#managereg {
+}
+/* --- TITLE --- */
+.title{
+	margin:15px 0px 0px 0px;
+}
+.title h1{
+}
+/* A TAGS - LINK BUTTONS
+----------------------------------------------------------*/
+a {
+    color: #568bbd;
+}
+a:hover {
+    color: #68b0f5;
+}
+a:visited {
+    color: #3d7862;
+}
+a.additem {
+}
+a.rss {
+}
+a.newitem {
+}
+a.edit {
+}
+a.ackitem {
+}
+a.printitem {
+}
+a.deleteitem {
+}
+a.downloaditem {
+}
+a.search {
+}
+a.mailreply {
+}
+a.attachment {
+}
+a.user {
+}
+a.next {
+}
+a.previous {
+}
+a.urlitem {
+}
+
+/* IMAGES 
+----------------------------------------------------------*/
+img {
+}
+a img {
+}
+.centerImage {
+}
+/* TABLES
+----------------------------------------------------------*/
+table 
+{
+}
+td 
+{
+}
+td.details {
+}
+th.headfirst {
+    background: #a5a5a5 url(images/tableBGwhite.png) repeat-x;
+}
+td.datafirst{
+}
+td.nobackground{
+}
+/* --- FORM TABLE --- */
+.formTable {
+    padding:0px;
+    margin:0px;
+    font: bold 12px;
+    border: 1px solid white;
+    background-color:white;
+}
+.formTable table{
+}
+.formTable td {
+     padding:5px;
+     border:none;
+     background-color:#e9e9e9;
+}
+.formtable tr td{
+}
+.formtable th{
+}
+.formTable label{
+}
+.formTable .primary td{
+    /*border:solid 1px #568bbd;*/ 
+    background: #79b3e7 url(images/tableBGwhite.png) repeat-x top;
+    font-family: "Helvetica 45 Light" , "Myriad Pro" , "Arial Narrow" , Arial, Sans-Serif;
+}
+.formTable .primary td.details{
+    background: #9ac6ed url(images/tableBGwhite.png) repeat-x top;
+    /*color:#00529b;*/
+}
+.formTable td.details{
+    font-weight:normal;
+    background-color:#efefef;
+}
+/* --- STANDARD TABLE --- */
+.standardTable{
+   margin:0px;
+   font-family:Tahoma , Arial, Sans-Serif;
+}
+.standardTable td{
+}
+.standardTable th{
+    background: #9ac6ed url(images/tablehead.jpg) repeat-x bottom;
+     border:solid 1px #568bbd; 
+}
+.standardTable th a{
+    }
+.standardTable th a:hover{
+}
+/* --- PERMISSIONS TABLE --- */
+.permissionsTable
+ {
+    font-family: Tahoma, Arial, Sans-Serif;
+    background-color:#efefef;
+}
+.permissionsTable td
+{
+    background-color:#ddd;
+}
+.permissionsTable th
+{
+}
+/* --- DATA TABLE --- */
+.datatable{
+}
+.datatable thead{
+}
+.datatable thead tr th{
+}
+.datatable tbody tr td{
+}
+/* --- OTHER TABLES --- */
+.roles td {
+    font-family:Tahoma , Arial, Sans-Serif;
+}
+#ctl00_contentPlaceHolder_LoginView1_Login1 {
+    font-family:Tahoma , Arial, Sans-Serif;
+    background-color: #edf4fa;
+}
+#ctl00_contentPlaceHolder_LoginView1_Login1 td {
+}
+/* EDIT USERS
+----------------------------------------------------------*/
+.rtsLevel{
+} 
+.userTabs{
+}
+/* --- PROGRESS BAR --- */
+.progressBar{
+}
+.progressBar .rtsOut, .progressBar .rtsIn, .progressBar .rtsLink{
+}
+.progressBar li.rtsLI{
+}
+/* --- Normal Buttons ---*/
+.progressBar .rtsUL a{
+}
+.progressBar .rtsUL a:hover{
+}
+/* --- Disabled Buttons ---*/
+.progressBar .rtsUL a.rtsDisabled{
+}
+/* --- Selected Buttons ---*/
+.progressBar .rtsUL a.rtsSelected{
+}
+/* --- CREATE  USERS NEW--- */
+.createUser{
+}
+.createUser .standardTable, .createUser .formTable{
+}
+/* --- BLANK BORDERS --- */
+td.blankCell{
+}
+td.blankRight {
+}
+/* MESSAGE - FORUMS
+----------------------------------------------------------*/
+.message {
+}
+.messageHeader {
+    background: #FCFDFE;
+}
+.messageAuthor {
+}
+.messageDate {
+}
+.messageAttach {
+}
+.messageSubject {
+}
+.messageBody {
+}
+.messageActions {
+}
+/* BOX TITLES
+----------------------------------------------------------*/
+.boxTitle {
+     /*border-bottom:3px solid white;*/
+}
+.boxTitle img {
+}
+#commsblock .boxTitle {
+    background-color: #d3dd84;
+    color: #333;
+}
+#docoblock .boxTitle {
+    background-color: #886398;
+}
+#trainingblock .boxTitle {
+    background-color: #6ca3d9;
+}
+#messageblock .boxTitle {
+    background-color: #e49f4f;
+}
+.boxContent {
+    background-color: #FCFDFE;
+}
+.pageNavigation {
+}
+/* SECTION   
+----------------------------------------------------------*/
+.section p {
+}
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+fieldset {
+}
+fieldset p {
+}
+fieldset.login label, fieldset.register label, fieldset.changePassword label {
+}
+fieldset label.inline {
+}
+legend {
+}
+input.textEntry {
+}
+input.passwordEntry {
+}
+div.accountInfo {
+}
+/* BUTTONS   
+----------------------------------------------------------*/
+.btn {
+    font-family:"Helvetica 45 Light" , "Myriad Pro" , "Arial Narrow" , Arial, Sans-Serif;
+}
+.btn:hover {
+}
+.btn:focus
+ {
+}
+.btnYes:hover
+ {
+}
+.btnNo:hover
+ {
+}
+.submitButton
+ {
+}
+/* --- ACTION BUTTON --- */
+.actionButton{
+	font-size:12px;
+}
+.actionButton a{
+}
+.actionButton a:hover{
+	color:#68b0f5;
+}
+/*BUTTON IDs
+-----------------------------------------------------------*/
+.btn#btnAddGroup, .btn#btnAddGroup:hover {
+}
+.btn#btnDeleteGroup, .btn#btnDeleteGroup:hover {
+}
+.dropdownlist {
+}
+.subheading {
+}
+/*TREEVIEW
+-----------------------------------------------------------*/
+.toggleTreeLinks a{
+}
+.expandAll{
+}
+.collapseAll{
+}
+.RadTreeView_Default .rtPlus{
+}    
+.RadTreeView_Default .rtMinus{
+}
+.RadTreeView_Default .rtPlus:hover{
+}    
+.RadTreeView_Default .rtMinus:hover{
+}   
+ .rtIn
+ {
+     color:#00529B !important;
+}
+.rtIn:hover{
+    border:solid 1px #777 !important;
+    background-color:#DBDBDB !important;
+}
+.rtSelected .rtIn
+{
+    border:solid 1px #00529B !important;
+    background-color:#C3DBF3 !important;
+    color:#00529B !important;
+}
+.rtIn a{
+    color:#00529B;
+    margin:0px 5px;
+}
+.rtIn a:hover{
+    color:#00529B;
+}
+.rtLI{
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+/*ONLINE DOC
+----------------------------------------*/
+.articleHeaderLeft {
+}
+.articleHeaderRight {
+    color: #568bbd;
+}
+.tocHeader {
+}
+.editorHeader {
+}
+.popup {
+}
+.dragHandle {
+}
+.reorderList ul li {  
+     border:none;
+     border-top:1px solid white;
+     background-color:#dbdbdb;
+}
+.reorderListPrev ul li {
+     border-top:1px solid white;
+     background-color:#dbdbdb;
+}
+.reorderListPrev a{
+}
+/* --- TABLE OF CONTENTS ---*/
+.tocDiv   {  
+     border: solid 3px white;
+     background: #528abb url(images/button_softgrad.gif) repeat-x top;
+}
+.tocDiv a{
+    color:#00529b;
+}
+.tocDiv a:hover{
+    color:#568bbd;
+}
+.tocDiv a:visited{
+    color:white;
+}
+.tocDivPrev {
+    background-color: transparent;
+}
+.tocItems {
+    border:none;
+    background-color: #efefef;
+}
+.tocItemsPrev {
+}
+.tocItemsPrevContent {
+}
+.tocDiv ul {
+}
+.tocDiv td {
+}
+/* --- SUBCHAPTER ---*/
+.subChapList{
+    background-color:#efefef;
+    border-top:1px solid white;
+}
+.subChapList a{
+    color:#568bbd;
+}
+.subChapList a:hover{
+    color:#68b0f5;
+}
+.subChapList a:visited{
+    color:#68b0f5;
+}
+/* --- TOC BUTTON ---*/
+.btnTOC {
+}
+.btnTOCPrev {
+}
+.divEditor .header { 
+}
+.divEditor .chapName {
+}
+.divEditor {
+}
+.divPrev {
+}
+.divPrev .header {
+}
+.divEditor h3 {
+}
+.reorderItemsDiv {
+}
+.reorderItemsDivPrev { 
+}
+.reorderItemsDiv li {
+}
+.reorderItemsDivPrev li {
+}
+.chapterReorderList { 
+}
+.delChapIcon {
+}
+.delChapIcon a {
+}
+.dragTemplate {
+    border: dotted 2px #b6c260;
+}
+.defaultTextBoxValue {
+}
+.overlayInsertChapter {
+    background-color: #68b0f5;
+}
+.overlayInsertDraft {
+    background-color: #68b0f5;
+}
+.overlayInsertYesNo {
+    background-color: #68b0f5;
+}
+.radTabSwitchModeView {
+}
+.radTabSwitchModeEdit{
+}
+.tabStripSmall {
+}
+.clear {
+}
+.litViewContnt {
+}
+.reTool .customInsertLink {
+}
+.subChapList {
+}
+.chapSection {
+}
+/* --- NOTIFICATION ---*/
+.positive, .negative{
+    margin: 0px;
+    margin-top:15px;
+}
+.positive .feedbackmiddle, .negative .feedbackmiddle{
+}
+.positive .feedbackmiddle{
+}
+.negative .feedbackmiddle{
+}
+.positive .feedbackright, .negative .feedbackright{
+}
+.positive .feedbackright{
+}
+.negative .feedbackright{
+}   
+.saved, .added, .acknowledged, .created, .sent, .deleted, .error, .exception{
+}  
+.saved{
+} 
+.added{
+} 
+.acknowledged{
+} 
+.created{
+}
+.sent{
+}
+.deleted{
+}
+.error, .exception{
+}

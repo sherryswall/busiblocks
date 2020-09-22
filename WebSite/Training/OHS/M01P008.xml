@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='7' name='M01P008' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Roles</topicheading>
+          <pageheading >The Role of the Franchisee</pageheading>
+          <image alt='Franchisee' width='298' height='273' src='media/M01P004_0.jpg'></image>
+          <paragraph >In addition all Franchisees must:</paragraph>
+          <list >
+          <point >Comply with instructions given for Occupational Health and Safety</point>
+          <point >Use personal protective equipment where it has been provided and instruction for its use has been given</point>
+          <point >Not wilfully or recklessly interfere with or misuse provided safety equipment</point>
+          <point >Not wilfully put at risk the health and safety of themselves or others</point>
+          <point >Develop Standard Operating Procedures (SOP) to detail a work system or method used where there is a possible risk of injury or damage.</point>
+          </list>
+     </content>
+</page>

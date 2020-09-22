@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BusiBlocks.FormsBlock.FormInstance, BusiBlocks.FormsBlock" table="FormInstance">
+    <id name="Id" column="Id" type="String" length="32" >
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+    
+    <many-to-one name="FormDefinition" fetch="join">
+      <column name="FormDefinitionId" not-null="true" />
+    </many-to-one>
+
+    <property name="CreatedBy" column="CreatedBy" type="String" not-null="true" length="32" />
+
+    <property name="Deleted" column="Deleted" type="Boolean" />
+    
+  </class>
+</hibernate-mapping>

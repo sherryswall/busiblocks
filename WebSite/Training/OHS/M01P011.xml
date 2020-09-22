@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='11' name='M01P011' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Safety Regulations</topicheading>
+          <pageheading >Image and Text Rollover</pageheading>
+          <paragraph >This interaction simply adds text as a rollover to linked images. It is useful for displaying dot points of information in a visual manner.</paragraph>
+          <flash src="media/rollover_image.swf" width="750" height="330" id="M01P011">
+          <list >
+          <point >Ducks have a beak, they like to swim and have oily feathers.</point>
+          <point >Dogs bark loudly and make very good protectors of your property.</point>
+          <point >Cats enjoy sleeping, have sharp claws and meow loudly.</point>
+          <point >Pigs love mud, live on a farm and are used to make Bacon.</point>
+          <point >Sheep are used to make jumpers taste fantastic roasted with mint sauce.</point>
+          </list>
+          </flash>
+          <instruction >Roll over the images above to discover more.</instruction>
+     </content>
+</page>

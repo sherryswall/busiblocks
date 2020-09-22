@@ -1,0 +1,194 @@
+/* CSS Document */
+body {
+	padding:0px;
+	margin:0px;
+	background-color:#FFFFFF;
+	font-family:"Arial Narrow", Arial, Myriad, sans-serif;
+	font-size:10pt;
+	color:#fff;
+}
+h1, h2, h3, h4, h5{
+	font-family:"Myriad Pro Condensed",Myriad Pro,"Arial Narrow", Arial, Myriad, sans-serif;
+	color:#b30000;
+}
+#checkImages {
+	position: absolute;
+	top:0;
+	left: 0;
+}
+/*This is where an iframe html code is inserted*/
+#container {
+	height:735px;
+	padding:0px;
+}
+#startpage {
+	width:100%;
+	height:715px;
+}
+#startheader {
+	width:100%;
+	padding:0;
+	margin:50px 0px;
+}
+#startheader img{
+	position:absolute;
+	right:30px;
+	top:10px;
+}
+#starttitle {
+	padding:0px;
+	margin:0px;
+	background-color:#333;
+	border-top:5px solid;
+	border-bottom:5px solid;
+	border-color:#000;
+	height:160px;
+}
+#starttitle h1 {
+	font-size: 3.45em;
+	font-weight:bold;
+	font-style:italic;
+	padding-left:50px;
+	margin-top:40px;
+	margin-bottom:0px;
+	color:#f58220;
+}
+#starttitle h2 {
+	margin:0px;
+	font-style:italic;
+	font-weight:normal;
+	font-size:2em;
+	padding-left:50px;
+	margin-bottom:34px;
+	padding-bottom:1px;
+	
+	
+}
+#startpage #objectives h3, #maintext #topics h3 {
+	font-style:italic;
+	color:#f58220;
+	font-size:1.8em;
+	margin-top:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	padding-bottom:0px;
+}
+#startpage #objectives p {
+	color:#000000;
+	font-size:1.2em;
+}
+#maintext {
+	clear:both;
+	/*border: 1px solid #00ff00;*/
+	width:100%;
+	overflow:auto;
+}
+#maintext #objectives{
+	overflow:auto;
+	margin:0;
+	padding:0;
+	padding-left:50px;
+	padding-right:50px;
+	//width:100%; /* CSS HACK FOR IE ONLY */
+}
+#maintext #objectives p{
+}
+#maintext #topics {
+	float:right;
+	width:415px;
+	overflow:auto;
+	margin:0;
+	padding:0;
+}
+#instruction{
+	color:#9C1421;
+	padding-top:15px;
+}
+#disclaimer {
+	margin:0;
+	padding:0;
+}
+#disclaimer a {	
+	padding-top:0px;
+	margin-top:0px;
+	font-size:2em;
+	font-family:"Myriad Pro Condensed",Myriad Pro,"Arial Narrow", Arial, Myriad, sans-serif;
+	font-style:italic;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:0.5em;
+	background-image:url(../images/gd_link.gif);
+	background-repeat:no-repeat;
+	height:25px;
+	width:315px;
+	text-indent:-5000px;
+	display:block;
+}
+#disclaimer a:hover {
+	background-image:url(../images/gd_link_mo.gif);
+}
+/* ------------START BUTTON-----------------*/
+#startbutton
+{
+	margin:0;
+	margin-top:40px;
+	height:43px;
+	width:124px;
+}
+
+#startbutton a {
+	float:left;
+	width:124px;
+	height:43px;
+	background-image: url("../images/start.jpg");
+	background-repeat:no-repeat;
+}
+#startbutton a:hover{
+	background-image: url("../images/start_mo.jpg");
+	background-repeat:no-repeat;
+}
+#logo {
+	padding:10px;
+	margin:20px;
+	
+}#diagnostic{	
+	color:red;
+}
+#choice{	
+	width:100%;
+	padding-left:20px;
+	display:none;
+}
+#checkDPI{
+	color:#FFFFFF;
+	position:absolute;
+	left:-200px;
+	top:-200px;
+}
+
+#maintext #topics ul{
+	margin-top:20px;
+	margin-bottom:50px;
+}
+#maintext #topics ul li{
+		list-style-image:url(../images/dotbean.jpg);
+		padding-bottom:15px;
+		padding-left:5px;
+		list-style-position:outside;
+		color:#9c1421;
+		font-family:"Myriad Pro Condensed",Myriad Pro,"Arial Narrow", Arial, Myriad, sans-serif;
+		font-style:italic;
+		font-size:1.3em;
+}
+a {
+	color:#0077B9;
+}
+a:hover {
+	color:#4FB958;
+}
+#summary img { float:right; }
+.instruction{
+	font-style:italic;
+	font-weight:bold;
+	font-size:95%;
+}

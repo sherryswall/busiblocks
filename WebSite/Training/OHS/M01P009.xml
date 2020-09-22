@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='8' name='M01P009' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Safety Regulations</topicheading>
+          <pageheading >Safety Regulations</pageheading>
+          <paragraph >In each State of Australia there are governing bodies responsible for the administration of each respective Occupational Health and Safety Act. In general, all Occupational Health and Safety legislation includes requirements for:</paragraph>
+          <list >
+          <point >Promoting occupational health and safety in the workplace</point>
+          <point >Providing systems of work that are safe and without risk to health</point>
+          <point >Preventing industrial injuries and diseasesrdservicesdirect.com.au</point>
+          <point >Protecting the health and safety of the public in relation to work activities</point>
+          <point >Rehabilitation and maximum recovery from incapacity of injured workers.</point>
+          </list>
+     </content>
+</page>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='15' name='M01P015' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Interactive Icons</topicheading>
+          <pageheading >Interactive Icons</pageheading>
+          <paragraph >SMS has also created a number of interactive icons which can be used to display further information.</paragraph>
+          <paragraph >The following interactive icons have been created:</paragraph>
+          <list >
+          <point >Information</point>
+          <point >Note</point>
+          <point >Quote</point>
+          <point >Reference</point>
+          </list>
+          <paragraph >Below is an example of a Note interactive icon.</paragraph>
+          <flash src="media/note.swf" width="700" height="150" type="note" id="M01P015">
+          <note >This is a note!</note>
+          </flash>
+     </content>
+</page>

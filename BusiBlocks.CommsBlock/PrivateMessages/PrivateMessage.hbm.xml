@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" auto-import="true" default-lazy="false"  >
+
+  <class name="BusiBlocks.CommsBlock.PrivateMessages.PrivateMessage, BusiBlocks.CommsBlock" table="PrivateMessage" >
+    <id name="Id" column="Id" type="String" length="32" >
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <many-to-one name="Sender" column="SenderUserId" fetch="join" not-null="true" />
+    <many-to-one name="Recipient" column="RecipientUserId" fetch="join" not-null="true" />
+
+    <property name="Recipients" column="recipients" type="String" length="1000" not-null="true" />
+    <property name="Subject" column="Subject" type="String" length="500" not-null="true" />
+    <property name="Body" column="Body" type="String" length="1073741823" not-null="true" />
+
+    <property name="SentDate" column="SentDate" type="DateTime" not-null="true" />
+    <property name="ReadDate" column="ReadDate" type="DateTime" />
+    <property name="DeletedDate" column="DeletedDate" type="DateTime" />
+
+    <many-to-one name="ParentPrivateMessage" column="ParentPrivateMessageId" fetch="join"  />
+
+    <property name="Deleted" column="Deleted" type="Boolean" />
+    
+  </class>
+</hibernate-mapping>

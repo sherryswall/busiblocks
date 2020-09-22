@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BusiBlocks.PersonLayer.PersonRegion, BusiBlocks" table="PersonRegion">
+    <id name="Id" column="Id" type="String" length="32" >
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <many-to-one name="Person" column="PersonId" not-null="true" fetch="join" />
+    <many-to-one name="Region" column="RegionId" not-null="true" fetch="join" />
+
+    <property name="IsAdministrator" type="Boolean" />
+    <property name="IsManager" type="Boolean" />
+
+    <property name="Deleted" column="Deleted" type="Boolean" />
+
+  </class>
+</hibernate-mapping>

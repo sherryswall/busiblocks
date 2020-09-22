@@ -1,0 +1,424 @@
+﻿/* STYLES.CSS */
+/*---- IMPORT DEFAULT STYLESHEET ----*/
+@import "../default/styles.css";
+/*---- DO NOT REMOVE! ----*/
+/* STANDARD STYLES */
+/*------------------------------------------------------------*/
+body{
+}
+label{
+}
+pre{
+}
+code{
+}
+input{
+}
+textarea{
+}
+/* PARAGRAPH TEXT
+--------------------------------------------------------*/
+p{
+}
+p.errorBox{
+}
+.bold{
+}
+.plainText{
+}
+/* LISTS   
+----------------------------------------------------------*/
+ul, ol{
+}
+ul li{
+}
+#browser ul{
+}
+.browser ul{
+}
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6{
+}
+h1{
+}
+h2{
+}
+h3{
+}
+h4{
+}
+h5, h6{
+}
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2{
+}
+/* --- MAIN SECTION HEADING 1's --- */
+h1.sectionhead{
+}
+h1#dashboard{
+}
+h1#directory{
+}
+h1#docoblock{
+}
+h1#training{
+}
+h1#comms{
+}
+h1#announce{
+}
+h1#forums{
+}
+h1#messages{
+}
+h1#management{
+}
+h1#training{
+}
+h1#user{
+}
+h1#admin{
+}
+h1#admin1{
+}
+h1#sites{
+}
+h1#rolesgroups{
+}
+h1#managedoco{
+}
+h1#managereg{
+}
+/* --- TITLE --- */
+.title{
+}
+.title h1{
+}
+
+/* A TAGS - LINK BUTTONS
+----------------------------------------------------------*/
+a{
+}
+a:hover{
+}
+a:visited{
+}
+a.additem{
+}
+a.rss{
+}
+a.newitem{
+}
+a.edit{
+}
+a.viewitem{	
+}
+a.ackitem{
+}
+a.printitem{	
+}
+a.deleteitem{	
+}
+a.downloaditem{
+}
+a.search{
+}
+a.mailreply{
+}
+a.attachment{
+}
+a.user{
+}
+a.next{
+}
+a.previous{
+}
+a.urlitem{
+}
+/* IMAGES 
+----------------------------------------------------------*/
+img{
+}
+a img{
+}
+.centerImage{
+}
+/* TABLES
+----------------------------------------------------------*/
+table{
+}
+td{
+}
+td.details{
+}
+th.headfirst{
+}
+td.datafirst{
+}
+td.nobackground{
+}
+/* --- FORM TABLE --- */
+.formtable{
+}
+.formTable table{
+}
+.formTable td{
+}
+.formtable tr td{
+}
+.formtable th{
+}
+.formTable label{
+}
+/* --- STANDARD TABLE --- */
+.standardTable{
+}
+.standardTable td{
+}
+.standardTable th{
+}
+.standardTable th a{
+}
+.standardTable th a:hover{
+}
+/* --- PERMISSIONS TABLE --- */
+.permissionsTable{
+}
+.permissionsTable td{
+}
+.permissionsTable th{
+}
+/* --- DATA TABLE --- */
+.datatable{
+}
+.datatable thead{
+}
+.datatable thead tr th{
+}
+.datatable tbody tr td{
+}
+/* --- OTHER TABLES --- */
+.roles td{
+}
+#ctl00_contentPlaceHolder_LoginView1_Login1{
+}
+#ctl00_contentPlaceHolder_LoginView1_Login1 td{
+}
+/* MESSAGE - FORUMS
+----------------------------------------------------------*/
+.message{
+}
+.messageHeader{
+}
+.messageAuthor{
+}
+.messageDate{
+}
+.messageAttach{
+}
+.messageSubject{
+}
+.messageBody{
+}
+.messageActions{
+}
+/* BOX TITLES
+----------------------------------------------------------*/
+.boxTitle{
+}
+.boxTitle img{	
+}
+#commsblock .boxTitle{
+}
+#docoblock .boxTitle{
+}
+#trainingblock .boxTitle{
+}
+#messageblock .boxTitle{
+}
+.boxContent{
+}
+.pageNavigation{
+}
+/* SECTION   
+----------------------------------------------------------*/
+.section p{
+}
+/* BUTTONS   
+----------------------------------------------------------*/
+.btn{
+}
+.btn:hover{
+}
+.btn:focus{
+}
+.btnYes:hover{
+}
+.btnNo:hover{
+}
+.submitButton{
+}
+/* --- ACTION BUTTON --- */
+.actionButton{
+}
+.actionButton a{
+}
+.actionButton a:hover{
+}
+/*BUTTON IDs
+-----------------------------------------------------------*/
+.btn#btnAddGroup, .btn#btnAddGroup:hover{
+}
+.btn#btnDeleteGroup, .btn#btnDeleteGroup:hover{
+}
+.dropdownlist{
+}
+.subheading{
+}
+/*TREEVIEW
+-----------------------------------------------------------*/
+.treeview img{
+}
+.treeview ul{
+}
+.treeview .hitarea{
+}
+* html .hitarea /* fix for IE6 */{
+}
+.treeview li{
+}
+.treeview div.selected{
+}
+.treeview a.selected{
+}
+#treecontrol{
+}
+.treeview .hover{
+}
+.treeview div:hover{
+}
+.treeview span:hover{
+}
+/* --- CLASS FOR LINES BETWEEN LIST ITEMS --- */
+.treeview li{
+}
+.treeview li.collapsable, .treeview li.expandable{
+}
+.treeview .expandable-hitarea{
+}
+.treeview li.last{
+}
+.treeview li.lastCollapsable, .treeview li.lastExpandable{
+}
+.treeview li.lastCollapsable{
+}
+.treeview li.lastExpandable{
+}
+.treeview div.lastCollapsable-hitarea, .treeview div.lastExpandable-hitarea{
+}
+.treeview-red li{
+}
+.treeview-red .hitarea, .treeview-red li.lastCollapsable, .treeview-red li.lastExpandable{
+}
+.treeview-black li{
+}
+.treeview-black .hitarea, .treeview-black li.lastCollapsable, .treeview-black li.lastExpandable{
+}
+.treeview-gray li{
+}
+.treeview-gray .hitarea, .treeview-gray li.lastCollapsable, .treeview-gray li.lastExpandable{
+}
+.treeview-famfamfam li{
+}
+.treeview-famfamfam .hitarea, .treeview-famfamfam li.lastCollapsable, .treeview-famfamfam li.lastExpandable{
+}
+.treeview .placeholder{
+}
+/*ONLINE DOC
+----------------------------------------*/
+.articleHeaderLeft{
+}
+.articleHeaderRight{
+}
+.tocHeader{
+}
+.editorHeader{
+}
+.popup{
+}
+.dragHandle{
+}
+.reorderList ul li{
+}
+.reorderListPrev ul li{
+}
+.tocDiv{
+}
+.tocDivPrev{
+}
+.tocDiv .header{
+}
+.tocItems{
+}
+.tocItemsPrev{
+}
+.tocItemsPrevContent{
+}
+.tocDiv ul{
+}
+.tocDiv td{
+}
+.btnTOC{
+}
+.btnTOCPrev{
+}
+.divEditor .header{   
+}
+.divEditor .chapName{
+}
+.divEditor{
+}
+.divPrev{
+}
+.divPrev .header{    
+}
+.divEditor h3{
+}
+.reorderItemsDiv{
+}
+.reorderItemsDivPrev{ 
+}
+.reorderItemsDiv li{
+}
+.reorderItemsDivPrev li{
+}
+.chapterReorderList{
+}
+.delChapIcon{
+}
+.delChapIcon a{
+}
+.dragTemplate{
+}
+.defaultTextBoxValue{
+}
+.overlayInsertChapter{
+}
+.overlayInsertDraft{
+}
+.overlayInsertYesNo{
+}
+.radTabSwitchModeView{
+}
+.tabStripSmall{
+}
+.clear{
+}
+.litViewContnt{
+}
+.reTool .customInsertLink{
+}
+.subChapList{
+}
+.chapSection{
+}

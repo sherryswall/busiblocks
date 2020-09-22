@@ -1,0 +1,11 @@
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\bin\Debug\BusiBlocks.DocoBlock.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\bin\Debug\BusiBlocks.DocoBlock.pdb
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\bin\Debug\BusiBlocks.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\bin\Debug\Iesi.Collections.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\bin\Debug\log4net.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\bin\Debug\NHibernate.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\bin\Debug\NHibernate.Tool.hbm2net.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\bin\Debug\BusiBlocks.pdb
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\obj\Debug\ResolveAssemblyReference.cache
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\obj\Debug\BusiBlocks.DocoBlock.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocks.DocoBlock\obj\Debug\BusiBlocks.DocoBlock.pdb

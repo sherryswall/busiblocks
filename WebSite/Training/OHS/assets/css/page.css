@@ -1,0 +1,287 @@
+/*Standard CSS styles */
+body {
+	padding:0px;
+	margin:0px;
+	font-family:"Arial Narrow", Arial, Myriad, sans-serif;
+	font-size:100%;
+}
+h1, h2, h3, h4, h5{
+	font-family:"Myriad Pro Condensed",Myriad Pro,"Arial Narrow", Arial, Myriad, sans-serif;
+	color:#b30000;
+}
+#mainframe{
+	margin:0px;
+	padding:22px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+/*--LMSMENUBAR----------------------------------------------------------------*/
+#lmsmenubar {
+	font-size:16px;
+	height:28px;
+	background-color:#000000;
+	color:#666666;
+	border-bottom:1px #000000 solid;
+	display:none;
+}
+
+	#lmsmenubar #modulename
+	{
+		margin:3px;
+		margin-left:10px;
+		float:left;
+	}
+
+	#lmsmenubar #username
+	{
+		margin:3px;
+		margin-right:10px;
+		float:right;
+	}
+
+/*-------BANNER STYLES---------------------------------------------------------------*/
+#banner {
+	border-top:1px #FFFFFF solid;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:126px;
+}
+	#banner #headingbackground
+	{
+		width:100%;
+		height:90px;
+	}
+	#banner #title {
+		color:#FFF;
+		float:left;
+		width:100%;
+		height:90px;
+		background-position:right;
+	}
+		#banner #title h1 {
+			margin-top:20px;
+			margin-left:20px;
+			font-style:italic;
+			font-weight:bold;
+		}
+		
+		#banner #title h2 {
+			color:#F4DC9D;
+			font-size:24px;
+			margin-left:10px;
+			font-style:italic;
+			font-weight:bold;
+		}
+	
+	#banner graphic {
+		display:none;
+		float:right;
+		margin-top:20px;
+	}
+	
+
+/*-------END MAINCONTENT----------------------------------------------------*/
+
+/*-----------Menu------------------------------------------------*/
+#menu {
+	margin-top:2px;
+	width:100%;
+	height:20px;
+	float:right;
+}
+
+#menu #lms
+{
+	font-size:15px;
+	color:#FFF;
+	float:left;
+}
+
+#menu #lms #username
+{
+	float:left;
+	margin-top:2px;
+	margin-left:30px;
+	width:300px;
+}
+
+#lms a.dropdown
+{
+ 	background-image:url(../images/menu_btn.jpg);
+	background-position: 0px 0px;
+	width:94px;
+	height:18px;
+	color:#FFFFFF;
+	float:left;
+}
+
+#lms a.dropdown:hover
+{
+	background-image:url(../images/menu_btno.jpg);
+}
+
+
+
+#dropdown
+{
+	display:none;
+	background-color:#dbe8ed;
+	border:2px solid #6088bc;
+	position:absolute; 
+	width:260px; 
+	font-size:90%;
+	z-index:2; 
+	left: 60%; 
+	top: 125px;
+}
+	
+	#dropdown a
+	{
+		color:#000000;
+		text-decoration:none;
+		height:28px;
+		width:260px;
+		min-width:260px;
+		max-width:260px;
+		float:left;
+		padding-top:6px;
+		background-image:url(../images/dotblue_menu.gif);
+		background-repeat:no-repeat;    
+		background-position:2px 6px;
+	}
+	
+	#dropdown a:hover
+	{
+		background-color:#91aed6;
+		color:#fefefe;
+		background-image:url(../images/dotblueo.gif);
+		background-repeat:no-repeat;
+		background-position:2px 6px;
+	} 
+	
+	#dropdown .menutitle
+	{
+		padding-left:20px;
+	}
+	
+/*-------Note Box----------------------------------------*/
+#notebox
+{
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	position:absolute;
+	display:none;
+	width:200px; 
+	min-width:200px;
+	font-size:90%;
+	z-index:2; 
+	left: 550px; 
+	top: 200px;
+	height:280px;
+	width:315px;
+	padding:10px;
+	padding-bottom:0px;
+}
+
+#notebox h4
+{
+	margin-bottom:5px;
+	margin-top:0px;
+}
+
+#notebox #close a {
+		margin-top:-20px;
+		width:60px;
+		height:15px;
+	}
+
+#notebox #close #close_btn {
+		float:right;
+		background-image: url("../images/cross.jpg");
+		background-repeat:no-repeat;
+		background-position:right;
+	}
+
+#notebox #close #close_btn:hover {
+		background-image: url("../images/crosso.jpg");
+	}
+	
+#notebox .comments {
+	font-family:"Myriad Pro Condensed",Myriad Pro,"Arial Narrow", Arial, Myriad, sans-serif;
+	font-size:100%;
+}
+
+#notebox #notesaved
+{
+	display:none;
+}
+
+/*--------------Bookmark--------------------------------------------------------------------------*/
+#bookmarkbox
+{
+	background-color:#FFFFFF;
+	border:1px solid #000000;
+	position:absolute; 
+	display:none;
+	width:200px; 
+	min-width:200px;
+	font-size:90%;
+	z-index:2; 
+	left: 500px; 
+	top: 250px;
+	height:280px;
+	width:315px;
+	padding:10px;
+	padding-bottom:0px;
+}
+
+#bookmarkbox h4
+{
+	margin-bottom:5px;
+	margin-top:0px;
+}
+
+#bookmarkbox #close a {
+		margin-top:-20px;
+		width:60px;
+		height:15px;
+	}
+
+#bookmarkbox #close #close_btn {
+		float:right;
+		background-image: url("../images/cross.jpg");
+		background-repeat:no-repeat;
+		background-position:right;
+	}
+
+#bookmarkbox #close #close_btn:hover {
+		background-image: url("../images/crosso.jpg");
+	}
+	
+#bookmarkbox .comments {
+	font-family:"Myriad Pro Condensed",Myriad Pro,"Arial Narrow", Arial, Myriad, sans-serif;
+	font-size:100%;
+}
+
+#bookmarkbox #bookmarksaved
+{
+	display:none;
+}
+
+#bookmarkbox #bookmarks
+{
+	background-color:#CCCCCC;
+	border:1px solid #333333;
+}
+
+
+/*----------FOOTER----------------------------------------------------*/
+	
+#logo{
+	display:none;
+}
+
+#logo img a
+{
+}

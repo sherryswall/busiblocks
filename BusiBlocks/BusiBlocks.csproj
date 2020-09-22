@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{762A5424-0516-42D2-B2B2-4625B0786783}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusiBlocks</RootNamespace>
+    <AssemblyName>BusiBlocks</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\BusiBlocks.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=1.0.0.3, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExternalDLL\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExternalDLL\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExternalDLL\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Tool.hbm2net, Version=1.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExternalDLL\NHibernate.Tool.hbm2net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessLayer\Access.cs" />
+    <Compile Include="AccessLayer\AccessDataStore.cs" />
+    <Compile Include="AccessLayer\AccessManager.cs" />
+    <Compile Include="AccessLayer\AccessProvider.cs" />
+    <Compile Include="AccessLayer\AccessProviderCollection.cs" />
+    <Compile Include="AccessLayer\AccessProviderConfiguration.cs" />
+    <Compile Include="AccessLayer\BusiBlocksAccessProvider.cs" />
+    <Compile Include="AccessLayer\Exceptions.cs" />
+    <Compile Include="AccessLayer\Folder.cs" />
+    <Compile Include="AccessLayer\FolderDataStore.cs" />
+    <Compile Include="AddressLayer\Address.cs" />
+    <Compile Include="AddressLayer\AddressDataStore.cs" />
+    <Compile Include="AddressLayer\AddressManager.cs" />
+    <Compile Include="AddressLayer\AddressProvider.cs" />
+    <Compile Include="AddressLayer\AddressProviderCollection.cs" />
+    <Compile Include="AddressLayer\AddressProviderConfiguration.cs" />
+    <Compile Include="AddressLayer\BusiBlocksAddressProvider.cs" />
+    <Compile Include="ApproverLayer\Approver.cs" />
+    <Compile Include="ApproverLayer\ApproverDataStore.cs" />
+    <Compile Include="ApproverLayer\ApproverManager.cs" />
+    <Compile Include="ApproverLayer\ApproverProvider.cs" />
+    <Compile Include="ApproverLayer\ApproverProviderCollection.cs" />
+    <Compile Include="ApproverLayer\ApproverProviderConfiguration.cs" />
+    <Compile Include="ApproverLayer\BusiBlocksApproverProvider.cs" />
+    <Compile Include="Audit\AuditDataStore.cs" />
+    <Compile Include="Audit\AuditManager.cs" />
+    <Compile Include="Audit\AuditRecord.cs" />
+    <Compile Include="BbTreeView.cs" />
+    <Compile Include="BbTreeViewNode.cs" />
+    <Compile Include="BbTreeViewNodeMenu.cs" />
+    <Compile Include="BusiBlocksConstants.cs" />
+    <Compile Include="BusiBlocksTreeView.cs" />
+    <Compile Include="Help.cs" />
+    <Compile Include="Configuration\AssemblyMapping.cs" />
+    <Compile Include="Configuration\BusiBlocksSection.cs" />
+    <Compile Include="ContactFeedback\BusiBlocksFeedbackProvider.cs" />
+    <Compile Include="ContactFeedback\FeedbackForm.cs" />
+    <Compile Include="ContactFeedback\FeedbackFormConfiguration.cs" />
+    <Compile Include="ContactFeedback\FeedbackFormDataStore.cs" />
+    <Compile Include="ContactFeedback\FeedbackFormManager.cs" />
+    <Compile Include="ContactFeedback\FeedbackFormProvider.cs" />
+    <Compile Include="ContactFeedback\FeedbackFormProviderCollection.cs" />
+    <Compile Include="HelpHelper.cs" />
+    <Compile Include="ItemApprovalStatusLayer\ItemApprovalStatus.cs" />
+    <Compile Include="ItemApprovalStatusLayer\ItemApprovalStatusDataStore.cs" />
+    <Compile Include="ItemApprovalStatusLayer\ItemApprovalStatusManager.cs" />
+    <Compile Include="ItemApprovalStatusLayer\ItemApprovalStatusProvider.cs" />
+    <Compile Include="ItemApprovalStatusLayer\ItemApprovalStatusProviderCollection.cs" />
+    <Compile Include="ItemApprovalStatusLayer\ItemApprovalStatusProviderConfiguration.cs" />
+    <Compile Include="ItemApprovalStatusLayer\BusiBlocksItemApprovalStatusProvider.cs" />
+    <Compile Include="DateTimeHelper.cs" />
+    <Compile Include="DynamicComparer.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Feedback.cs" />
+    <Compile Include="HTMLHeadingParser.cs" />
+    <Compile Include="ISearchResult.cs" />
+    <Compile Include="KeyComparer.cs" />
+    <Compile Include="KeyEqualityComparer.cs" />
+    <Compile Include="Membership\Exceptions.cs" />
+    <Compile Include="Membership\HttpModuleCheckValidUser.cs" />
+    <Compile Include="Membership\MembershipManager.cs" />
+    <Compile Include="Membership\MembershipProviderCollection.cs" />
+    <Compile Include="Membership\MembershipProviderConcrete.cs" />
+    <Compile Include="Membership\MembershipProviderConfiguration.cs" />
+    <Compile Include="Membership\MembershipProvider.cs" />
+    <Compile Include="Notification\Exceptions.cs" />
+    <Compile Include="PagingInfo.cs" />
+    <Compile Include="PermissionMatrix.cs" />
+    <Compile Include="PersonLayer\BusiBlocksPersonProvider.cs" />
+    <Compile Include="PersonLayer\Exceptions.cs" />
+    <Compile Include="PersonLayer\ItemStatus.cs" />
+    <Compile Include="PersonLayer\ItemStatusDataStore.cs" />
+    <Compile Include="PersonLayer\Person.cs" />
+    <Compile Include="PersonLayer\PersonDataStore.cs" />
+    <Compile Include="PersonLayer\PersonManager.cs" />
+    <Compile Include="PersonLayer\PersonPersonType.cs" />
+    <Compile Include="PersonLayer\PersonPersonTypeDataStore.cs" />
+    <Compile Include="PersonLayer\PersonProvider.cs" />
+    <Compile Include="PersonLayer\PersonProviderCollection.cs" />
+    <Compile Include="PersonLayer\PersonProviderConfiguration.cs" />
+    <Compile Include="PersonLayer\PersonRegion.cs" />
+    <Compile Include="PersonLayer\PersonRegionAccessDetail.cs" />
+    <Compile Include="PersonLayer\PersonRegionDataStore.cs" />
+    <Compile Include="PersonLayer\PersonSite.cs" />
+    <Compile Include="PersonLayer\PersonSiteDataStore.cs" />
+    <Compile Include="PersonLayer\PersonType.cs" />
+    <Compile Include="PersonLayer\PersonTypeDataStore.cs" />
+    <Compile Include="PersonLayer\PersonTypeRole.cs" />
+    <Compile Include="PersonLayer\PersonTypeRoleDataStore.cs" />
+    <Compile Include="Profile\Exceptions.cs" />
+    <Compile Include="RegionVisibilityHelper.cs" />
+    <Compile Include="SiteLayer\BusiBlocksSiteProvider.cs" />
+    <Compile Include="SiteLayer\Region.cs" />
+    <Compile Include="SiteLayer\RegionDataStore.cs" />
+    <Compile Include="SiteLayer\RegionTreeNode.cs" />
+    <Compile Include="SiteLayer\RegionType.cs" />
+    <Compile Include="SiteLayer\RegionTypeDataStore.cs" />
+    <Compile Include="SiteLayer\Site.cs" />
+    <Compile Include="SiteLayer\SiteAccessDetail.cs" />
+    <Compile Include="SiteLayer\SiteDataStore.cs" />
+    <Compile Include="SiteLayer\SiteManager.cs" />
+    <Compile Include="SiteLayer\SiteProvider.cs" />
+    <Compile Include="SiteLayer\SiteProviderCollection.cs" />
+    <Compile Include="SiteLayer\SiteProviderConfiguration.cs" />
+    <Compile Include="SiteLayer\SiteTreeNode.cs" />
+    <Compile Include="SiteLayer\SiteType.cs" />
+    <Compile Include="SiteLayer\SiteTypeDataStore.cs" />
+    <Compile Include="Roles\Exceptions.cs" />
+    <Compile Include="Filter.cs" />
+    <Compile Include="Roles\RoleManager.cs" />
+    <Compile Include="Roles\RoleProvider.cs" />
+    <Compile Include="Roles\RoleProviderCollection.cs" />
+    <Compile Include="Roles\RoleProviderConcrete.cs" />
+    <Compile Include="Roles\RoleProviderConfiguration.cs" />
+    <Compile Include="SchemaGenerator\SetupMappingAttribute.cs" />
+    <Compile Include="SystemMappingSetup.cs" />
+    <Compile Include="Attachment\FileHelper.cs" />
+    <Compile Include="Attachment\FileInfo.cs" />
+    <Compile Include="EntityHelper.cs" />
+    <Compile Include="TrafficLightStatus.cs" />
+    <Compile Include="Versioning\BusiBlocksVersionProvider.cs" />
+    <Compile Include="Versioning\VersionItem.cs" />
+    <Compile Include="Versioning\VersionItemDataStore.cs" />
+    <Compile Include="Versioning\VersionManager.cs" />
+    <Compile Include="Versioning\VersionProvider.cs" />
+    <Compile Include="Versioning\VersionProviderCollection.cs" />
+    <Compile Include="Versioning\VersionProviderConfiguration.cs" />
+    <Compile Include="XHTMLText.cs" />
+    <Compile Include="IAccessControl.cs" />
+    <Compile Include="Notification\BusiBlocksSmtpNotificationProvider.cs" />
+    <Compile Include="Notification\NotificationManager.cs" />
+    <Compile Include="Notification\NotificationProvider.cs" />
+    <Compile Include="Notification\NotificationProviderCollection.cs" />
+    <Compile Include="Notification\NotificationProviderConfiguration.cs" />
+    <Compile Include="PathHelper.cs" />
+    <Compile Include="Profile\BusiBlocksProfileProvider.cs" />
+    <Compile Include="Profile\ProfileProperty.cs" />
+    <Compile Include="Profile\ProfilePropertyDataStore.cs" />
+    <Compile Include="Profile\ProfileUser.cs" />
+    <Compile Include="Profile\ProfileUserDataStore.cs" />
+    <Compile Include="RSS\Rfc822DateTime.cs" />
+    <Compile Include="RSS\RssCategory.cs" />
+    <Compile Include="RSS\RssChannel.cs" />
+    <Compile Include="RSS\RssCloud.cs" />
+    <Compile Include="RSS\RssEnclosure.cs" />
+    <Compile Include="RSS\RssFeed.cs" />
+    <Compile Include="RSS\RssGuid.cs" />
+    <Compile Include="RSS\RssImage.cs" />
+    <Compile Include="RSS\RssItem.cs" />
+    <Compile Include="RSS\RssSource.cs" />
+    <Compile Include="SchemaGenerator\GenericGenerator.cs" />
+    <Compile Include="SecurityHelper.cs" />
+    <Compile Include="IOwner.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="Membership\BusiBlocksMembershipProvider.cs" />
+    <Compile Include="Membership\User.cs" />
+    <Compile Include="Exceptions.cs" />
+    <Compile Include="IAudit.cs" />
+    <Compile Include="Interceptor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ConnectionParameters.cs" />
+    <Compile Include="EntityDataStoreBase.cs" />
+    <Compile Include="Membership\UserDataStore.cs" />
+    <Compile Include="Roles\UserInRoleDataStore.cs" />
+    <Compile Include="Roles\UserInRole.cs" />
+    <Compile Include="Roles\BusiBlocksRoleProvider.cs" />
+    <Compile Include="Roles\Role.cs" />
+    <Compile Include="Roles\RoleDataStore.cs" />
+    <Compile Include="SplitHelper.cs" />
+    <Compile Include="TransactionScope.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Membership\User.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Roles\Role.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Roles\UserInRole.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Profile\ProfileUser.hbm.xml" />
+    <EmbeddedResource Include="Profile\ProfileProperty.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Audit\AuditRecord.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AccessLayer\Access.hbm.xml" />
+    <EmbeddedResource Include="AccessLayer\Folder.hbm.xml" />
+    <EmbeddedResource Include="AddressLayer\Address.hbm.xml" />
+    <EmbeddedResource Include="PersonLayer\Person.hbm.xml" />
+    <EmbeddedResource Include="PersonLayer\PersonPersonType.hbm.xml" />
+    <EmbeddedResource Include="PersonLayer\PersonRegion.hbm.xml" />
+    <EmbeddedResource Include="PersonLayer\PersonSite.hbm.xml" />
+    <EmbeddedResource Include="PersonLayer\PersonType.hbm.xml" />
+    <EmbeddedResource Include="PersonLayer\PersonTypeRole.hbm.xml" />
+    <EmbeddedResource Include="SiteLayer\Region.hbm.xml" />
+    <EmbeddedResource Include="SiteLayer\RegionType.hbm.xml" />
+    <EmbeddedResource Include="SiteLayer\Site.hbm.xml" />
+    <EmbeddedResource Include="SiteLayer\SiteType.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AccessLayer\tempfile.2.tmp" />
+    <None Include="AccessLayer\tempfile.tmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Versioning\VersionItem.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ApproverLayer\Approver.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ItemApprovalStatusLayer\ItemApprovalStatus.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContactFeedback\FeedbackForm.hbm.xml" />
+    <Content Include="PersonLayer\ItemStatus.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

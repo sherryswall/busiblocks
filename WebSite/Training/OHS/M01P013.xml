@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='13' name='M01P013' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Safety Regulations</topicheading>
+          <pageheading >Post-it Notes Click Interaction</pageheading>
+          <paragraph >This interaction simply adds text into a clickable post-it note. It is useful for displaying dot points of information in a visual manner.</paragraph>
+          <flash src="media/post_it.swf" width="750" height="350" id="M01P013">
+          <list >
+          <point >Ducks have a beak, they like to swim and have oily feathers.</point>
+          <point >Dogs bark loudly and make very good protectors of your property.</point>
+          <point >Cats enjoy sleeping, have sharp claws and meow loudly.</point>
+          <point >Pigs love mud, live on a farm and are used to make Bacon.</point>
+          <point >Cows are used to make milk, butter and cream and they moo all day.</point>
+          </list>
+          </flash>
+          <instruction >Click each post-it note above to discover more.</instruction>
+     </content>
+</page>

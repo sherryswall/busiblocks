@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/interface.xsl"?>
+<interface moduleName="M01">
+     <xslsheet >interface.xsl</xslsheet>
+     <csssheet >../../assets/css/interface.css</csssheet>
+     <lms >off</lms>
+     <banner >on</banner>
+     <utilitiesmenu >on</utilitiesmenu>
+     <menu >progressivesubmenu</menu>
+     <footer >on</footer>
+     <navigationbar >on</navigationbar>
+     <progressindicator >on</progressindicator>
+     <animatedcharacter >off</animatedcharacter>
+</interface>

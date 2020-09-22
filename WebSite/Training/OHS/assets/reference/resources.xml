@@ -1,0 +1,638 @@
+<!-- For Additional resources, copy the format of <resource id="">
+													<name></name>
+													<type></type>
+													<url></url>
+													<alias></alias>
+													</resource>
+Make sure the ID is unique-->
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/resource.xsl"?>
+<page id='r1' name='resources' style='assets/css/page.css' xsl='assets/xsl/resources.xsl'>
+    <moduleheading>Resources</moduleheading>
+    <topicheading indexed="no">Resources</topicheading>
+    <pageheading >Induction Resources</pageheading>
+	<module id='1'>
+			  <resource id="1">
+				  <name >National Enquiry Centre</name>
+				  <type >Internet</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/connect/FLC/Home/About+Us/National+Enquiry+Centre/</url>
+				  <alias >Find out more about the National Enquiry Centre.</alias>
+			  </resource>
+			  <resource id="2">
+				  <name >Case Management</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/FCoA+Pathway</url>
+				  <alias >Find out more concerning Case Management.</alias>
+			  </resource>
+			  <resource id="3">
+				  <name >What the Family Law Courts can and cannot do for Clients?</name>
+				  <type size="53.8KB">pdf</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/resources/file/eba3bd4120be812/Can_Cannot_2006.pdf</url>
+				  <alias >Read the <em>What the Family Law Courts can and cannot do for Clients?</em> Brochure.</alias>
+			  </resource>
+			  <resource id="4">
+				  <name >Client Service Advices</name>
+				  <type >Intranet</type>
+				  <url >http://clientservice advices</url>
+				  <alias >Read Client Service Advices.</alias>
+			  </resource>
+			  <resource id="5">
+				  <name >Information vs Advice online learning course</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/E-learning%20Courses</url>
+				  <alias >Undertake <em>Information vs Advice</em> online learning.</alias>
+			  </resource>
+			  <resource id="6">
+				  <name >Family Court policy and procedures</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/Policies+and+Manuals</url>
+				  <alias >View a list of Family Court policies and procedures.</alias>
+			  </resource>
+			  <resource id="7">
+				  <name >Self-Represented Litigants Report</name>
+				  <type >Intranet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/archived_papers/archived_paper_srl_challenge</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="8">
+				  <name >Finding a Better Way Brochure</name>
+				  <type size="670KB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb000103043f4db/Finding_Better_Way_April2007.pdf</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="9">
+				  <name >Child Responsive Program Follow Up Report</name>
+				  <type size="2.2MB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb00174f35b4753/CRP_Follow_up_Report_2007.pdf</url>
+				  <alias >Learn more about the Child Responsive Program.</alias>
+			  </resource>
+			  <resource id="10">
+				  <name >Integrated Client Service Delivery Program</name>
+				  <type size="1MB">powerpoint</type>
+				  <url >icsdp.ppt</url>
+				  <alias >Find out more about the Integrated Service Delivery Program.</alias>
+			  </resource>
+			  <resource id="11">
+				  <name >National Cultural Diversity Plan</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/cultural_diversity/cultural_diversity_national_plan</url>
+				  <alias >Read the National Cultural Diversity Plan.</alias>
+			  </resource>
+			  <resource id="12">
+				  <name >Magellan Evaluation Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/new_papers/paper_cooperation_and_coordination</url>
+				  <alias >Read the Magellan Evaluation Report.</alias>
+			  </resource>
+			  <resource id="13">
+				  <name >Family Violence Strategy</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/family_violence/</url>
+				  <alias >Learn more about the Family Voilence Strategy.</alias>
+			  </resource>
+			  <resource id="14">
+				  <name >Annual Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/annual_reports/</url>
+				  <alias >Read the Annual Report.</alias>
+			  </resource>
+			  <resource id="15">
+				  <name >Family Court Bulleton</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/bulletin/</url>
+				  <alias >Read the Family Court Bulletin.</alias>
+			  </resource>
+			  <resource id="16">
+				  <name >Courtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/Courtside</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+			  <resource id="17">
+				  <name >eCourtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/eCourtside+April+2008</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+	</module>
+	<module id='2'>
+			  <resource id="1">
+				  <name >National Enquiry Centre</name>
+				  <type >Internet</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/connect/FLC/Home/About+Us/National+Enquiry+Centre/</url>
+				  <alias >Find out more about the National Enquiry Centre.</alias>
+			  </resource>
+			  <resource id="2">
+				  <name >Case Management</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/FCoA+Pathway</url>
+				  <alias >Find out more concerning Case Management.</alias>
+			  </resource>
+			  <resource id="3">
+				  <name >What the Family Law Courts can and cannot do for Clients?</name>
+				  <type size="53.8KB">pdf</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/resources/file/eba3bd4120be812/Can_Cannot_2006.pdf</url>
+				  <alias >Read the <em>What the Family Law Courts can and cannot do for Clients?</em> Brochure.</alias>
+			  </resource>
+			  <resource id="4">
+				  <name >Client Service Advices</name>
+				  <type >Intranet</type>
+				  <url >http://clientservice advices</url>
+				  <alias >Read Client Service Advices.</alias>
+			  </resource>
+			  <resource id="5">
+				  <name >Information vs Advice online learning course</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/E-learning%20Courses</url>
+				  <alias >Undertake <em>Information vs Advice</em> online learning.</alias>
+			  </resource>
+			  <resource id="6">
+				  <name >Family Court policy and procedures</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/Policies+and+Manuals</url>
+				  <alias >View a list of Family Court policies and procedures.</alias>
+			  </resource>
+			  <resource id="7">
+				  <name >Self-Represented Litigants Report</name>
+				  <type >Intranet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/archived_papers/archived_paper_srl_challenge</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="8">
+				  <name >Finding a Better Way Brochure</name>
+				  <type size="670KB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb000103043f4db/Finding_Better_Way_April2007.pdf</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="9">
+				  <name >Child Responsive Program Follow Up Report</name>
+				  <type size="2.2MB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb00174f35b4753/CRP_Follow_up_Report_2007.pdf</url>
+				  <alias >Learn more about the Child Responsive Program.</alias>
+			  </resource>
+			  <resource id="10">
+				  <name >Integrated Client Service Delivery Program</name>
+				  <type size="1MB">powerpoint</type>
+				  <url >icsdp.ppt</url>
+				  <alias >Find out more about the Integrated Service Delivery Program.</alias>
+			  </resource>
+			  <resource id="11">
+				  <name >National Cultural Diversity Plan</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/cultural_diversity/cultural_diversity_national_plan</url>
+				  <alias >Read the National Cultural Diversity Plan.</alias>
+			  </resource>
+			  <resource id="12">
+				  <name >Magellan Evaluation Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/new_papers/paper_cooperation_and_coordination</url>
+				  <alias >Read the Magellan Evaluation Report.</alias>
+			  </resource>
+			  <resource id="13">
+				  <name >Family Violence Strategy</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/family_violence/</url>
+				  <alias >Learn more about the Family Voilence Strategy.</alias>
+			  </resource>
+			  <resource id="14">
+				  <name >Annual Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/annual_reports/</url>
+				  <alias >Read the Annual Report.</alias>
+			  </resource>
+			  <resource id="15">
+				  <name >Family Court Bulleton</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/bulletin/</url>
+				  <alias >Read the Family Court Bulletin.</alias>
+			  </resource>
+			  <resource id="16">
+				  <name >Courtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/Courtside</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+			  <resource id="17">
+				  <name >eCourtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/eCourtside+April+2008</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+	</module>
+	<module id='3'>
+			  <resource id="1">
+				  <name >National Enquiry Centre</name>
+				  <type >Internet</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/connect/FLC/Home/About+Us/National+Enquiry+Centre/</url>
+				  <alias >Find out more about the National Enquiry Centre.</alias>
+			  </resource>
+			  <resource id="2">
+				  <name >Case Management</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/FCoA+Pathway</url>
+				  <alias >Find out more concerning Case Management.</alias>
+			  </resource>
+			  <resource id="3">
+				  <name >What the Family Law Courts can and cannot do for Clients?</name>
+				  <type size="53.8KB">pdf</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/resources/file/eba3bd4120be812/Can_Cannot_2006.pdf</url>
+				  <alias >Read the <em>What the Family Law Courts can and cannot do for Clients?</em> Brochure.</alias>
+			  </resource>
+			  <resource id="4">
+				  <name >Client Service Advices</name>
+				  <type >Intranet</type>
+				  <url >http://clientservice advices</url>
+				  <alias >Read Client Service Advices.</alias>
+			  </resource>
+			  <resource id="5">
+				  <name >Information vs Advice online learning course</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/E-learning%20Courses</url>
+				  <alias >Undertake <em>Information vs Advice</em> online learning.</alias>
+			  </resource>
+			  <resource id="6">
+				  <name >Family Court policy and procedures</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/Policies+and+Manuals</url>
+				  <alias >View a list of Family Court policies and procedures.</alias>
+			  </resource>
+			  <resource id="7">
+				  <name >Self-Represented Litigants Report</name>
+				  <type >Intranet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/archived_papers/archived_paper_srl_challenge</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="8">
+				  <name >Finding a Better Way Brochure</name>
+				  <type size="670KB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb000103043f4db/Finding_Better_Way_April2007.pdf</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="9">
+				  <name >Child Responsive Program Follow Up Report</name>
+				  <type size="2.2MB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb00174f35b4753/CRP_Follow_up_Report_2007.pdf</url>
+				  <alias >Learn more about the Child Responsive Program.</alias>
+			  </resource>
+			  <resource id="10">
+				  <name >Integrated Client Service Delivery Program</name>
+				  <type size="1MB">powerpoint</type>
+				  <url >icsdp.ppt</url>
+				  <alias >Find out more about the Integrated Service Delivery Program.</alias>
+			  </resource>
+			  <resource id="11">
+				  <name >National Cultural Diversity Plan</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/cultural_diversity/cultural_diversity_national_plan</url>
+				  <alias >Read the National Cultural Diversity Plan.</alias>
+			  </resource>
+			  <resource id="12">
+				  <name >Magellan Evaluation Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/new_papers/paper_cooperation_and_coordination</url>
+				  <alias >Read the Magellan Evaluation Report.</alias>
+			  </resource>
+			  <resource id="13">
+				  <name >Family Violence Strategy</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/family_violence/</url>
+				  <alias >Learn more about the Family Voilence Strategy.</alias>
+			  </resource>
+			  <resource id="14">
+				  <name >Annual Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/annual_reports/</url>
+				  <alias >Read the Annual Report.</alias>
+			  </resource>
+			  <resource id="15">
+				  <name >Family Court Bulleton</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/bulletin/</url>
+				  <alias >Read the Family Court Bulletin.</alias>
+			  </resource>
+			  <resource id="16">
+				  <name >Courtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/Courtside</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+			  <resource id="17">
+				  <name >eCourtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/eCourtside+April+2008</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+	</module>
+			<module id='4'>
+			  <resource id="1">
+				  <name >National Enquiry Centre</name>
+				  <type >Internet</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/connect/FLC/Home/About+Us/National+Enquiry+Centre/</url>
+				  <alias >Find out more about the National Enquiry Centre.</alias>
+			  </resource>
+			  <resource id="2">
+				  <name >Case Management</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/FCoA+Pathway</url>
+				  <alias >Find out more concerning Case Management.</alias>
+			  </resource>
+			  <resource id="3">
+				  <name >What the Family Law Courts can and cannot do for Clients?</name>
+				  <type size="53.8KB">pdf</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/resources/file/eba3bd4120be812/Can_Cannot_2006.pdf</url>
+				  <alias >Read the <em>What the Family Law Courts can and cannot do for Clients?</em> Brochure.</alias>
+			  </resource>
+			  <resource id="4">
+				  <name >Client Service Advices</name>
+				  <type >Intranet</type>
+				  <url >http://clientservice advices</url>
+				  <alias >Read Client Service Advices.</alias>
+			  </resource>
+			  <resource id="5">
+				  <name >Information vs Advice online learning course</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/E-learning%20Courses</url>
+				  <alias >Undertake <em>Information vs Advice</em> online learning.</alias>
+			  </resource>
+			  <resource id="6">
+				  <name >Family Court policy and procedures</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/Policies+and+Manuals</url>
+				  <alias >View a list of Family Court policies and procedures.</alias>
+			  </resource>
+			  <resource id="7">
+				  <name >Self-Represented Litigants Report</name>
+				  <type >Intranet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/archived_papers/archived_paper_srl_challenge</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="8">
+				  <name >Finding a Better Way Brochure</name>
+				  <type size="670KB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb000103043f4db/Finding_Better_Way_April2007.pdf</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="9">
+				  <name >Child Responsive Program Follow Up Report</name>
+				  <type size="2.2MB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb00174f35b4753/CRP_Follow_up_Report_2007.pdf</url>
+				  <alias >Learn more about the Child Responsive Program.</alias>
+			  </resource>
+			  <resource id="10">
+				  <name >Integrated Client Service Delivery Program</name>
+				  <type size="1MB">powerpoint</type>
+				  <url >icsdp.ppt</url>
+				  <alias >Find out more about the Integrated Service Delivery Program.</alias>
+			  </resource>
+			  <resource id="11">
+				  <name >National Cultural Diversity Plan</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/cultural_diversity/cultural_diversity_national_plan</url>
+				  <alias >Read the National Cultural Diversity Plan.</alias>
+			  </resource>
+			  <resource id="12">
+				  <name >Magellan Evaluation Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/new_papers/paper_cooperation_and_coordination</url>
+				  <alias >Read the Magellan Evaluation Report.</alias>
+			  </resource>
+			  <resource id="13">
+				  <name >Family Violence Strategy</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/family_violence/</url>
+				  <alias >Learn more about the Family Voilence Strategy.</alias>
+			  </resource>
+			  <resource id="14">
+				  <name >Annual Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/annual_reports/</url>
+				  <alias >Read the Annual Report.</alias>
+			  </resource>
+			  <resource id="15">
+				  <name >Family Court Bulleton</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/bulletin/</url>
+				  <alias >Read the Family Court Bulletin.</alias>
+			  </resource>
+			  <resource id="16">
+				  <name >Courtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/Courtside</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+			  <resource id="17">
+				  <name >eCourtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/eCourtside+April+2008</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+	</module>
+	<module id='5'>
+			  <resource id="1">
+				  <name >National Enquiry Centre</name>
+				  <type >Internet</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/connect/FLC/Home/About+Us/National+Enquiry+Centre/</url>
+				  <alias >Find out more about the National Enquiry Centre.</alias>
+			  </resource>
+			  <resource id="2">
+				  <name >Case Management</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/FCoA+Pathway</url>
+				  <alias >Find out more concerning Case Management.</alias>
+			  </resource>
+			  <resource id="3">
+				  <name >What the Family Law Courts can and cannot do for Clients?</name>
+				  <type size="53.8KB">pdf</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/resources/file/eba3bd4120be812/Can_Cannot_2006.pdf</url>
+				  <alias >Read the <em>What the Family Law Courts can and cannot do for Clients?</em> Brochure.</alias>
+			  </resource>
+			  <resource id="4">
+				  <name >Client Service Advices</name>
+				  <type >Intranet</type>
+				  <url >http://clientservice advices</url>
+				  <alias >Read Client Service Advices.</alias>
+			  </resource>
+			  <resource id="5">
+				  <name >Information vs Advice online learning course</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/E-learning%20Courses</url>
+				  <alias >Undertake <em>Information vs Advice</em> online learning.</alias>
+			  </resource>
+			  <resource id="6">
+				  <name >Family Court policy and procedures</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/Policies+and+Manuals</url>
+				  <alias >View a list of Family Court policies and procedures.</alias>
+			  </resource>
+			  <resource id="7">
+				  <name >Self-Represented Litigants Report</name>
+				  <type >Intranet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/archived_papers/archived_paper_srl_challenge</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="8">
+				  <name >Finding a Better Way Brochure</name>
+				  <type size="670KB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb000103043f4db/Finding_Better_Way_April2007.pdf</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="9">
+				  <name >Child Responsive Program Follow Up Report</name>
+				  <type size="2.2MB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb00174f35b4753/CRP_Follow_up_Report_2007.pdf</url>
+				  <alias >Learn more about the Child Responsive Program.</alias>
+			  </resource>
+			  <resource id="10">
+				  <name >Integrated Client Service Delivery Program</name>
+				  <type size="1MB">powerpoint</type>
+				  <url >icsdp.ppt</url>
+				  <alias >Find out more about the Integrated Service Delivery Program.</alias>
+			  </resource>
+			  <resource id="11">
+				  <name >National Cultural Diversity Plan</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/cultural_diversity/cultural_diversity_national_plan</url>
+				  <alias >Read the National Cultural Diversity Plan.</alias>
+			  </resource>
+			  <resource id="12">
+				  <name >Magellan Evaluation Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/new_papers/paper_cooperation_and_coordination</url>
+				  <alias >Read the Magellan Evaluation Report.</alias>
+			  </resource>
+			  <resource id="13">
+				  <name >Family Violence Strategy</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/family_violence/</url>
+				  <alias >Learn more about the Family Voilence Strategy.</alias>
+			  </resource>
+			  <resource id="14">
+				  <name >Annual Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/annual_reports/</url>
+				  <alias >Read the Annual Report.</alias>
+			  </resource>
+			  <resource id="15">
+				  <name >Family Court Bulleton</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/bulletin/</url>
+				  <alias >Read the Family Court Bulletin.</alias>
+			  </resource>
+			  <resource id="16">
+				  <name >Courtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/Courtside</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+			  <resource id="17">
+				  <name >eCourtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/eCourtside+April+2008</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+	</module>
+	<module id='6'>
+			  <resource id="1">
+				  <name >National Enquiry Centre</name>
+				  <type >Internet</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/connect/FLC/Home/About+Us/National+Enquiry+Centre/</url>
+				  <alias >Find out more about the National Enquiry Centre.</alias>
+			  </resource>
+			  <resource id="2">
+				  <name >Case Management</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/FCoA+Pathway</url>
+				  <alias >Find out more concerning Case Management.</alias>
+			  </resource>
+			  <resource id="3">
+				  <name >What the Family Law Courts can and cannot do for Clients?</name>
+				  <type size="53.8KB">pdf</type>
+				  <url >http://www.familylawcourts.gov.au/wps/wcm/resources/file/eba3bd4120be812/Can_Cannot_2006.pdf</url>
+				  <alias >Read the <em>What the Family Law Courts can and cannot do for Clients?</em> Brochure.</alias>
+			  </resource>
+			  <resource id="4">
+				  <name >Client Service Advices</name>
+				  <type >Intranet</type>
+				  <url >http://clientservice advices</url>
+				  <alias >Read Client Service Advices.</alias>
+			  </resource>
+			  <resource id="5">
+				  <name >Information vs Advice online learning course</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/E-learning%20Courses</url>
+				  <alias >Undertake <em>Information vs Advice</em> online learning.</alias>
+			  </resource>
+			  <resource id="6">
+				  <name >Family Court policy and procedures</name>
+				  <type >Intranet</type>
+				  <url >http://cbrnotes1.familycourt.gov.au/intranetii/fcoapublishing.nsf/Content/Policies+and+Manuals</url>
+				  <alias >View a list of Family Court policies and procedures.</alias>
+			  </resource>
+			  <resource id="7">
+				  <name >Self-Represented Litigants Report</name>
+				  <type >Intranet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/archived_papers/archived_paper_srl_challenge</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="8">
+				  <name >Finding a Better Way Brochure</name>
+				  <type size="670KB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb000103043f4db/Finding_Better_Way_April2007.pdf</url>
+				  <alias >Read more about Self-Represented Litigants.</alias>
+			  </resource>
+			  <resource id="9">
+				  <name >Child Responsive Program Follow Up Report</name>
+				  <type size="2.2MB">pdf</type>
+				  <url >http://www.familycourt.gov.au/presence/resources/file/eb00174f35b4753/CRP_Follow_up_Report_2007.pdf</url>
+				  <alias >Learn more about the Child Responsive Program.</alias>
+			  </resource>
+			  <resource id="10">
+				  <name >Integrated Client Service Delivery Program</name>
+				  <type size="1MB">powerpoint</type>
+				  <url >icsdp.ppt</url>
+				  <alias >Find out more about the Integrated Service Delivery Program.</alias>
+			  </resource>
+			  <resource id="11">
+				  <name >National Cultural Diversity Plan</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/cultural_diversity/cultural_diversity_national_plan</url>
+				  <alias >Read the National Cultural Diversity Plan.</alias>
+			  </resource>
+			  <resource id="12">
+				  <name >Magellan Evaluation Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/papers_and_reports/new_papers/paper_cooperation_and_coordination</url>
+				  <alias >Read the Magellan Evaluation Report.</alias>
+			  </resource>
+			  <resource id="13">
+				  <name >Family Violence Strategy</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/about/family_violence/</url>
+				  <alias >Learn more about the Family Voilence Strategy.</alias>
+			  </resource>
+			  <resource id="14">
+				  <name >Annual Report</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/annual_reports/</url>
+				  <alias >Read the Annual Report.</alias>
+			  </resource>
+			  <resource id="15">
+				  <name >Family Court Bulleton</name>
+				  <type >internet</type>
+				  <url >http://www.familycourt.gov.au/presence/connect/www/home/publications/bulletin/</url>
+				  <alias >Read the Family Court Bulletin.</alias>
+			  </resource>
+			  <resource id="16">
+				  <name >Courtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/Courtside</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+			  <resource id="17">
+				  <name >eCourtside</name>
+				  <type >intranet</type>
+				  <url >http://cbrnotes1/intranetii/fcoapublishing.nsf/Content/eCourtside+April+2008</url>
+				  <alias >Read the Courtside newsletter.</alias>
+			  </resource>
+	</module>
+</page>

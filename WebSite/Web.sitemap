@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode roles="*" url="" title="" description="">
+    <siteMapNode url="~/User/Dashboard.aspx" title="Home" description=""/>
+    <siteMapNode url="~/Admin/Default.aspx" title="Administration" description="" />
+    <!--<siteMapNode url="~/Communication/CommsDefault.aspx" title="Communication" description="" >-->
+    <siteMapNode url="~/Communication/Default.aspx" title="Communication" description="" >
+    </siteMapNode>
+    <!-- <siteMapNode url="~/news/default.aspx" title="Announcements" description="" /> -->
+    <siteMapNode url="~/Doco/Default.aspx" title="Documents" description="" />
+    <!-- <siteMapNode url="~/forum/default.aspx" title="Communication" description="" /> -->
+    <!--<siteMapNode url="~/forms/default.aspx" title="Forms" description="" />-->
+    <!--<siteMapNode url="~/training/default.aspx" title="Training" description="" />
+    <siteMapNode url="~/manage/default.aspx" title="Manage" description="" />-->
+    <!--<siteMapNode url="~/user/default.aspx" title="My Settings" description="" />-->
+    <siteMapNode url="~/Directory/DirectorySearch.aspx" title="Directory" description="" />
+  </siteMapNode>
+</siteMap>

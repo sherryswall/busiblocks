@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BusiBlocks.AddressLayer.Address, BusiBlocks" table="Address">
+    <id name="Id" column="Id" type="String" length="32">
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <property name="Address1" column="Address1" type="String" not-null="false" />
+    <property name="Address2" column="Address2" type="String" not-null="false" />
+    <property name="Suburb" column="Suburb" type="String" not-null="false" />
+    <property name="Postcode" column="Postcode" type="String" not-null="false" />
+    <property name="State" column="State" type="String" not-null="false" />
+    <property name="Deleted" column="Deleted" type="Boolean" />
+
+  </class>
+</hibernate-mapping>

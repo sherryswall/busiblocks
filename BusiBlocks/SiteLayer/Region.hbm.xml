@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="BusiBlocks.SiteLayer.Region, BusiBlocks" table="Region">
+    <id name="Id" column="Id" type="String" length="32">
+      <generator class="uuid.hex">
+        <param name="format">N</param>
+      </generator>
+    </id>
+
+    <property name="Name" type="String">
+      <column name="Name" unique-key="KeyNameApplication" not-null="true" length="100" />
+    </property>
+
+    <many-to-one name="ParentRegion" column="RegionId" fetch="join" />
+    <many-to-one name="RegionType" column="RegionType" not-null="true" fetch="join" />
+
+    <property name="Deleted" column="Deleted" type="Boolean" />
+    
+    <!--<bag name="Sites" inverse="true" lazy="true" cascade="all">
+      <key column="RegionId"/>
+      <one-to-many class="BusiBlocks.AccessLayer.Site, BusiBlocks"/>
+    </bag>-->
+
+  </class>
+</hibernate-mapping>

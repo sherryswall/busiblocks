@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='6' name='M01P007' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Roles</topicheading>
+          <pageheading >The Role of the Franchisee</pageheading>
+          <image alt='Franchisee' width='298' height='273' src='media/M01P004_0.jpg'></image>
+          <paragraph >As a Groundwork Coffee Franchisee you will have an obligation to ensure the Occupational Health and Safety of all individuals is achieved by:</paragraph>
+          <list >
+          <point >Identifying hazards</point>
+          <point >Assessing the risks that may arise as a result of those hazards</point>
+          <point >Deciding on control measures to prevent or minimise the level of those risks</point>
+          <point >Implementing those control measures</point>
+          <point >Monitoring and reviewing the effectiveness of those measures</point>
+          <point >Communicating policies to all team members including the minimum standards to be followed.</point>
+          <point >Advising new team members of all the procedures and responsibilities associated with their position.</point>
+          <point >Ensuring risk to the Occupational Health and Safety of all team members and customers is minimised</point>
+          <point >Ensuring the risk of disease or injury from any equipment or substance located in the workplace or company vehicle is minimised through proper usage</point>
+          <point >Ensuring there is appropriate and safe access to and from the workplace</point>
+          <point >Implementing consultative processes to identify and resolve issues that may affect the Occupational Health and Safety of persons at the workplace</point>
+          </list>
+     </content>
+</page>

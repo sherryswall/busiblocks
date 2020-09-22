@@ -1,0 +1,16 @@
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\Data\Xhtml\sop-1.1.001-management-meetings-v1.1.html
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\Data\Xhtml\sop-1.1.002-internal-audits.html
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\Data\Xhtml\sop-1.1.003-problems-and-enhancements-v1.1.html
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\BusiBlocksTest.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\BusiBlocksTest.pdb
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\BusiBlocks.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\BusiBlocks.DocoBlock.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\Iesi.Collections.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\log4net.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\NHibernate.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\NHibernate.Tool.hbm2net.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\BusiBlocks.DocoBlock.pdb
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\bin\Debug\BusiBlocks.pdb
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\obj\Debug\ResolveAssemblyReference.cache
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\obj\Debug\BusiBlocksTest.dll
+D:\Checkouts\trunk\busiblocks\BusiBlocksTest\obj\Debug\BusiBlocksTest.pdb

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding = "iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="assets/xsl/page.xsl"?>
+<page pid='12' name='M01P012' style='assets/css/layout.css' xsl='assets/xsl/page.xsl' next=''>
+     <content type='screen' credited='' timelimit='' caption=''>
+          <moduleheading>Occupational Health and Safety</moduleheading>
+          <topicheading > Safety Regulations</topicheading>
+          <pageheading >Click and Reveal Interaction</pageheading>
+          <paragraph >This is a click and reveal interaction. It is similar to a rollover, however this is useful for large amounts of text. Numbers of paragraphs can be added.</paragraph>
+          <flash src="media/click_reveal.swf" width="750" height="350" id="M01P012">
+          <rollover >
+          <rolloverobject >Duck</rolloverobject>
+          <rollovertarget >Ducks have a beak, they like to swim and have oily feathers. Ducks have a beak, they like to swim and have oily feathers. Ducks have a beak, they like to swim and have oily feathers. Ducks have a beak, they like to swim and have oily feathers. Ducks have a beak, they like to swim and have oily feathers. 
+
+Ducks have a beak, they like to swim and have oily feathers. Ducks have a beak, they like to swim and have oily feathers. Ducks have a beak, they like to swim and have oily feathers. Ducks have a beak, they like to swim and have oily feathers. </rollovertarget>
+          </rollover>
+          <rollover >
+          <rolloverobject >Dog</rolloverobject>
+          <rollovertarget >Dogs bark loudly and make very good protectors of your property. Dogs bark loudly and make very good protectors of your property. Dogs bark loudly and make very good protectors of your property. Dogs bark loudly and make very good protectors of your property. 
+
+Dogs bark loudly and make very good protectors of your property. Dogs bark loudly and make very good protectors of your property. Dogs bark loudly and make very good protectors of your property. Dogs bark loudly and make very good protectors of your property. 
+
+Dogs bark loudly and make very good protectors of your property. Dogs bark loudly and make very good protectors of your property. Dogs bark loudly and make very good protectors of your property. </rollovertarget>
+          </rollover>
+          <rollover >
+          <rolloverobject >Cat</rolloverobject>
+          <rollovertarget >Cats enjoy sleeping, have sharp claws and meow loudly. Cats enjoy sleeping, have sharp claws and meow loudly. Cats enjoy sleeping, have sharp claws and meow loudly. Cats enjoy sleeping, have sharp claws and meow loudly. Cats enjoy sleeping, have sharp claws and meow loudly. Cats enjoy sleeping, have sharp claws and meow loudly. Cats enjoy sleeping, have sharp claws and meow loudly. </rollovertarget>
+          </rollover>
+          <rollover >
+          <rolloverobject >Pig</rolloverobject>
+          <rollovertarget >Pigs love mud, live on a farm and are used to make Bacon. Pigs love mud, live on a farm and are used to make Bacon. Pigs love mud, live on a farm and are used to make Bacon. Pigs love mud, live on a farm and are used to make Bacon. </rollovertarget>
+          </rollover>
+          <rollover >
+          <rolloverobject >Cow</rolloverobject>
+          <rollovertarget >Cows are used to make milk, butter and cream and they moo all day.</rollovertarget>
+          </rollover>
+          </flash>
+          <instruction >Click each image above to discover more.</instruction>
+     </content>
+</page>

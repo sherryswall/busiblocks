@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type='text/xsl' href= 'assets/xsl/print.xsl'?>
+<modules>
+	<module modulename="Occupational Health and Safety" modulenumber="M01" package="Ground Down Coffee" />
+	<module modulename="Induction eLearning" modulenumber="M02" package="Ground Down Coffee" />
+	<module modulename="Security at Ground Down" modulenumber="M03" package="Ground Down Coffee" />	
+</modules>
